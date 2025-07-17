@@ -38472,6 +38472,7 @@ typedef enum VlcbMergModuleTypes
   MTYP_CANCABPE = 85,
   MTYP_CANSMARTTD = 86,
   MTYP_CANARGB = 87,
+  MTYP_CANCDU_U = 88,
   MTYP_VLCB = 0xFC,
 
 
@@ -39451,7 +39452,7 @@ const uint8_t paramBlock[] __attribute__((address(0x820))) = {
     0,8,0,0,
     0,0,0,0,
     CPUM_MICROCHIP,
-    8,
+    9,
     0,
     0,
     0,
@@ -39462,8 +39463,8 @@ const uint8_t paramBlock[] __attribute__((address(0x820))) = {
     0x08,
     0,
     0,
-    ((MANU_MERG+'a'+MTYP_CANPAN+254 +13 +67 +5 +(8) +(8)+CPUM_MICROCHIP+8 +(20)+(0x48)+(0x08)+1 +2 +PB_CAN+P18F27Q83)&0xFF),
-    ((MANU_MERG+'a'+MTYP_CANPAN+254 +13 +67 +5 +(8) +(8)+CPUM_MICROCHIP+8 +(20)+(0x48)+(0x08)+1 +2 +PB_CAN+P18F27Q83)>>8)
+    ((MANU_MERG+'a'+MTYP_CANPAN+254 +13 +67 +5 +(8) +(8)+CPUM_MICROCHIP+9 +(20)+(0x48)+(0x08)+1 +2 +PB_CAN+P18F27Q83)&0xFF),
+    ((MANU_MERG+'a'+MTYP_CANPAN+254 +13 +67 +5 +(8) +(8)+CPUM_MICROCHIP+9 +(20)+(0x48)+(0x08)+1 +2 +PB_CAN+P18F27Q83)>>8)
 };
 
 

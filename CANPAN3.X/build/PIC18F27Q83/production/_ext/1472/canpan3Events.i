@@ -38389,6 +38389,7 @@ typedef enum VlcbMergModuleTypes
   MTYP_CANCABPE = 85,
   MTYP_CANSMARTTD = 86,
   MTYP_CANARGB = 87,
+  MTYP_CANCDU_U = 88,
   MTYP_VLCB = 0xFC,
 
 
@@ -39451,10 +39452,27 @@ uint8_t APP_isProducedEvent(uint8_t tableIndex);
 uint8_t switch2Event[((8*4)+1)];
 
 void factoryResetGlobalEvents(void) {
+    uint8_t sw;
 
     clearAllEvents();
+
+    for (sw=0; sw < (8*4); sw++) {
+        addEvent(nn.word, sw, 0, 1, TRUE);
+        addEvent(nn.word, sw, 1, sw+1, TRUE);
+        addEvent(nn.word, sw, 2, 1, TRUE);
+
+        addEvent(nn.word, sw, 4, 0, TRUE);
+        addEvent(nn.word, sw, 5, 0, TRUE);
+        addEvent(nn.word, sw, 6, 0, TRUE);
+        addEvent(nn.word, sw, 7, 0, TRUE);
+
+        addEvent(nn.word, sw, 8, 0, TRUE);
+        addEvent(nn.word, sw, 9, 0, TRUE);
+        addEvent(nn.word, sw, 10, 0, TRUE);
+        addEvent(nn.word, sw, 11, 0, TRUE);
+    }
 }
-# 76 "../canpan3Events.c"
+# 93 "../canpan3Events.c"
 extern uint8_t errno;
 
 
@@ -39506,7 +39524,7 @@ void rebuildLookupTable(void) {
         }
     }
 }
-# 135 "../canpan3Events.c"
+# 152 "../canpan3Events.c"
 uint8_t APP_isConsumedEvent(uint8_t tableIndex) {
     int16_t ev;
 
@@ -39668,7 +39686,7 @@ uint8_t APP_addEvent(uint16_t nodeNumber, uint16_t eventNumber, uint8_t evNum, u
     }
     return addEvent(nodeNumber, eventNumber, evNum, evVal, forceOwnNN);
 }
-# 305 "../canpan3Events.c"
+# 322 "../canpan3Events.c"
 Processed APP_processConsumedEvent(uint8_t tableIndex, Message *m) {
     uint8_t onOff;
     uint8_t ledMode;

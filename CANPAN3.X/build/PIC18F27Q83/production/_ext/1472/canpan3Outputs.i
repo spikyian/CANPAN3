@@ -38389,6 +38389,7 @@ typedef enum VlcbMergModuleTypes
   MTYP_CANCABPE = 85,
   MTYP_CANSMARTTD = 86,
   MTYP_CANARGB = 87,
+  MTYP_CANCDU_U = 88,
   MTYP_VLCB = 0xFC,
 
 
@@ -39397,14 +39398,10 @@ extern uint8_t setNV(uint8_t index, uint8_t value);
 
 extern void loadNvCache(void);
 # 47 "../canpan3Outputs.c" 2
-
-
-
-
-static unsigned char current_row = 0;
+# 60 "../canpan3Outputs.c"
 unsigned char ledMatrix[4];
+static unsigned char current_row = 0;
 static uint8_t cathodes;
-
 
 static uint8_t brightness = 0;
 
@@ -39457,7 +39454,7 @@ void initOutputs(void) {
 
     SPI1CON0bits.EN = 1;
 }
-# 122 "../canpan3Outputs.c"
+# 130 "../canpan3Outputs.c"
 void pollOutputs(void)
 {
     uint8_t i;

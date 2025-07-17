@@ -52,8 +52,25 @@ uint8_t APP_isProducedEvent(uint8_t tableIndex);
 uint8_t switch2Event[NUM_PRODUCED_EVENTS]; // Quick access from a switch number to an event
 
 void factoryResetGlobalEvents(void) {
+    uint8_t sw;
     // No default switch/button events
     clearAllEvents();
+    // Now add default Long switch events
+    for (sw=0; sw < NUM_BUTTONS; sw++) {
+        addEvent(nn.word, sw, EV_TYPE, CANPAN_PRODUCED, TRUE);
+        addEvent(nn.word, sw, EV_SWITCHNO, sw+1, TRUE);
+        addEvent(nn.word, sw, EV_SWITCHSV, SV_ON_OFF, TRUE);
+        // write the EVs so that these default events do not turn on an LED
+        addEvent(nn.word, sw, EV_LEDFLAGS1, 0, TRUE);
+        addEvent(nn.word, sw, EV_LEDFLAGS2, 0, TRUE);
+        addEvent(nn.word, sw, EV_LEDFLAGS3, 0, TRUE);
+        addEvent(nn.word, sw, EV_LEDFLAGS4, 0, TRUE);
+        // The following settings to 0 are probably not required as 0 should be the default.
+        addEvent(nn.word, sw, EV_LEDPOLARITY1, 0, TRUE);
+        addEvent(nn.word, sw, EV_LEDPOLARITY2, 0, TRUE);
+        addEvent(nn.word, sw, EV_LEDPOLARITY3, 0, TRUE);
+        addEvent(nn.word, sw, EV_LEDPOLARITY4, 0, TRUE);
+    }
 }
 
 /***************************** copied from event_teach_simple.c ***************/

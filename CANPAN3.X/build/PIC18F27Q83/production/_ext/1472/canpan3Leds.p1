@@ -1,8 +1,8 @@
 Version 4.0 HI-TECH Software Intermediate Code
 "51 ../canpan3Leds.c
 [; ;../canpan3Leds.c: 51: static enum canpan3LedState ledStates[(4*8)];
-[c E23467 0 1 2 3 .. ]
-[n E23467 canpan3LedState CANPANLED_ON CANPANLED_OFF CANPANLED_FLASH CANPANLED_ANTIFLASH  ]
+[c E23468 0 1 2 3 .. ]
+[n E23468 canpan3LedState CANPANLED_ON CANPANLED_OFF CANPANLED_FLASH CANPANLED_ANTIFLASH  ]
 "116 ../../VLCBlib_PIC/nv.h
 [; ;../../VLCBlib_PIC/nv.h: 116: extern int16_t getNV(uint8_t index);
 [v _getNV `(s ~T0 @X0 0 ef1`uc ]
@@ -11,7 +11,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _readEEvalue `(uc ~T0 @X0 0 ef1`uc ]
 "49 ../canpan3Leds.c
 [; ;../canpan3Leds.c: 49: void setLedStateNoSave(uint8_t ledNo, enum canpan3LedState state);
-[v _setLedStateNoSave `(v ~T0 @X0 0 ef2`uc`E23467 ]
+[v _setLedStateNoSave `(v ~T0 @X0 0 ef2`uc`E23468 ]
 "43 ../canpan3Outputs.h
 [; ;../canpan3Outputs.h: 43: extern void setLed(uint8_t no);
 [v _setLed `(v ~T0 @X0 0 ef1`uc ]
@@ -3542,7 +3542,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; <" TOSU equ 04FFh ;# ">
 "51 ../canpan3Leds.c
 [; ;../canpan3Leds.c: 51: static enum canpan3LedState ledStates[(4*8)];
-[v _ledStates `E23467 ~T0 @X0 -> 32 `i s ]
+[v _ledStates `E23468 ~T0 @X0 -> 32 `i s ]
 "52
 [; ;../canpan3Leds.c: 52: static uint8_t flashToggle;
 [v _flashToggle `uc ~T0 @X0 1 s ]
@@ -3579,7 +3579,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e = _state ( _readEEvalue (1 -> + + -> 0 `i -> 32 `i -> _ledNo `i `uc ]
 "66
 [; ;../canpan3Leds.c: 66:             setLedStateNoSave(ledNo, (enum canpan3LedState)state);
-[e ( _setLedStateNoSave (2 , _ledNo -> _state `E23467 ]
+[e ( _setLedStateNoSave (2 , _ledNo -> _state `E23468 ]
 "67
 [; ;../canpan3Leds.c: 67:         } else {
 }
@@ -3588,7 +3588,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 {
 "68
 [; ;../canpan3Leds.c: 68:             ledStates[ledNo] = CANPANLED_OFF;
-[e = *U + &U _ledStates * -> _ledNo `ux -> -> # *U &U _ledStates `ui `ux . `E23467 1 ]
+[e = *U + &U _ledStates * -> _ledNo `ux -> -> # *U &U _ledStates `ui `ux . `E23468 1 ]
 "69
 [; ;../canpan3Leds.c: 69:         }
 }
@@ -3609,11 +3609,11 @@ Version 4.0 HI-TECH Software Intermediate Code
 }
 "79
 [; ;../canpan3Leds.c: 79: void setLedStateNoSave(uint8_t ledNo, enum canpan3LedState state) {
-[v _setLedStateNoSave `(v ~T0 @X0 1 ef2`uc`E23467 ]
+[v _setLedStateNoSave `(v ~T0 @X0 1 ef2`uc`E23468 ]
 {
 [e :U _setLedStateNoSave ]
 [v _ledNo `uc ~T0 @X0 1 r1 ]
-[v _state `E23467 ~T0 @X0 1 r2 ]
+[v _state `E23468 ~T0 @X0 1 r2 ]
 [f ]
 "80
 [; ;../canpan3Leds.c: 80:     ledStates[ledNo] = state;
@@ -3654,10 +3654,10 @@ Version 4.0 HI-TECH Software Intermediate Code
 }
 [e $U 3308  ]
 [e :U 3309 ]
-[e [\ -> *U + &U _ledStates * -> _ledNo `ux -> -> # *U &U _ledStates `ui `ux `ui , $ -> . `E23467 0 `ui 3310
- , $ -> . `E23467 1 `ui 3311
- , $ -> . `E23467 2 `ui 3312
- , $ -> . `E23467 3 `ui 3313
+[e [\ -> *U + &U _ledStates * -> _ledNo `ux -> -> # *U &U _ledStates `ui `ux `ui , $ -> . `E23468 0 `ui 3310
+ , $ -> . `E23468 1 `ui 3311
+ , $ -> . `E23468 2 `ui 3312
+ , $ -> . `E23468 3 `ui 3313
  3308 ]
 [e :U 3308 ]
 "94
@@ -3666,11 +3666,11 @@ Version 4.0 HI-TECH Software Intermediate Code
 }
 "100
 [; ;../canpan3Leds.c: 100: void setLedState(uint8_t ledNo, enum canpan3LedState state) {
-[v _setLedState `(v ~T0 @X0 1 ef2`uc`E23467 ]
+[v _setLedState `(v ~T0 @X0 1 ef2`uc`E23468 ]
 {
 [e :U _setLedState ]
 [v _ledNo `uc ~T0 @X0 1 r1 ]
-[v _state `E23467 ~T0 @X0 1 r2 ]
+[v _state `E23468 ~T0 @X0 1 r2 ]
 [f ]
 "101
 [; ;../canpan3Leds.c: 101:     setLedStateNoSave(ledNo, state);
@@ -3777,10 +3777,10 @@ Version 4.0 HI-TECH Software Intermediate Code
 }
 [e $U 3320  ]
 [e :U 3321 ]
-[e [\ -> *U + &U _ledStates * -> _ledNo `ux -> -> # *U &U _ledStates `ui `ux `ui , $ -> . `E23467 2 `ui 3322
- , $ -> . `E23467 3 `ui 3325
- , $ -> . `E23467 0 `ui 3328
- , $ -> . `E23467 1 `ui 3329
+[e [\ -> *U + &U _ledStates * -> _ledNo `ux -> -> # *U &U _ledStates `ui `ux `ui , $ -> . `E23468 2 `ui 3322
+ , $ -> . `E23468 3 `ui 3325
+ , $ -> . `E23468 0 `ui 3328
+ , $ -> . `E23468 1 `ui 3329
  3320 ]
 [e :U 3320 ]
 "134
