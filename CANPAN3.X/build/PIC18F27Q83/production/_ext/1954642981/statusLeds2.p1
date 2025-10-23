@@ -3741,8 +3741,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;../../VLCBlib_PIC/statusLeds2.c: 126:             (LATBbits.LATB6=1);
 [e = . . _LATBbits 0 6 -> -> 1 `i `uc ]
 "127
-[; ;../../VLCBlib_PIC/statusLeds2.c: 127:             if (flashCounter[1] >= 25) {
-[e $ ! >= -> *U + &U _flashCounter * -> -> -> 1 `i `ui `ux -> -> # *U &U _flashCounter `ui `ux `i -> 25 `i 3315  ]
+[; ;../../VLCBlib_PIC/statusLeds2.c: 127:             if (flashCounter[1] >= 2) {
+[e $ ! >= -> *U + &U _flashCounter * -> -> -> 1 `i `ui `ux -> -> # *U &U _flashCounter `ui `ux `i -> 2 `i 3315  ]
 {
 "128
 [; ;../../VLCBlib_PIC/statusLeds2.c: 128:                 flashCounter[1] = 0;
@@ -3764,8 +3764,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;../../VLCBlib_PIC/statusLeds2.c: 133:             (LATBbits.LATB6=0);
 [e = . . _LATBbits 0 6 -> -> 0 `i `uc ]
 "134
-[; ;../../VLCBlib_PIC/statusLeds2.c: 134:             if (flashCounter[1] >= 25) {
-[e $ ! >= -> *U + &U _flashCounter * -> -> -> 1 `i `ui `ux -> -> # *U &U _flashCounter `ui `ux `i -> 25 `i 3317  ]
+[; ;../../VLCBlib_PIC/statusLeds2.c: 134:             if (flashCounter[1] >= 2) {
+[e $ ! >= -> *U + &U _flashCounter * -> -> -> 1 `i `ui `ux -> -> # *U &U _flashCounter `ui `ux `i -> 2 `i 3317  ]
 {
 "135
 [; ;../../VLCBlib_PIC/statusLeds2.c: 135:                 flashCounter[1] = 0;
@@ -3961,8 +3961,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;../../VLCBlib_PIC/statusLeds2.c: 192:             (LATBbits.LATB7=1);
 [e = . . _LATBbits 0 7 -> -> 1 `i `uc ]
 "193
-[; ;../../VLCBlib_PIC/statusLeds2.c: 193:             if (flashCounter[0] >= 25) {
-[e $ ! >= -> *U + &U _flashCounter * -> -> -> 0 `i `ui `ux -> -> # *U &U _flashCounter `ui `ux `i -> 25 `i 3335  ]
+[; ;../../VLCBlib_PIC/statusLeds2.c: 193:             if (flashCounter[0] >= 2) {
+[e $ ! >= -> *U + &U _flashCounter * -> -> -> 0 `i `ui `ux -> -> # *U &U _flashCounter `ui `ux `i -> 2 `i 3335  ]
 {
 "194
 [; ;../../VLCBlib_PIC/statusLeds2.c: 194:                 flashCounter[0] = 0;
@@ -3984,8 +3984,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;../../VLCBlib_PIC/statusLeds2.c: 199:             (LATBbits.LATB7=0);
 [e = . . _LATBbits 0 7 -> -> 0 `i `uc ]
 "200
-[; ;../../VLCBlib_PIC/statusLeds2.c: 200:             if (flashCounter[0] >= 25) {
-[e $ ! >= -> *U + &U _flashCounter * -> -> -> 0 `i `ui `ux -> -> # *U &U _flashCounter `ui `ux `i -> 25 `i 3337  ]
+[; ;../../VLCBlib_PIC/statusLeds2.c: 200:             if (flashCounter[0] >= 2) {
+[e $ ! >= -> *U + &U _flashCounter * -> -> -> 0 `i `ui `ux -> -> # *U &U _flashCounter `ui `ux `i -> 2 `i 3337  ]
 {
 "201
 [; ;../../VLCBlib_PIC/statusLeds2.c: 201:                 flashCounter[0] = 0;

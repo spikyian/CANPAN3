@@ -56,9 +56,9 @@ void factoryResetGlobalEvents(void) {
     // No default switch/button events
     clearAllEvents();
     // Now add default Long switch events
-    for (sw=0; sw < NUM_BUTTONS; sw++) {
+    for (sw=1; sw <= NUM_BUTTONS; sw++) {
         addEvent(nn.word, sw, EV_TYPE, CANPAN_PRODUCED, TRUE);
-        addEvent(nn.word, sw, EV_SWITCHNO, sw+1, TRUE);
+        addEvent(nn.word, sw, EV_SWITCHNO, sw, TRUE);
         addEvent(nn.word, sw, EV_SWITCHSV, SV_ON_OFF, TRUE);
         // write the EVs so that these default events do not turn on an LED
         addEvent(nn.word, sw, EV_LEDFLAGS1, 0, TRUE);

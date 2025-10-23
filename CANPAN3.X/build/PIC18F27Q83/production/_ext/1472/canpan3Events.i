@@ -39456,9 +39456,9 @@ void factoryResetGlobalEvents(void) {
 
     clearAllEvents();
 
-    for (sw=0; sw < (8*4); sw++) {
+    for (sw=1; sw <= (8*4); sw++) {
         addEvent(nn.word, sw, 0, 1, TRUE);
-        addEvent(nn.word, sw, 1, sw+1, TRUE);
+        addEvent(nn.word, sw, 1, sw, TRUE);
         addEvent(nn.word, sw, 2, 1, TRUE);
 
         addEvent(nn.word, sw, 4, 0, TRUE);

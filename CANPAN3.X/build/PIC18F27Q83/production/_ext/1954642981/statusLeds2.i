@@ -39415,14 +39415,14 @@ void leds_poll(void) {
             break;
         case LED_SINGLE_FLICKER_ON:
             (LATBbits.LATB6=1);
-            if (flashCounter[1] >= 25) {
+            if (flashCounter[1] >= 2) {
                 flashCounter[1] = 0;
                 ledState[1] = LED_OFF;
             }
             break;
         case LED_SINGLE_FLICKER_OFF:
             (LATBbits.LATB6=0);
-            if (flashCounter[1] >= 25) {
+            if (flashCounter[1] >= 2) {
                 flashCounter[1] = 0;
                 ledState[1] = LED_ON;
             }
@@ -39481,14 +39481,14 @@ void leds_poll(void) {
             break;
         case LED_SINGLE_FLICKER_ON:
             (LATBbits.LATB7=1);
-            if (flashCounter[0] >= 25) {
+            if (flashCounter[0] >= 2) {
                 flashCounter[0] = 0;
                 ledState[0] = LED_OFF;
             }
             break;
         case LED_SINGLE_FLICKER_OFF:
             (LATBbits.LATB7=0);
-            if (flashCounter[0] >= 25) {
+            if (flashCounter[0] >= 2) {
                 flashCounter[0] = 0;
                 ledState[0] = LED_ON;
             }
