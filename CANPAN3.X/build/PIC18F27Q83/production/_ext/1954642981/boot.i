@@ -39421,7 +39421,7 @@ __asm("PSECT eeprom_data,class=EEDATA");
 __asm("ORG " "0x3FF");
 
 __asm("db 0");
-# 144 "../../VLCBlib_PIC/boot.c"
+# 151 "../../VLCBlib_PIC/boot.c"
 const uint8_t paramBlock[] __attribute__((address(0x820))) = {
     MANU_MERG,
     'a',
@@ -39430,12 +39430,15 @@ const uint8_t paramBlock[] __attribute__((address(0x820))) = {
     13,
     67,
     5,
-    0x08
+    PF_BOOT
 
-            |0x01
+            |PF_CONSUMER
 
 
-            |0x02
+            |PF_PRODUCER
+
+
+            |PF_VLCB
 
         ,
 
@@ -39452,7 +39455,7 @@ const uint8_t paramBlock[] __attribute__((address(0x820))) = {
     0,8,0,0,
     0,0,0,0,
     CPUM_MICROCHIP,
-    10,
+    11,
     0,
     0,
     0,
@@ -39463,8 +39466,8 @@ const uint8_t paramBlock[] __attribute__((address(0x820))) = {
     0x08,
     0,
     0,
-    ((MANU_MERG+'a'+MTYP_CANPAN+254 +13 +67 +5 +(8) +(8)+CPUM_MICROCHIP+10 +(20)+(0x48)+(0x08)+1 +2 +PB_CAN+P18F27Q83)&0xFF),
-    ((MANU_MERG+'a'+MTYP_CANPAN+254 +13 +67 +5 +(8) +(8)+CPUM_MICROCHIP+10 +(20)+(0x48)+(0x08)+1 +2 +PB_CAN+P18F27Q83)>>8)
+    ((MANU_MERG+'a'+MTYP_CANPAN+254 +13 +67 +5 +(8) +(8)+CPUM_MICROCHIP+11 +(20)+(0x48)+(0x08)+PF_CONSUMER+PF_PRODUCER+PB_CAN+P18F27Q83+PF_VLCB)&0xFF),
+    ((MANU_MERG+'a'+MTYP_CANPAN+254 +13 +67 +5 +(8) +(8)+CPUM_MICROCHIP+11 +(20)+(0x48)+(0x08)+PF_CONSUMER+PF_PRODUCER+PB_CAN+P18F27Q83+PF_VLCB)>>8)
 };
 
 

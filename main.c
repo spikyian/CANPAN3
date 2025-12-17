@@ -205,6 +205,8 @@ void setup(void) {
     ANSELA = 0x00;
     ANSELB = 0x00;
     ANSELC = 0x00;
+    
+    TRISAbits.TRISA4 = 0; LATAbits.LATA4 = 0;   // Unused
 #endif
     
     initEEPROMwriter();
