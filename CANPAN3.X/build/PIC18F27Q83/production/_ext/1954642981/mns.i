@@ -38320,8 +38320,7 @@ extern volatile uint8_t timerExtension1;
 
 extern volatile uint8_t timerExtension2;
 # 44 "../../VLCBlib_PIC/statusLeds.h" 2
-# 1 "../module.h" 1
-# 45 "../../VLCBlib_PIC/statusLeds.h" 2
+
 # 1 "../../VLCBlib_PIC/statusDisplay.h" 1
 # 55 "../../VLCBlib_PIC/statusDisplay.h"
 typedef enum StatusDisplay {
@@ -39429,11 +39428,11 @@ extern void pollTimedResponse(void);
 
 
 
-static void mnsFactoryReset(void);
-static void mnsPowerUp(void);
-static void mnsPoll(void);
+static void mnsFactoryReset(void) __attribute__((reentrant));
+static void mnsPowerUp(void) __attribute__((reentrant));
+static void mnsPoll(void) __attribute__((reentrant));
 static Processed mnsProcessMessage(Message * m);
-static void mnsLowIsr(void);
+static void mnsLowIsr(void) __attribute__((reentrant));
 static uint8_t getParameter(uint8_t);
 
 static DiagnosticVal * mnsGetDiagnostic(uint8_t index);
@@ -39458,6 +39457,7 @@ extern uint16_t getNN(uint8_t tableIndex);
 extern uint16_t getEN(uint8_t tableIndex);
 extern uint8_t findEvent(uint16_t nodeNumber, uint16_t eventNumber);
 extern uint8_t addEvent(uint16_t nodeNumber, uint16_t eventNumber, uint8_t evNum, uint8_t evVal, Boolean forceOwnNN);
+extern uint8_t addIndexedEvent(uint8_t enNum, uint8_t nnh, uint8_t nnl, uint8_t enh, uint8_t enl, uint8_t evNum, uint8_t evVal, Boolean forceOwnNN);
 
 
 extern void rebuildHashtable(void);
@@ -39481,9 +39481,10 @@ typedef uint8_t Happening;
 extern const Service eventProducerService;
 # 95 "../../VLCBlib_PIC/event_producer.h"
 extern Boolean sendProducedEvent(Happening h, EventState state);
+extern void sendSimpleProducedEvent(uint8_t tableIndex, EventState state);
 extern void deleteHappeningRange(Happening happening, uint8_t number);
 extern void incrementProducerCounter(void);
-# 106 "../../VLCBlib_PIC/event_producer.h"
+# 107 "../../VLCBlib_PIC/event_producer.h"
 extern EventState APP_GetEventState(Happening h);
 
 
@@ -39834,7 +39835,7 @@ static Processed mnsProcessMessage(Message * m) {
 
                 sendMessage5(OPC_SD, nn.bytes.hi, nn.bytes.lo, 0, 0, 8);
 
-                startTimedResponse(3, SERVICE_ID_MNS, mnsTRserviceDiscoveryCallback);
+                startTimedResponse(3, findServiceIndex(SERVICE_ID_MNS), mnsTRserviceDiscoveryCallback);
             } else if (m->bytes[2] > 8) {
                 sendMessage5(OPC_GRSP, nn.bytes.hi, nn.bytes.lo, OPC_RQSD, SERVICE_ID_MNS, GRSP_INVALID_SERVICE);
                 return PROCESSED;
@@ -40163,7 +40164,7 @@ static uint8_t getParameter(uint8_t idx) {
     case PAR_CPUMAN:
         return CPUM_MICROCHIP;
     case PAR_BETA:
-        return 11;
+        return 12;
     default:
         return 0;
     }

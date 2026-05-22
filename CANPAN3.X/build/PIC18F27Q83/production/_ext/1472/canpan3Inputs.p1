@@ -96,8 +96,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 "240 ../../VLCBlib_PIC/vlcb.h
 [; ;../../VLCBlib_PIC/vlcb.h: 240: void sendMessage4(VlcbOpCodes opc, uint8_t data1, uint8_t data2, uint8_t data3, uint8_t data4);
 [v _sendMessage4 `(v ~T0 @X0 0 ef5`E22879`uc`uc`uc`uc ]
-"97 ../../VLCBlib_PIC/event_producer.h
-[; ;../../VLCBlib_PIC/event_producer.h: 97: extern void incrementProducerCounter(void);
+"98 ../../VLCBlib_PIC/event_producer.h
+[; ;../../VLCBlib_PIC/event_producer.h: 98: extern void incrementProducerCounter(void);
 [v _incrementProducerCounter `(v ~T0 @X0 0 ef ]
 "2206 C:/Users/ianwh/.mchp_packs/Microchip/PIC18F-Q_DFP/1.28.451/xc8\pic\include\proc/pic18f27q83.h
 [s S3106 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
@@ -115,12 +115,12 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _timedResponseInProgress `(uc ~T0 @X0 0 ef ]
 "335 ../canpan3Inputs.c
 [; ;../canpan3Inputs.c: 335:         startTimedResponse(1, findServiceIndex(SERVICE_ID_PRODUCER), sodTRCallback);
-[c E23513 0 1 2 .. ]
-[n E23513 . TIMED_RESPONSE_RESULT_FINISHED TIMED_RESPONSE_RESULT_RETRY TIMED_RESPONSE_RESULT_NEXT  ]
-[v F23526 `(E23513 ~T0 @X0 0 tf3`uc`uc`uc ]
+[c E23522 0 1 2 .. ]
+[n E23522 . TIMED_RESPONSE_RESULT_FINISHED TIMED_RESPONSE_RESULT_RETRY TIMED_RESPONSE_RESULT_NEXT  ]
+[v F23535 `(E23522 ~T0 @X0 0 tf3`uc`uc`uc ]
 "114 ../../VLCBlib_PIC/timedResponse.h
 [; ;../../VLCBlib_PIC/timedResponse.h: 114: extern void startTimedResponse(uint8_t type, uint8_t serviceIndex, TimedResponseResult (*callback)(uint8_t type, uint8_t si, uint8_t step));
-[v _startTimedResponse `(v ~T0 @X0 0 ef3`uc`uc`*F23526 ]
+[v _startTimedResponse `(v ~T0 @X0 0 ef3`uc`uc`*F23535 ]
 "350 ../../VLCBlib_PIC/vlcb.h
 [; ;../../VLCBlib_PIC/vlcb.h: 350: extern uint8_t findServiceIndex(uint8_t id);
 [v _findServiceIndex `(uc ~T0 @X0 0 ef1`uc ]
@@ -130,13 +130,13 @@ Version 4.0 HI-TECH Software Intermediate Code
 [n E23086 VlcbServiceTypes SERVICE_ID_NONE SERVICE_ID_MNS SERVICE_ID_NV SERVICE_ID_CAN SERVICE_ID_OLD_TEACH SERVICE_ID_PRODUCER SERVICE_ID_CONSUMER SERVICE_ID_TEACH SERVICE_ID_CONSUME_OWN_EVENTS SERVICE_ID_EVENTACK SERVICE_ID_BOOT SERVICE_ID_STREAMING  ]
 "67
 [; ;../canpan3Inputs.c: 67: TimedResponseResult sodTRCallback(uint8_t type, uint8_t serviceIndex, uint8_t step);
-[v _sodTRCallback `(E23513 ~T0 @X0 0 ef3`uc`uc`uc ]
+[v _sodTRCallback `(E23522 ~T0 @X0 0 ef3`uc`uc`uc ]
 "351
 [; ;../canpan3Inputs.c: 351:     EventState value;
 [c E23278 255 0 1 .. ]
 [n E23278 . EVENT_UNKNOWN EVENT_OFF EVENT_ON  ]
-"113 ../../VLCBlib_PIC/event_producer.h
-[; ;../../VLCBlib_PIC/event_producer.h: 113: extern EventState APP_GetEventIndexState(uint8_t tableIndex);
+"114 ../../VLCBlib_PIC/event_producer.h
+[; ;../../VLCBlib_PIC/event_producer.h: 114: extern EventState APP_GetEventIndexState(uint8_t tableIndex);
 [v _APP_GetEventIndexState `(E23278 ~T0 @X0 0 ef1`uc ]
 "306 C:/Users/ianwh/.mchp_packs/Microchip/PIC18F-Q_DFP/1.28.451/xc8\pic\include\proc/pic18f27q83.h
 [; ;C:/Users/ianwh/.mchp_packs/Microchip/PIC18F-Q_DFP/1.28.451/xc8\pic\include\proc/pic18f27q83.h: 306: __asm("BOOTREG equ 038h");
@@ -4420,7 +4420,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 }
 "350
 [; ;../canpan3Inputs.c: 350: TimedResponseResult sodTRCallback(uint8_t type, uint8_t serviceIndex, uint8_t tableIndex) {
-[v _sodTRCallback `(E23513 ~T0 @X0 1 ef3`uc`uc`uc ]
+[v _sodTRCallback `(E23522 ~T0 @X0 1 ef3`uc`uc`uc ]
 {
 [e :U _sodTRCallback ]
 [v _type `uc ~T0 @X0 1 r1 ]
@@ -4439,7 +4439,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 {
 "355
 [; ;../canpan3Inputs.c: 355:         return TIMED_RESPONSE_RESULT_FINISHED;
-[e ) . `E23513 0 ]
+[e ) . `E23522 0 ]
 [e $UE 3367  ]
 "356
 [; ;../canpan3Inputs.c: 356:     }
@@ -4472,7 +4472,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :U 3369 ]
 "366
 [; ;../canpan3Inputs.c: 366:     return TIMED_RESPONSE_RESULT_NEXT;
-[e ) . `E23513 2 ]
+[e ) . `E23522 2 ]
 [e $UE 3367  ]
 "367
 [; ;../canpan3Inputs.c: 367: }

@@ -38319,8 +38319,7 @@ extern volatile uint8_t timerExtension1;
 
 extern volatile uint8_t timerExtension2;
 # 44 "../../VLCBlib_PIC/statusLeds.h" 2
-# 1 "../module.h" 1
-# 45 "../../VLCBlib_PIC/statusLeds.h" 2
+
 # 1 "../../VLCBlib_PIC/statusDisplay.h" 1
 # 55 "../../VLCBlib_PIC/statusDisplay.h"
 typedef enum StatusDisplay {

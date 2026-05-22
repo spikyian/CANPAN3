@@ -347,13 +347,13 @@ EEPROM_NVM_TYPE 0
 FLASH_NVM_TYPE 1
 ]
 "349
-[e E23518 canpan3LedState `uc
+[e E23527 canpan3LedState `uc
 CANPANLED_ON 0
 CANPANLED_OFF 1
 CANPANLED_FLASH 2
 CANPANLED_ANTIFLASH 3
 ]
-"404
+"409
 [e E23278 . `uc
 EVENT_UNKNOWN 255
 EVENT_OFF 0
@@ -506,7 +506,7 @@ OPC_EXTC6 255
 OPC_VCVS 164
 ]
 "335
-[e E23513 . `uc
+[e E23522 . `uc
 TIMED_RESPONSE_RESULT_FINISHED 0
 TIMED_RESPONSE_RESULT_RETRY 1
 TIMED_RESPONSE_RESULT_NEXT 2
@@ -1478,7 +1478,7 @@ MODE_BOOT 14
 MODE_FCUCOMPAT_ON 16
 MODE_FCUCOMPAT_OFF 17
 ]
-"235
+"252
 [e E23266 VlcbConsumerEvUsage `uc
 CONSUMER_EV_NOT_SPECIFIED 0
 CONSUMER_EV_ACTIONS 1
@@ -1679,13 +1679,13 @@ CMDERR_INV_EV_VALUE 11
 CMDERR_INV_NV_VALUE 12
 CMDERR_LRN_OTHER 13
 ]
-"415
+"423
 [e E23475 . `uc
 TIMED_RESPONSE_RESULT_FINISHED 0
 TIMED_RESPONSE_RESULT_RETRY 1
 TIMED_RESPONSE_RESULT_NEXT 2
 ]
-"492
+"500
 [e E23113 VlcbGrspCodes `uc
 GRSP_OK 0
 GRSP_UNKNOWN_NVM_TYPE 254
@@ -1694,12 +1694,12 @@ GRSP_INVALID_SERVICE 252
 GRSP_INVALID_COMMAND_PARAMETER 251
 GRSP_INVALID_MODE 250
 ]
-"515
+"523
 [e E23308 Boolean `uc
 FALSE 0
 TRUE 1
 ]
-"707
+"715
 [e E23277 . `uc
 EEPROM_NVM_TYPE 0
 FLASH_NVM_TYPE 1
@@ -2482,7 +2482,7 @@ GRSP_INVALID_SERVICE 252
 GRSP_INVALID_COMMAND_PARAMETER 251
 GRSP_INVALID_MODE 250
 ]
-"239 C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
+"241 C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
 [e E23113 VlcbGrspCodes `uc
 GRSP_OK 0
 GRSP_UNKNOWN_NVM_TYPE 254
@@ -2491,12 +2491,12 @@ GRSP_INVALID_SERVICE 252
 GRSP_INVALID_COMMAND_PARAMETER 251
 GRSP_INVALID_MODE 250
 ]
-"348
+"350
 [e E23281 ValidTime `uc
 BAD_TIME 0
 GOOD_TIME 1
 ]
-"553
+"555
 [e E23277 . `uc
 EEPROM_NVM_TYPE 0
 FLASH_NVM_TYPE 1
@@ -2717,17 +2717,17 @@ RECEIVED 1
 NOT_PROCESSED 0
 PROCESSED 1
 ]
-"848
+"849
 [e E23435 ServicePresent `uc
 NOT_PRESENT 0
 PRESENT 1
 ]
-"876
+"877
 [e E23277 . `uc
 EEPROM_NVM_TYPE 0
 FLASH_NVM_TYPE 1
 ]
-"979
+"980
 [e E22765 StatusDisplay `uc
 STATUS_OFF 0
 STATUS_UNINITIALISED 1
@@ -2743,7 +2743,7 @@ STATUS_RECEIVE_ERROR 10
 STATUS_MEMORY_FAULT 11
 STATUS_FATAL_ERROR 12
 ]
-"1113
+"1114
 [e E23098 VlcbCmdErrs `uc
 CMDERR_INV_CMD 1
 CMDERR_NOT_LRN 2
@@ -2759,7 +2759,7 @@ CMDERR_INV_EV_VALUE 11
 CMDERR_INV_NV_VALUE 12
 CMDERR_LRN_OTHER 13
 ]
-"1130
+"1131
 [e E23308 Boolean `uc
 FALSE 0
 TRUE 1
@@ -2962,15 +2962,15 @@ EEPROM_NVM_TYPE 0
 FLASH_NVM_TYPE 1
 ]
 "207 C:\Users\ianwh\github/VLCBlib_PIC/boot.c
-[v _bootPowerUp bootPowerUp `(v  1 s 1 bootPowerUp ]
+[v _bootPowerUp bootPowerUp `R(v  1 s 1 bootPowerUp ]
 "241
 [v _bootProcessMessage bootProcessMessage `(E23341  1 s 1 bootProcessMessage ]
 "262
 [v _bootEsdData bootEsdData `(uc  1 s 1 bootEsdData ]
 "210 C:\Users\ianwh\github/VLCBlib_PIC/can18_can_2.c
-[v _canFactoryReset canFactoryReset `(v  1 s 1 canFactoryReset ]
+[v _canFactoryReset canFactoryReset `R(v  1 s 1 canFactoryReset ]
 "254
-[v _canPowerUp canPowerUp `(v  1 s 1 canPowerUp ]
+[v _canPowerUp canPowerUp `R(v  1 s 1 canPowerUp ]
 "370
 [v _receiveOverrun receiveOverrun `IIH(v  1 e 1 0 ]
 "389
@@ -2978,7 +2978,7 @@ FLASH_NVM_TYPE 1
 "411
 [v _canProcessMessage canProcessMessage `(E23508  1 s 1 canProcessMessage ]
 "443
-[v _canPoll canPoll `(v  1 s 1 canPoll ]
+[v _canPoll canPoll `R(v  1 s 1 canPoll ]
 "468
 [v _canEsdData canEsdData `(uc  1 s 1 canEsdData ]
 "147 C:\Users\ianwh\github/VLCBlib_PIC/vlcb.h
@@ -3012,23 +3012,23 @@ FLASH_NVM_TYPE 1
 "956
 [v _CAN1_OperationModeGet CAN1_OperationModeGet `(E23641  1 e 1 0 ]
 "92 C:\Users\ianwh\github/VLCBlib_PIC/event_consumer_simple.c
-[v _consumerPowerUp consumerPowerUp `(v  1 s 1 consumerPowerUp ]
+[v _consumerPowerUp consumerPowerUp `R(v  1 s 1 consumerPowerUp ]
 "110
 [v _consumerProcessMessage consumerProcessMessage `(E23341  1 s 1 consumerProcessMessage ]
-"208
+"225
 [v _isConsumedEvent isConsumedEvent `(uc  1 e 1 0 ]
 "147 C:\Users\ianwh\github/VLCBlib_PIC/vlcb.h
 "150
 [s S193 . 2 `uc 1 lo 1 0 `uc 1 hi 1 1 ]
-"218 C:\Users\ianwh\github/VLCBlib_PIC/event_consumer_simple.c
+"235 C:\Users\ianwh\github/VLCBlib_PIC/event_consumer_simple.c
 [u S196 DiagnosticVal 2 `us 1 asUint 2 0 `s 1 asInt 2 0 `S193 1 asBytes 2 0 ]
 [v _consumerGetDiagnostic consumerGetDiagnostic `(*.39S196  1 s 3 consumerGetDiagnostic ]
-"232
+"249
 [v _consumerEsdData consumerEsdData `(uc  1 s 1 consumerEsdData ]
-"248
+"265
 [v _consumerEventCheckLen consumerEventCheckLen `(E23341  1 s 1 consumerEventCheckLen ]
 "98 C:\Users\ianwh\github/VLCBlib_PIC/event_producer_simple.c
-[v _producerPowerUp producerPowerUp `(v  1 s 1 producerPowerUp ]
+[v _producerPowerUp producerPowerUp `R(v  1 s 1 producerPowerUp ]
 "114
 [v _producerProcessMessage producerProcessMessage `(E23291  1 s 1 producerProcessMessage ]
 "147 C:\Users\ianwh\github/VLCBlib_PIC/vlcb.h
@@ -3042,68 +3042,70 @@ FLASH_NVM_TYPE 1
 "178
 [v _producerEsdData producerEsdData `(uc  1 s 1 producerEsdData ]
 "190 C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-[v _teachFactoryReset teachFactoryReset `(v  1 s 1 teachFactoryReset ]
+[v _teachFactoryReset teachFactoryReset `R(v  1 s 1 teachFactoryReset ]
 "197
-[v _teachPowerUp teachPowerUp `(v  1 s 1 teachPowerUp ]
+[v _teachPowerUp teachPowerUp `R(v  1 s 1 teachPowerUp ]
 "221
 [v _teachProcessMessage teachProcessMessage `(E23341  1 s 1 teachProcessMessage ]
-"326
+"334
 [v _teachCheckLen teachCheckLen `(E23341  1 s 1 teachCheckLen ]
-"350
+"358
 [v _teachGetESDdata teachGetESDdata `(uc  1 s 1 teachGetESDdata ]
 "147 C:\Users\ianwh\github/VLCBlib_PIC/vlcb.h
 "150
 [s S193 . 2 `uc 1 lo 1 0 `uc 1 hi 1 1 ]
-"365 C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+"373 C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
 [u S196 DiagnosticVal 2 `us 1 asUint 2 0 `s 1 asInt 2 0 `S193 1 asBytes 2 0 ]
 [v _teachGetDiagnostic teachGetDiagnostic `(*.39S196  1 s 3 teachGetDiagnostic ]
-"380
+"388
 [v _clearAllEvents clearAllEvents `(v  1 e 1 0 ]
-"395
+"403
 [v _doNnevn doNnevn `(v  1 s 1 doNnevn ]
-"414
+"422
 [v _doNerd doNerd `(v  1 s 1 doNerd ]
-"425
+"433
 [v _nerdCallback nerdCallback `(E23475  1 e 1 0 ]
-"471
+"479
 [v _doRqevn doRqevn `(v  1 s 1 doRqevn ]
-"488
+"496
 [v _doNnclr doNnclr `(v  1 s 1 doNnclr ]
-"505
+"513
 [v _doEvlrn doEvlrn `(v  1 s 1 doEvlrn ]
-"582
+"548
+[v _doReval doReval `(v  1 s 1 doReval ]
+"590
 [v _doEvuln doEvuln `(v  1 s 1 doEvuln ]
-"605
+"613
 [v _doReqev doReqev `(v  1 s 1 doReqev ]
-"657
+"665
 [v _reqevCallback reqevCallback `(E23475  1 e 1 0 ]
-"688
+"696
 [v _removeEvent removeEvent `(uc  1 e 1 0 ]
-"701
+"709
 [v _removeTableEntry removeTableEntry `(uc  1 s 1 removeTableEntry ]
-"737
+"745
 [v _addEvent addEvent `(uc  1 e 1 0 ]
-"791
+"799
 [v _findEvent findEvent `(uc  1 e 1 0 ]
-"828
+"836
 [v _writeEv writeEv `(uc  1 e 1 0 ]
-"848
+"856
 [v _getEv getEv `(s  1 e 2 0 ]
-"864
+"872
 [v _numEv numEv `(uc  1 e 1 0 ]
-"878
+"886
 [v _getEVs getEVs `(uc  1 e 1 0 ]
-"898
+"906
 [v _getNN getNN `(us  1 e 2 0 ]
-"922
+"930
 [v _getEN getEN `(us  1 e 2 0 ]
-"944
+"952
 [v _evtIdxToTableIndex evtIdxToTableIndex `(uc  1 s 1 evtIdxToTableIndex ]
-"954
+"962
 [v _tableIndexToEvtIdx tableIndexToEvtIdx `(uc  1 s 1 tableIndexToEvtIdx ]
-"976
+"984
 [v _getHash getHash `(uc  1 e 1 0 ]
-"990
+"998
 [v _rebuildHashtable rebuildHashtable `(v  1 e 1 0 ]
 "110 C:\Users\ianwh\github/VLCBlib_PIC/vlcb.h
 [s S183 Message 9 `uc 1 len 1 0 `E22879 1 opc 1 1 `[7]uc 1 bytes 7 2 ]
@@ -3114,9 +3116,9 @@ FLASH_NVM_TYPE 1
 "96 C:\Users\ianwh\github/VLCBlib_PIC/messageQueue.c
 [v _pop pop `(*.39S183  1 e 3 0 ]
 "279 C:\Users\ianwh\github/VLCBlib_PIC/mns.c
-[v _mnsFactoryReset mnsFactoryReset `(v  1 s 1 mnsFactoryReset ]
+[v _mnsFactoryReset mnsFactoryReset `RR(v  1 s 1 mnsFactoryReset ]
 "297
-[v _mnsPowerUp mnsPowerUp `(v  1 s 1 mnsPowerUp ]
+[v _mnsPowerUp mnsPowerUp `RR(v  1 s 1 mnsPowerUp ]
 "358
 [v _mnsProcessMessage mnsProcessMessage `(E23341  1 s 1 mnsProcessMessage ]
 "609
@@ -3124,7 +3126,7 @@ FLASH_NVM_TYPE 1
 "639
 [v _updateModuleErrorStatus updateModuleErrorStatus `(v  1 e 1 0 ]
 "650
-[v _mnsPoll mnsPoll `(v  1 s 1 mnsPoll ]
+[v _mnsPoll mnsPoll `RR(v  1 s 1 mnsPoll ]
 "147 C:\Users\ianwh\github/VLCBlib_PIC/vlcb.h
 "150
 [s S193 . 2 `uc 1 lo 1 0 `uc 1 hi 1 1 ]
@@ -3142,9 +3144,9 @@ FLASH_NVM_TYPE 1
 "943
 [v _mnsTRrqnpnCallback mnsTRrqnpnCallback `(E23475  1 e 1 0 ]
 "126 C:\Users\ianwh\github/VLCBlib_PIC/nv.c
-[v _nvFactoryReset nvFactoryReset `(v  1 s 1 nvFactoryReset ]
+[v _nvFactoryReset nvFactoryReset `R(v  1 s 1 nvFactoryReset ]
 "136
-[v _nvPowerUp nvPowerUp `(v  1 s 1 nvPowerUp ]
+[v _nvPowerUp nvPowerUp `R(v  1 s 1 nvPowerUp ]
 "147 C:\Users\ianwh\github/VLCBlib_PIC/vlcb.h
 "150
 [s S193 . 2 `uc 1 lo 1 0 `uc 1 hi 1 1 ]
@@ -3163,27 +3165,27 @@ FLASH_NVM_TYPE 1
 [v _nvGetESDdata nvGetESDdata `(uc  1 s 1 nvGetESDdata ]
 "369
 [v _nvTRnvrdCallback nvTRnvrdCallback `(E23492  1 e 1 0 ]
-"156 C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
+"158 C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
 [v _initRomOps initRomOps `(v  1 e 1 0 ]
-"171
+"173
 [v _EEPROM_Read EEPROM_Read `(uc  1 e 1 0 ]
-"218
+"220
 [v _EEPROM_Write EEPROM_Write `(uc  1 e 1 0 ]
-"248
+"250
 [v _EEPROM_WriteNoVerify EEPROM_WriteNoVerify `(uc  1 e 1 0 ]
-"315
+"317
 [v _FLASH_Read FLASH_Read `(uc  1 s 1 FLASH_Read ]
-"344
+"346
 [v _eraseFlashBlock eraseFlashBlock `(v  1 e 1 0 ]
-"395
+"397
 [v _flushFlashBlock flushFlashBlock `(v  1 e 1 0 ]
-"469
+"471
 [v _loadFlashBlock loadFlashBlock `(v  1 e 1 0 ]
-"507
+"509
 [v _FLASH_Write FLASH_Write `(uc  1 e 1 0 ]
-"553
+"555
 [v _writeNVM writeNVM `(uc  1 e 1 0 ]
-"570
+"572
 [v _readNVM readNVM `(s  1 e 2 0 ]
 "77 C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
 [v _leds_powerUp leds_powerUp `(v  1 e 1 0 ]
@@ -3205,43 +3207,43 @@ FLASH_NVM_TYPE 1
 [v _startTimedResponse startTimedResponse `(v  1 e 1 0 ]
 "116
 [v _pollTimedResponse pollTimedResponse `(v  1 e 1 0 ]
-"833 C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+"834 C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
 [v _findServiceIndex findServiceIndex `(uc  1 e 1 0 ]
-"848
+"849
 [v _have have `(E23602  1 e 1 0 ]
-"867
+"868
 [v _factoryReset factoryReset `(v  1 e 1 0 ]
-"886
+"887
 [v _powerUp powerUp `(v  1 s 1 powerUp ]
-"922
+"923
 [v _pbDownTimer pbDownTimer `(uc  1 e 1 0 ]
-"941
+"942
 [v _pbUpTimer pbUpTimer `(uc  1 e 1 0 ]
-"966
+"967
 [v _checkPowerOnPb checkPowerOnPb `(v  1 s 1 checkPowerOnPb ]
-"1005
+"1006
 [v _poll poll `(v  1 s 1 poll ]
-"1108
+"1109
 [v _checkLen checkLen `(E23341  1 e 1 0 ]
-"1130
+"1131
 [v _isEvent isEvent `(E23475  1 e 1 0 ]
-"1157
+"1158
 [v _sendMessage2 sendMessage2 `(v  1 e 1 0 ]
-"1168
+"1169
 [v _sendMessage3 sendMessage3 `(v  1 e 1 0 ]
-"1180
+"1181
 [v _sendMessage4 sendMessage4 `(v  1 e 1 0 ]
-"1193
+"1194
 [v _sendMessage5 sendMessage5 `(v  1 e 1 0 ]
-"1207
+"1208
 [v _sendMessage6 sendMessage6 `(v  1 e 1 0 ]
-"1222
+"1223
 [v _sendMessage7 sendMessage7 `(v  1 e 1 0 ]
-"1238
+"1239
 [v _sendMessage sendMessage `(v  1 e 1 0 ]
-"1261
+"1262
 [v _main main `(v  1 e 1 0 ]
-"1369
+"1370
 [v _DEFAULT_ISR DEFAULT_ISR `IIH(v  1 e 1 0 ]
 "54 C:\Users\ianwh\github\CANPAN3/canpan3Events.c
 [v _factoryResetGlobalEvents factoryResetGlobalEvents `(v  1 e 1 0 ]
@@ -3261,7 +3263,7 @@ FLASH_NVM_TYPE 1
 [v _APP_addEvent APP_addEvent `(uc  1 e 1 0 ]
 "322
 [v _APP_processConsumedEvent APP_processConsumedEvent `(E23291  1 e 1 0 ]
-"404
+"409
 [v _APP_GetEventIndexState APP_GetEventIndexState `(E23278  1 e 1 0 ]
 "75 C:\Users\ianwh\github\CANPAN3/canpan3Inputs.c
 [v _initInputs initInputs `(v  1 e 1 0 ]
@@ -3278,7 +3280,7 @@ FLASH_NVM_TYPE 1
 "333
 [v _doSoD doSoD `(v  1 e 1 0 ]
 "350
-[v _sodTRCallback sodTRCallback `(E23513  1 e 1 0 ]
+[v _sodTRCallback sodTRCallback `(E23522  1 e 1 0 ]
 "58 C:\Users\ianwh\github\CANPAN3/canpan3Leds.c
 [v _initLeds initLeds `(v  1 e 1 0 ]
 "79
@@ -3354,7 +3356,7 @@ FLASH_NVM_TYPE 1
 [s S193 . 2 `uc 1 lo 1 0 `uc 1 hi 1 1 ]
 "76 C:\Users\ianwh\github/VLCBlib_PIC/boot.c
 [u S196 DiagnosticVal 2 `us 1 asUint 2 0 `s 1 asInt 2 0 `S193 1 asBytes 2 0 ]
-[s S201 Service 20 `uc 1 serviceNo 1 0 `uc 1 version 1 1 `*.38(v 1 factoryReset 3 2 `*.38(v 1 powerUp 3 5 `*.38(E23291 1 processMessage 3 8 `*.38(v 1 poll 3 11 `*.38(uc 1 getESDdata 3 14 `*.38(*.39S196 1 getDiagnostic 3 17 ]
+[s S201 Service 20 `uc 1 serviceNo 1 0 `uc 1 version 1 1 `*.38R(v 1 factoryReset 3 2 `*.38R(v 1 powerUp 3 5 `*.38(E23291 1 processMessage 3 8 `*.38R(v 1 poll 3 11 `*.38(uc 1 getESDdata 3 14 `*.38(*.39S196 1 getDiagnostic 3 17 ]
 [v _bootService bootService `CS201  1 e 20 0 ]
 "151
 [v _paramBlock paramBlock `C[32]uc  1 e 32 @2080 ]
@@ -3412,7 +3414,7 @@ FLASH_NVM_TYPE 1
 [v _timedResponseOpcode timedResponseOpcode `uc  1 s 1 timedResponseOpcode ]
 "164
 [v _eventTeachService eventTeachService `CS201  1 e 20 0 ]
-"871
+"879
 [v _evs evs `[13]uc  1 e 13 0 ]
 "134 C:\Users\ianwh\github/VLCBlib_PIC/mns.c
 [v _mnsDiagnostics mnsDiagnostics `[7]S196  1 e 14 0 ]
@@ -3454,13 +3456,13 @@ FLASH_NVM_TYPE 1
 [v _nvService nvService `CS201  1 e 20 0 ]
 "107
 [v _nvCache nvCache `[68]uc  1 s 68 nvCache ]
-[s S5331 . 1 `uc 1 writeNeeded 1 0 :1:0 
+[s S5343 . 1 `uc 1 writeNeeded 1 0 :1:0 
 `uc 1 eraseNeeded 1 0 :1:1 
 ]
-"137 C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
-[u S5334 . 1 `uc 1 asByte 1 0 `S5331 1 . 1 0 ]
-[v _flashFlags flashFlags `S5334  1 s 1 flashFlags ]
-"146
+"139 C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
+[u S5346 . 1 `uc 1 asByte 1 0 `S5343 1 . 1 0 ]
+[v _flashFlags flashFlags `S5346  1 s 1 flashFlags ]
+"148
 [v _flashBlock flashBlock `um  1 s 3 flashBlock ]
 "60 C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
 [v _ledState ledState `[2]E23452  1 e 2 0 ]
@@ -3551,24 +3553,24 @@ FLASH_NVM_TYPE 1
 [v _PIE0bits PIE0bits `VES2464  1 e 1 @1182 ]
 "524
 [v _NVMCON0 NVMCON0 `VEuc  1 e 1 @64 ]
-[s S5354 . 1 `uc 1 GO 1 0 :1:0 
+[s S5366 . 1 `uc 1 GO 1 0 :1:0 
 ]
 "540
-[s S5356 . 1 `uc 1 NOT_DONE 1 0 :1:0 
+[s S5368 . 1 `uc 1 NOT_DONE 1 0 :1:0 
 ]
-[s S5358 . 1 `uc 1 nDONE 1 0 :1:0 
+[s S5370 . 1 `uc 1 nDONE 1 0 :1:0 
 ]
-[u S5360 . 1 `S5354 1 . 1 0 `S5356 1 . 1 0 `S5358 1 . 1 0 ]
-[v _NVMCON0bits NVMCON0bits `VES5360  1 e 1 @64 ]
-[s S5338 . 1 `uc 1 CMD 1 0 :3:0 
+[u S5372 . 1 `S5366 1 . 1 0 `S5368 1 . 1 0 `S5370 1 . 1 0 ]
+[v _NVMCON0bits NVMCON0bits `VES5372  1 e 1 @64 ]
+[s S5350 . 1 `uc 1 CMD 1 0 :3:0 
 `uc 1 . 1 0 :4:3 
 `uc 1 WRERR 1 0 :1:7 
 ]
 "575
-[s S5342 . 1 `uc 1 NVMCMD 1 0 :3:0 
+[s S5354 . 1 `uc 1 NVMCMD 1 0 :3:0 
 ]
-[u S5344 . 1 `S5338 1 . 1 0 `S5342 1 . 1 0 ]
-[v _NVMCON1bits NVMCON1bits `VES5344  1 e 1 @65 ]
+[u S5356 . 1 `S5350 1 . 1 0 `S5354 1 . 1 0 ]
+[v _NVMCON1bits NVMCON1bits `VES5356  1 e 1 @65 ]
 "595
 [v _NVMLOCK NVMLOCK `VEuc  1 e 1 @66 ]
 "616
@@ -3665,7 +3667,7 @@ FLASH_NVM_TYPE 1
 "2527
 [u S968 . 1 `S959 1 . 1 0 ]
 [v _TRISCbits TRISCbits `VES968  1 e 1 @1224 ]
-[s S4797 . 1 `uc 1 RA0 1 0 :1:0 
+[s S4806 . 1 `uc 1 RA0 1 0 :1:0 
 `uc 1 RA1 1 0 :1:1 
 `uc 1 RA2 1 0 :1:2 
 `uc 1 RA3 1 0 :1:3 
@@ -3675,8 +3677,8 @@ FLASH_NVM_TYPE 1
 `uc 1 RA7 1 0 :1:7 
 ]
 "2610
-[u S4806 . 1 `S4797 1 . 1 0 ]
-[v _PORTAbits PORTAbits `VES4806  1 e 1 @1230 ]
+[u S4815 . 1 `S4806 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES4815  1 e 1 @1230 ]
 "2655
 [v _PORTB PORTB `VEuc  1 e 1 @1231 ]
 "2717
@@ -3757,11 +3759,11 @@ FLASH_NVM_TYPE 1
 [v _SPI1BAUD SPI1BAUD `VEuc  1 e 1 @137 ]
 "4245
 [v _SPI1CLK SPI1CLK `VEuc  1 e 1 @140 ]
-[s S6098 . 1 `uc 1 NDIV 1 0 :4:0 
+[s S6110 . 1 `uc 1 NDIV 1 0 :4:0 
 `uc 1 NOSC 1 0 :3:4 
 ]
 "5299
-[s S6101 . 1 `uc 1 NDIV0 1 0 :1:0 
+[s S6113 . 1 `uc 1 NDIV0 1 0 :1:0 
 `uc 1 NDIV1 1 0 :1:1 
 `uc 1 NDIV2 1 0 :1:2 
 `uc 1 NDIV3 1 0 :1:3 
@@ -3769,9 +3771,9 @@ FLASH_NVM_TYPE 1
 `uc 1 NOSC1 1 0 :1:5 
 `uc 1 NOSC2 1 0 :1:6 
 ]
-[u S6109 . 1 `S6098 1 . 1 0 `S6101 1 . 1 0 ]
-[v _OSCCON1bits OSCCON1bits `VES6109  1 e 1 @173 ]
-[s S6124 . 1 `uc 1 . 1 0 :3:0 
+[u S6121 . 1 `S6110 1 . 1 0 `S6113 1 . 1 0 ]
+[v _OSCCON1bits OSCCON1bits `VES6121  1 e 1 @173 ]
+[s S6136 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 NOSCR 1 0 :1:3 
 `uc 1 ORDY 1 0 :1:4 
 `uc 1 . 1 0 :1:5 
@@ -3779,8 +3781,8 @@ FLASH_NVM_TYPE 1
 `uc 1 CSWHOLD 1 0 :1:7 
 ]
 "5434
-[u S6131 . 1 `S6124 1 . 1 0 ]
-[v _OSCCON3bits OSCCON3bits `VES6131  1 e 1 @175 ]
+[u S6143 . 1 `S6136 1 . 1 0 ]
+[v _OSCCON3bits OSCCON3bits `VES6143  1 e 1 @175 ]
 "8887
 [v _C1CONL C1CONL `VEuc  1 e 1 @256 ]
 "8946
@@ -4022,43 +4024,43 @@ FLASH_NVM_TYPE 1
 [v _TMR0L TMR0L `VEuc  1 e 1 @792 ]
 "38185
 [v _TMR0H TMR0H `VEuc  1 e 1 @793 ]
-[s S5641 . 1 `uc 1 OUTPS 1 0 :4:0 
+[s S5653 . 1 `uc 1 OUTPS 1 0 :4:0 
 `uc 1 MD16 1 0 :1:4 
 `uc 1 OUT 1 0 :1:5 
 `uc 1 . 1 0 :1:6 
 `uc 1 EN 1 0 :1:7 
 ]
 "38473
-[s S5647 . 1 `uc 1 T0OUTPS 1 0 :4:0 
+[s S5659 . 1 `uc 1 T0OUTPS 1 0 :4:0 
 `uc 1 T0MD16 1 0 :1:4 
 `uc 1 T0OUT 1 0 :1:5 
 `uc 1 . 1 0 :1:6 
 `uc 1 T0EN 1 0 :1:7 
 ]
 "38473
-[s S5653 . 1 `uc 1 OUTPS0 1 0 :1:0 
+[s S5665 . 1 `uc 1 OUTPS0 1 0 :1:0 
 `uc 1 OUTPS1 1 0 :1:1 
 `uc 1 OUTPS2 1 0 :1:2 
 `uc 1 OUTPS3 1 0 :1:3 
 `uc 1 T016BIT 1 0 :1:4 
 ]
 "38473
-[s S5659 . 1 `uc 1 T0OUTPS0 1 0 :1:0 
+[s S5671 . 1 `uc 1 T0OUTPS0 1 0 :1:0 
 `uc 1 T0OUTPS1 1 0 :1:1 
 `uc 1 T0OUTPS2 1 0 :1:2 
 `uc 1 T0OUTPS3 1 0 :1:3 
 ]
 "38473
-[u S5664 . 1 `S5641 1 . 1 0 `S5647 1 . 1 0 `S5653 1 . 1 0 `S5659 1 . 1 0 ]
+[u S5676 . 1 `S5653 1 . 1 0 `S5659 1 . 1 0 `S5665 1 . 1 0 `S5671 1 . 1 0 ]
 "38473
 "38473
-[v _T0CON0bits T0CON0bits `VES5664  1 e 1 @794 ]
-[s S5583 . 1 `uc 1 CKPS 1 0 :4:0 
+[v _T0CON0bits T0CON0bits `VES5676  1 e 1 @794 ]
+[s S5595 . 1 `uc 1 CKPS 1 0 :4:0 
 `uc 1 ASYNC 1 0 :1:4 
 `uc 1 CS 1 0 :3:5 
 ]
 "38600
-[s S5587 . 1 `uc 1 CKPS0 1 0 :1:0 
+[s S5599 . 1 `uc 1 CKPS0 1 0 :1:0 
 `uc 1 CKPS1 1 0 :1:1 
 `uc 1 CKPS2 1 0 :1:2 
 `uc 1 CKPS3 1 0 :1:3 
@@ -4068,12 +4070,12 @@ FLASH_NVM_TYPE 1
 `uc 1 CS2 1 0 :1:7 
 ]
 "38600
-[s S5596 . 1 `uc 1 T0CKPS 1 0 :4:0 
+[s S5608 . 1 `uc 1 T0CKPS 1 0 :4:0 
 `uc 1 . 1 0 :1:4 
 `uc 1 T0CS 1 0 :3:5 
 ]
 "38600
-[s S5600 . 1 `uc 1 T0CKPS0 1 0 :1:0 
+[s S5612 . 1 `uc 1 T0CKPS0 1 0 :1:0 
 `uc 1 T0CKPS1 1 0 :1:1 
 `uc 1 T0CKPS2 1 0 :1:2 
 `uc 1 T0CKPS3 1 0 :1:3 
@@ -4083,10 +4085,10 @@ FLASH_NVM_TYPE 1
 `uc 1 T0CS2 1 0 :1:7 
 ]
 "38600
-[u S5609 . 1 `S5583 1 . 1 0 `S5587 1 . 1 0 `S5596 1 . 1 0 `S5600 1 . 1 0 ]
+[u S5621 . 1 `S5595 1 . 1 0 `S5599 1 . 1 0 `S5608 1 . 1 0 `S5612 1 . 1 0 ]
 "38600
 "38600
-[v _T0CON1bits T0CON1bits `VES5609  1 e 1 @795 ]
+[v _T0CON1bits T0CON1bits `VES5621  1 e 1 @795 ]
 [s S2379 . 1 `uc 1 SWIP 1 0 :1:0 
 `uc 1 HLVDIP 1 0 :1:1 
 `uc 1 OSFIP 1 0 :1:2 
@@ -4117,28 +4119,28 @@ FLASH_NVM_TYPE 1
 [v _WPUC WPUC `VEuc  1 e 1 @1041 ]
 "63152
 [v _IVTLOCK IVTLOCK `VEuc  1 e 1 @1113 ]
-[s S6157 . 1 `uc 1 IVTLOCKED 1 0 :1:0 
+[s S6169 . 1 `uc 1 IVTLOCKED 1 0 :1:0 
 ]
 "63162
-[u S6159 . 1 `S6157 1 . 1 0 ]
+[u S6171 . 1 `S6169 1 . 1 0 ]
 "63162
 "63162
-[v _IVTLOCKbits IVTLOCKbits `VES6159  1 e 1 @1113 ]
+[v _IVTLOCKbits IVTLOCKbits `VES6171  1 e 1 @1113 ]
 "63358
 [v _IVTBASEL IVTBASEL `VEuc  1 e 1 @1117 ]
 "63420
 [v _IVTBASEH IVTBASEH `VEuc  1 e 1 @1118 ]
 "63482
 [v _IVTBASEU IVTBASEU `VEuc  1 e 1 @1119 ]
-"1261 C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+"1262 C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
 [v _main main `(v  1 e 1 0 ]
 {
+"1264
+[v main@t2 t2 `uc  1 a 1 78 ]
+[v main@t1 t1 `uc  1 a 1 77 ]
 "1263
-[v main@t2 t2 `uc  1 a 1 49 ]
-[v main@t1 t1 `uc  1 a 1 48 ]
-"1262
-[v main@i i `uc  1 a 1 47 ]
-"1349
+[v main@i i `uc  1 a 1 76 ]
+"1350
 } 0
 "183 C:\Users\ianwh\github\CANPAN3/main.c
 [v _setup setup `(v  1 e 1 0 ]
@@ -4188,70 +4190,70 @@ FLASH_NVM_TYPE 1
 {
 "63
 } 0
-"886 C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+"887 C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
 [v _powerUp powerUp `(v  1 s 1 powerUp ]
 {
-"887
-[v powerUp@i i `uc  1 a 1 38 ]
-"901
+"888
+[v powerUp@i i `uc  1 a 1 37 ]
+"902
 } 0
 "98 C:\Users\ianwh\github/VLCBlib_PIC/event_producer_simple.c
-[v _producerPowerUp producerPowerUp `(v  1 s 1 producerPowerUp ]
+[v _producerPowerUp producerPowerUp `R(v  1 s 1 producerPowerUp ]
 {
 "99
 [v producerPowerUp@i i `uc  1 a 1 0 ]
 "104
-} 0
+} 1
 "136 C:\Users\ianwh\github/VLCBlib_PIC/nv.c
-[v _nvPowerUp nvPowerUp `(v  1 s 1 nvPowerUp ]
+[v _nvPowerUp nvPowerUp `R(v  1 s 1 nvPowerUp ]
 {
 "138
-[v nvPowerUp@i i `uc  1 a 1 17 ]
+[v nvPowerUp@i i `uc  1 a 1 0 ]
 "147
-} 0
+} 1
 "297 C:\Users\ianwh\github/VLCBlib_PIC/mns.c
-[v _mnsPowerUp mnsPowerUp `(v  1 s 1 mnsPowerUp ]
+[v _mnsPowerUp mnsPowerUp `RR(v  1 s 1 mnsPowerUp ]
 {
 "298
-[v mnsPowerUp@temp temp `i  1 a 2 13 ]
+[v _temp temp `i  1 a 2 0 ]
 "299
-[v mnsPowerUp@i i `uc  1 a 1 12 ]
+[v _i i `uc  1 a 1 2 ]
 "348
-} 0
+} 3
 "92 C:\Users\ianwh\github/VLCBlib_PIC/event_consumer_simple.c
-[v _consumerPowerUp consumerPowerUp `(v  1 s 1 consumerPowerUp ]
+[v _consumerPowerUp consumerPowerUp `R(v  1 s 1 consumerPowerUp ]
 {
 "94
 [v consumerPowerUp@temp temp `uc  1 a 1 0 ]
 "101
-} 0
+} 1
 "254 C:\Users\ianwh\github/VLCBlib_PIC/can18_can_2.c
-[v _canPowerUp canPowerUp `(v  1 s 1 canPowerUp ]
+[v _canPowerUp canPowerUp `R(v  1 s 1 canPowerUp ]
 {
 "255
-[v canPowerUp@temp temp `i  1 a 2 12 ]
+[v canPowerUp@temp temp `i  1 a 2 0 ]
 "365
-} 0
+} 2
 "207 C:\Users\ianwh\github/VLCBlib_PIC/boot.c
-[v _bootPowerUp bootPowerUp `(v  1 s 1 bootPowerUp ]
+[v _bootPowerUp bootPowerUp `R(v  1 s 1 bootPowerUp ]
 {
 "208
-[v bootPowerUp@a a `um  1 a 3 15 ]
+[v bootPowerUp@a a `um  1 a 3 0 ]
 "209
-[v bootPowerUp@i i `uc  1 a 1 14 ]
+[v bootPowerUp@i i `uc  1 a 1 3 ]
 "211
-[v bootPowerUp@found found `uc  1 a 1 13 ]
+[v bootPowerUp@found found `uc  1 a 1 4 ]
 "210
-[v bootPowerUp@b b `uc  1 a 1 12 ]
+[v bootPowerUp@b b `uc  1 a 1 5 ]
 "234
-} 0
+} 6
 "197 C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-[v _teachPowerUp teachPowerUp `(v  1 s 1 teachPowerUp ]
+[v _teachPowerUp teachPowerUp `R(v  1 s 1 teachPowerUp ]
 {
 "198
-[v teachPowerUp@i i `uc  1 a 1 35 ]
+[v teachPowerUp@i i `uc  1 a 1 0 ]
 "212
-} 0
+} 1
 "162 C:\Users\ianwh\github/VLCBlib_PIC/nv.c
 [v _loadNvCache loadNvCache `(v  1 e 1 0 ]
 {
@@ -4301,23 +4303,23 @@ FLASH_NVM_TYPE 1
 {
 "959
 } 0
-"1005 C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+"1006 C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
 [v _poll poll `(v  1 s 1 poll ]
 {
 [s S183 Message 9 `uc 1 len 1 0 `E22879 1 opc 1 1 `[7]uc 1 bytes 7 2 ]
-"1007
-[v poll@m m `S183  1 a 9 38 ]
-"1006
-[v poll@i i `uc  1 a 1 37 ]
 "1008
-[v poll@handled handled `E23341  1 a 1 36 ]
-"1057
+[v poll@m m `S183  1 a 9 67 ]
+"1007
+[v poll@i i `uc  1 a 1 66 ]
+"1009
+[v poll@handled handled `E23341  1 a 1 65 ]
+"1058
 } 0
 "116 C:\Users\ianwh\github/VLCBlib_PIC/timedResponse.c
 [v _pollTimedResponse pollTimedResponse `(v  1 e 1 0 ]
 {
 "117
-[v pollTimedResponse@result result `E23468  1 a 1 65 ]
+[v pollTimedResponse@result result `E23468  1 a 1 2 ]
 "154
 } 0
 "369 C:\Users\ianwh\github/VLCBlib_PIC/nv.c
@@ -4354,41 +4356,41 @@ FLASH_NVM_TYPE 1
 [v mnsTRrqnpnCallback@step step `uc  1 p 1 49 ]
 "949
 } 0
-"657 C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+"665 C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
 [v _reqevCallback reqevCallback `(E23475  1 e 1 0 ]
 {
 [v reqevCallback@tableIndex tableIndex `uc  1 p 1 wreg ]
 [s S193 . 2 `uc 1 lo 1 0 `uc 1 hi 1 1 ]
-"658
+"666
 [u S616 Word 2 `S193 1 bytes 2 0 `us 1 word 2 0 ]
 [v reqevCallback@nodeNumber nodeNumber `S616  1 a 2 60 ]
-"661
+"669
 [v reqevCallback@ev ev `s  1 a 2 58 ]
-"658
+"666
 [v reqevCallback@eventNumber eventNumber `S616  1 a 2 56 ]
-"660
+"668
 [v reqevCallback@nEv nEv `uc  1 a 1 55 ]
-"657
+"665
 [v reqevCallback@tableIndex tableIndex `uc  1 p 1 wreg ]
 [v reqevCallback@step step `uc  1 p 1 49 ]
-"660
+"668
 [v reqevCallback@tableIndex tableIndex `uc  1 p 1 62 ]
-"678
+"686
 } 0
-"425
+"433
 [v _nerdCallback nerdCallback `(E23475  1 e 1 0 ]
 {
 [s S193 . 2 `uc 1 lo 1 0 `uc 1 hi 1 1 ]
-"426
+"434
 [u S616 Word 2 `S193 1 bytes 2 0 `us 1 word 2 0 ]
 [v nerdCallback@eventNumber eventNumber `S616  1 a 2 52 ]
 [v nerdCallback@nodeNumber nodeNumber `S616  1 a 2 50 ]
-"425
+"433
 [v nerdCallback@step step `uc  1 p 1 49 ]
-"439
+"447
 } 0
 "350 C:\Users\ianwh\github\CANPAN3/canpan3Inputs.c
-[v _sodTRCallback sodTRCallback `(E23513  1 e 1 0 ]
+[v _sodTRCallback sodTRCallback `(E23522  1 e 1 0 ]
 {
 "351
 [v sodTRCallback@value value `E23278  1 a 1 51 ]
@@ -4398,21 +4400,21 @@ FLASH_NVM_TYPE 1
 [v sodTRCallback@tableIndex tableIndex `uc  1 p 1 49 ]
 "367
 } 0
-"954 C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+"962 C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
 [v _tableIndexToEvtIdx tableIndexToEvtIdx `(uc  1 s 1 tableIndexToEvtIdx ]
 {
 [v tableIndexToEvtIdx@tableIndex tableIndex `uc  1 p 1 wreg ]
 [v tableIndexToEvtIdx@tableIndex tableIndex `uc  1 p 1 wreg ]
 [v tableIndexToEvtIdx@tableIndex tableIndex `uc  1 p 1 0 ]
-"956
+"964
 } 0
 "443 C:\Users\ianwh\github/VLCBlib_PIC/can18_can_2.c
-[v _canPoll canPoll `(v  1 s 1 canPoll ]
+[v _canPoll canPoll `R(v  1 s 1 canPoll ]
 {
 "460
 } 0
 "650 C:\Users\ianwh\github/VLCBlib_PIC/mns.c
-[v _mnsPoll mnsPoll `(v  1 s 1 mnsPoll ]
+[v _mnsPoll mnsPoll `RR(v  1 s 1 mnsPoll ]
 {
 "779
 } 0
@@ -4495,36 +4497,36 @@ FLASH_NVM_TYPE 1
 [v _APP_preProcessMessage APP_preProcessMessage `(E23291  1 e 1 0 ]
 {
 "198
-[v APP_preProcessMessage@enn enn `us  1 a 2 28 ]
+[v APP_preProcessMessage@enn enn `us  1 a 2 57 ]
 "197
-[v APP_preProcessMessage@tableIndex tableIndex `uc  1 a 1 31 ]
+[v APP_preProcessMessage@tableIndex tableIndex `uc  1 a 1 60 ]
 "199
-[v APP_preProcessMessage@switchNo switchNo `uc  1 a 1 30 ]
+[v APP_preProcessMessage@switchNo switchNo `uc  1 a 1 59 ]
 "200
-[v APP_preProcessMessage@ev ev `uc  1 a 1 27 ]
+[v APP_preProcessMessage@ev ev `uc  1 a 1 56 ]
 [s S183 Message 9 `uc 1 len 1 0 `E22879 1 opc 1 1 `[7]uc 1 bytes 7 2 ]
 "196
-[v APP_preProcessMessage@m m `*.39S183  1 p 2 91 ]
+[v APP_preProcessMessage@m m `*.39S183  1 p 2 51 ]
 "272
 } 0
 "114 C:\Users\ianwh\github/VLCBlib_PIC/event_producer_simple.c
 [v _producerProcessMessage producerProcessMessage `(E23291  1 s 1 producerProcessMessage ]
 {
 "115
-[v producerProcessMessage@index index `uc  1 a 1 90 ]
+[v producerProcessMessage@index index `uc  1 a 1 62 ]
 [s S183 Message 9 `uc 1 len 1 0 `E22879 1 opc 1 1 `[7]uc 1 bytes 7 2 ]
 "114
-[v producerProcessMessage@m m `*.39S183  1 p 2 82 ]
+[v producerProcessMessage@m m `*.39S183  1 p 2 20 ]
 "149
 } 0
 "240 C:\Users\ianwh\github/VLCBlib_PIC/nv.c
 [v _nvProcessMessage nvProcessMessage `(E23341  1 s 1 nvProcessMessage ]
 {
 "241
-[v nvProcessMessage@valueOrError valueOrError `s  1 a 2 86 ]
+[v nvProcessMessage@valueOrError valueOrError `s  1 a 2 24 ]
 [s S183 Message 9 `uc 1 len 1 0 `E22879 1 opc 1 1 `[7]uc 1 bytes 7 2 ]
 "240
-[v nvProcessMessage@m m `*.39S183  1 p 2 82 ]
+[v nvProcessMessage@m m `*.39S183  1 p 2 20 ]
 "345
 } 0
 "358 C:\Users\ianwh\github/VLCBlib_PIC/mns.c
@@ -4533,156 +4535,181 @@ FLASH_NVM_TYPE 1
 [s S193 . 2 `uc 1 lo 1 0 `uc 1 hi 1 1 ]
 "510
 [u S196 DiagnosticVal 2 `us 1 asUint 2 0 `s 1 asInt 2 0 `S193 1 asBytes 2 0 ]
-[v mnsProcessMessage@d d `*.39S196  1 a 2 86 ]
+[v mnsProcessMessage@d d `*.39S196  1 a 2 48 ]
 "362
-[v mnsProcessMessage@newMode newMode `uc  1 a 1 88 ]
+[v mnsProcessMessage@newMode newMode `uc  1 a 1 50 ]
 "359
-[v mnsProcessMessage@i i `uc  1 a 1 84 ]
+[v mnsProcessMessage@i i `uc  1 a 1 46 ]
 [s S183 Message 9 `uc 1 len 1 0 `E22879 1 opc 1 1 `[7]uc 1 bytes 7 2 ]
 "358
-[v mnsProcessMessage@m m `*.39S183  1 p 2 82 ]
+[v mnsProcessMessage@m m `*.39S183  1 p 2 20 ]
 "603
 } 0
 "110 C:\Users\ianwh\github/VLCBlib_PIC/event_consumer_simple.c
 [v _consumerProcessMessage consumerProcessMessage `(E23341  1 s 1 consumerProcessMessage ]
 {
 "113
-[v consumerProcessMessage@enn enn `us  1 a 2 87 ]
+[v consumerProcessMessage@enn enn `us  1 a 2 25 ]
 "112
-[v consumerProcessMessage@tableIndex tableIndex `uc  1 a 1 90 ]
+[v consumerProcessMessage@tableIndex tableIndex `uc  1 a 1 28 ]
 "111
-[v consumerProcessMessage@ret ret `E23341  1 a 1 89 ]
+[v consumerProcessMessage@ret ret `E23341  1 a 1 27 ]
 [s S183 Message 9 `uc 1 len 1 0 `E22879 1 opc 1 1 `[7]uc 1 bytes 7 2 ]
 "110
-[v consumerProcessMessage@m m `*.39S183  1 p 2 82 ]
-"200
+[v consumerProcessMessage@m m `*.39S183  1 p 2 20 ]
+"217
 } 0
 "411 C:\Users\ianwh\github/VLCBlib_PIC/can18_can_2.c
 [v _canProcessMessage canProcessMessage `(E23508  1 s 1 canProcessMessage ]
 {
 [s S183 Message 9 `uc 1 len 1 0 `E22879 1 opc 1 1 `[7]uc 1 bytes 7 2 ]
-[v canProcessMessage@m m `*.39S183  1 p 2 82 ]
+[v canProcessMessage@m m `*.39S183  1 p 2 20 ]
 "435
 } 0
 "241 C:\Users\ianwh\github/VLCBlib_PIC/boot.c
 [v _bootProcessMessage bootProcessMessage `(E23341  1 s 1 bootProcessMessage ]
 {
 [s S183 Message 9 `uc 1 len 1 0 `E22879 1 opc 1 1 `[7]uc 1 bytes 7 2 ]
-[v bootProcessMessage@m m `*.39S183  1 p 2 82 ]
+[v bootProcessMessage@m m `*.39S183  1 p 2 20 ]
 "255
 } 0
 "221 C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
 [v _teachProcessMessage teachProcessMessage `(E23341  1 s 1 teachProcessMessage ]
 {
 [s S183 Message 9 `uc 1 len 1 0 `E22879 1 opc 1 1 `[7]uc 1 bytes 7 2 ]
-[v teachProcessMessage@m m `*.39S183  1 p 2 82 ]
-"317
+[v teachProcessMessage@m m `*.39S183  1 p 2 20 ]
+"325
 } 0
-"326
+"334
 [v _teachCheckLen teachCheckLen `(E23341  1 s 1 teachCheckLen ]
 {
 [s S183 Message 9 `uc 1 len 1 0 `E22879 1 opc 1 1 `[7]uc 1 bytes 7 2 ]
 [v teachCheckLen@m m `*.39S183  1 p 2 47 ]
 [v teachCheckLen@needed needed `uc  1 p 1 49 ]
 [v teachCheckLen@learn learn `uc  1 p 1 50 ]
-"342
+"350
 } 0
-"471
+"479
 [v _doRqevn doRqevn `(v  1 s 1 doRqevn ]
 {
-"476
+"484
 [v doRqevn@eventNumber eventNumber `us  1 a 2 40 ]
-"474
+"482
 [v doRqevn@i i `uc  1 a 1 43 ]
-"473
+"481
 [v doRqevn@count count `uc  1 a 1 42 ]
-"483
+"491
 } 0
-"605
+"548
+[v _doReval doReval `(v  1 s 1 doReval ]
+{
+[v doReval@enNum enNum `uc  1 p 1 wreg ]
+"553
+[v doReval@evVal evVal `i  1 a 2 46 ]
+"552
+[v doReval@tableIndex tableIndex `uc  1 a 1 45 ]
+"551
+[v doReval@evIndex evIndex `uc  1 a 1 43 ]
+"548
+[v doReval@enNum enNum `uc  1 p 1 wreg ]
+[v doReval@evNum evNum `uc  1 p 1 42 ]
+"552
+[v doReval@enNum enNum `uc  1 p 1 44 ]
+"583
+} 0
+"952
+[v _evtIdxToTableIndex evtIdxToTableIndex `(uc  1 s 1 evtIdxToTableIndex ]
+{
+[v evtIdxToTableIndex@evtIdx evtIdx `uc  1 p 1 wreg ]
+[v evtIdxToTableIndex@evtIdx evtIdx `uc  1 p 1 wreg ]
+[v evtIdxToTableIndex@evtIdx evtIdx `uc  1 p 1 0 ]
+"954
+} 0
+"613
 [v _doReqev doReqev `(v  1 s 1 doReqev ]
 {
-"606
-[v doReqev@evVal evVal `s  1 a 2 48 ]
-"608
-[v doReqev@tableIndex tableIndex `uc  1 a 1 50 ]
-"605
+"614
+[v doReqev@evVal evVal `s  1 a 2 49 ]
+"616
+[v doReqev@tableIndex tableIndex `uc  1 a 1 48 ]
+"613
 [v doReqev@nodeNumber nodeNumber `us  1 p 2 43 ]
 [v doReqev@eventNumber eventNumber `us  1 p 2 45 ]
 [v doReqev@evNum evNum `uc  1 p 1 47 ]
-"649
+"657
 } 0
-"864
+"872
 [v _numEv numEv `(uc  1 e 1 0 ]
 {
-"866
+"874
 } 0
-"395
+"403
 [v _doNnevn doNnevn `(v  1 s 1 doNnevn ]
 {
-"400
+"408
 [v doNnevn@eventNumber eventNumber `us  1 a 2 40 ]
-"398
+"406
 [v doNnevn@i i `uc  1 a 1 43 ]
-"397
+"405
 [v doNnevn@count count `uc  1 a 1 42 ]
-"407
+"415
 } 0
-"488
+"496
 [v _doNnclr doNnclr `(v  1 s 1 doNnclr ]
 {
-"494
+"502
 } 0
-"414
+"422
 [v _doNerd doNerd `(v  1 s 1 doNerd ]
 {
-"416
+"424
 } 0
-"582
+"590
 [v _doEvuln doEvuln `(v  1 s 1 doEvuln ]
 {
-"583
+"591
 [v doEvuln@result result `uc  1 a 1 54 ]
-"582
+"590
 [v doEvuln@nodeNumber nodeNumber `us  1 p 2 50 ]
 [v doEvuln@eventNumber eventNumber `us  1 p 2 52 ]
-"597
+"605
 } 0
-"688
+"696
 [v _removeEvent removeEvent `(uc  1 e 1 0 ]
 {
-"690
+"698
 [v removeEvent@tableIndex tableIndex `uc  1 a 1 49 ]
-"688
+"696
 [v removeEvent@nodeNumber nodeNumber `us  1 p 2 45 ]
 [v removeEvent@eventNumber eventNumber `us  1 p 2 47 ]
-"694
+"702
 } 0
-"505
+"513
 [v _doEvlrn doEvlrn `(v  1 s 1 doEvlrn ]
 {
-[v doEvlrn@nodeNumber nodeNumber `us  1 p 2 76 ]
-[v doEvlrn@eventNumber eventNumber `us  1 p 2 78 ]
-[v doEvlrn@evNum evNum `uc  1 p 1 80 ]
-[v doEvlrn@evVal evVal `uc  1 p 1 81 ]
-"532
+[v doEvlrn@nodeNumber nodeNumber `us  1 p 2 14 ]
+[v doEvlrn@eventNumber eventNumber `us  1 p 2 16 ]
+[v doEvlrn@evNum evNum `uc  1 p 1 18 ]
+[v doEvlrn@evVal evVal `uc  1 p 1 19 ]
+"540
 } 0
 "275 C:\Users\ianwh\github\CANPAN3/canpan3Events.c
 [v _APP_addEvent APP_addEvent `(uc  1 e 1 0 ]
 {
 "277
-[v APP_addEvent@oti oti `uc  1 a 1 75 ]
+[v APP_addEvent@oti oti `uc  1 a 1 13 ]
 "278
-[v APP_addEvent@switchNo switchNo `uc  1 a 1 74 ]
+[v APP_addEvent@switchNo switchNo `uc  1 a 1 12 ]
 "276
-[v APP_addEvent@tableIndex tableIndex `uc  1 a 1 73 ]
+[v APP_addEvent@tableIndex tableIndex `uc  1 a 1 11 ]
 "280
-[v APP_addEvent@leds leds `uc  1 a 1 72 ]
+[v APP_addEvent@leds leds `uc  1 a 1 10 ]
 "275
-[v APP_addEvent@nodeNumber nodeNumber `us  1 p 2 62 ]
-[v APP_addEvent@eventNumber eventNumber `us  1 p 2 64 ]
-[v APP_addEvent@evNum evNum `uc  1 p 1 66 ]
-[v APP_addEvent@evVal evVal `uc  1 p 1 67 ]
-[v APP_addEvent@forceOwnNN forceOwnNN `E23258  1 p 1 68 ]
+[v APP_addEvent@nodeNumber nodeNumber `us  1 p 2 0 ]
+[v APP_addEvent@eventNumber eventNumber `us  1 p 2 2 ]
+[v APP_addEvent@evNum evNum `uc  1 p 1 4 ]
+[v APP_addEvent@evVal evVal `uc  1 p 1 5 ]
+[v APP_addEvent@forceOwnNN forceOwnNN `E23258  1 p 1 6 ]
 "312
 } 0
 "127
@@ -4696,17 +4723,17 @@ FLASH_NVM_TYPE 1
 [v rebuildLookupTable@sw sw `uc  1 a 1 26 ]
 "143
 } 0
-"404
+"409
 [v _APP_GetEventIndexState APP_GetEventIndexState `(E23278  1 e 1 0 ]
 {
 [v APP_GetEventIndexState@tableIndex tableIndex `uc  1 p 1 wreg ]
-"405
+"410
 [v APP_GetEventIndexState@switchNo switchNo `uc  1 a 1 28 ]
-"404
+"409
 [v APP_GetEventIndexState@tableIndex tableIndex `uc  1 p 1 wreg ]
-"408
+"413
 [v APP_GetEventIndexState@tableIndex tableIndex `uc  1 p 1 27 ]
-"419
+"424
 } 0
 "180
 [v _APP_isProducedEvent APP_isProducedEvent `(uc  1 e 1 0 ]
@@ -4765,13 +4792,13 @@ FLASH_NVM_TYPE 1
 [v nvGetESDdata@id id `uc  1 p 1 0 ]
 "359
 } 0
-"232 C:\Users\ianwh\github/VLCBlib_PIC/event_consumer_simple.c
+"249 C:\Users\ianwh\github/VLCBlib_PIC/event_consumer_simple.c
 [v _consumerEsdData consumerEsdData `(uc  1 s 1 consumerEsdData ]
 {
 [v consumerEsdData@index index `uc  1 p 1 wreg ]
 [v consumerEsdData@index index `uc  1 p 1 wreg ]
 [v consumerEsdData@index index `uc  1 p 1 0 ]
-"239
+"256
 } 0
 "468 C:\Users\ianwh\github/VLCBlib_PIC/can18_can_2.c
 [v _canEsdData canEsdData `(uc  1 s 1 canEsdData ]
@@ -4789,13 +4816,13 @@ FLASH_NVM_TYPE 1
 [v bootEsdData@id id `uc  1 p 1 0 ]
 "273
 } 0
-"350 C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+"358 C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
 [v _teachGetESDdata teachGetESDdata `(uc  1 s 1 teachGetESDdata ]
 {
 [v teachGetESDdata@id id `uc  1 p 1 wreg ]
 [v teachGetESDdata@id id `uc  1 p 1 wreg ]
 [v teachGetESDdata@id id `uc  1 p 1 0 ]
-"356
+"364
 } 0
 "147 C:\Users\ianwh\github/VLCBlib_PIC/vlcb.h
 "150
@@ -4836,14 +4863,14 @@ FLASH_NVM_TYPE 1
 "147 C:\Users\ianwh\github/VLCBlib_PIC/vlcb.h
 "150
 [s S193 . 2 `uc 1 lo 1 0 `uc 1 hi 1 1 ]
-"218 C:\Users\ianwh\github/VLCBlib_PIC/event_consumer_simple.c
+"235 C:\Users\ianwh\github/VLCBlib_PIC/event_consumer_simple.c
 [u S196 DiagnosticVal 2 `us 1 asUint 2 0 `s 1 asInt 2 0 `S193 1 asBytes 2 0 ]
 [v _consumerGetDiagnostic consumerGetDiagnostic `(*.39S196  1 s 3 consumerGetDiagnostic ]
 {
 [v consumerGetDiagnostic@index index `uc  1 p 1 wreg ]
 [v consumerGetDiagnostic@index index `uc  1 p 1 wreg ]
 [v consumerGetDiagnostic@index index `uc  1 p 1 9 ]
-"223
+"240
 } 0
 "147 C:\Users\ianwh\github/VLCBlib_PIC/vlcb.h
 "150
@@ -4861,21 +4888,21 @@ FLASH_NVM_TYPE 1
 "147 C:\Users\ianwh\github/VLCBlib_PIC/vlcb.h
 "150
 [s S193 . 2 `uc 1 lo 1 0 `uc 1 hi 1 1 ]
-"365 C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+"373 C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
 [u S196 DiagnosticVal 2 `us 1 asUint 2 0 `s 1 asInt 2 0 `S193 1 asBytes 2 0 ]
 [v _teachGetDiagnostic teachGetDiagnostic `(*.39S196  1 s 3 teachGetDiagnostic ]
 {
 [v teachGetDiagnostic@index index `uc  1 p 1 wreg ]
 [v teachGetDiagnostic@index index `uc  1 p 1 wreg ]
 [v teachGetDiagnostic@index index `uc  1 p 1 9 ]
-"370
+"378
 } 0
 "818 C:\Users\ianwh\github/VLCBlib_PIC/mns.c
 [v _setLEDsByMode setLEDsByMode `(v  1 e 1 0 ]
 {
 "831
 } 0
-"1207 C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+"1208 C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
 [v _sendMessage6 sendMessage6 `(v  1 e 1 0 ]
 {
 [v sendMessage6@opc opc `E22929  1 p 1 wreg ]
@@ -4887,9 +4914,9 @@ FLASH_NVM_TYPE 1
 [v sendMessage6@data5 data5 `uc  1 p 1 40 ]
 [v sendMessage6@data6 data6 `uc  1 p 1 41 ]
 [v sendMessage6@opc opc `E22929  1 p 1 42 ]
-"1209
+"1210
 } 0
-"1168
+"1169
 [v _sendMessage3 sendMessage3 `(v  1 e 1 0 ]
 {
 [v sendMessage3@opc opc `E22929  1 p 1 wreg ]
@@ -4898,9 +4925,9 @@ FLASH_NVM_TYPE 1
 [v sendMessage3@data2 data2 `uc  1 p 1 37 ]
 [v sendMessage3@data3 data3 `uc  1 p 1 38 ]
 [v sendMessage3@opc opc `E22929  1 p 1 39 ]
-"1170
+"1171
 } 0
-"1157
+"1158
 [v _sendMessage2 sendMessage2 `(v  1 e 1 0 ]
 {
 [v sendMessage2@opc opc `E22929  1 p 1 wreg ]
@@ -4908,7 +4935,7 @@ FLASH_NVM_TYPE 1
 [v sendMessage2@data1 data1 `uc  1 p 1 36 ]
 [v sendMessage2@data2 data2 `uc  1 p 1 37 ]
 [v sendMessage2@opc opc `E22929  1 p 1 38 ]
-"1159
+"1160
 } 0
 "838 C:\Users\ianwh\github/VLCBlib_PIC/mns.c
 [v _getParameter getParameter `(uc  1 s 1 getParameter ]
@@ -4930,7 +4957,7 @@ FLASH_NVM_TYPE 1
 {
 "679
 } 0
-"1222 C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+"1223 C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
 [v _sendMessage7 sendMessage7 `(v  1 e 1 0 ]
 {
 [v sendMessage7@opc opc `E22929  1 p 1 wreg ]
@@ -4943,15 +4970,15 @@ FLASH_NVM_TYPE 1
 [v sendMessage7@data6 data6 `uc  1 p 1 41 ]
 [v sendMessage7@data7 data7 `uc  1 p 1 42 ]
 [v sendMessage7@opc opc `E22929  1 p 1 43 ]
-"1224
+"1225
 } 0
-"208 C:\Users\ianwh\github/VLCBlib_PIC/event_consumer_simple.c
+"225 C:\Users\ianwh\github/VLCBlib_PIC/event_consumer_simple.c
 [v _isConsumedEvent isConsumedEvent `(uc  1 e 1 0 ]
 {
 [v isConsumedEvent@eventIndex eventIndex `uc  1 p 1 wreg ]
 [v isConsumedEvent@eventIndex eventIndex `uc  1 p 1 wreg ]
 [v isConsumedEvent@eventIndex eventIndex `uc  1 p 1 27 ]
-"210
+"227
 } 0
 "152 C:\Users\ianwh\github\CANPAN3/canpan3Events.c
 [v _APP_isConsumedEvent APP_isConsumedEvent `(uc  1 e 1 0 ]
@@ -4965,31 +4992,31 @@ FLASH_NVM_TYPE 1
 [v APP_isConsumedEvent@tableIndex tableIndex `uc  1 p 1 24 ]
 "172
 } 0
-"848 C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+"856 C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
 [v _getEv getEv `(s  1 e 2 0 ]
 {
 [v getEv@tableIndex tableIndex `uc  1 p 1 wreg ]
 [v getEv@tableIndex tableIndex `uc  1 p 1 wreg ]
 [v getEv@evNum evNum `uc  1 p 1 12 ]
 [v getEv@tableIndex tableIndex `uc  1 p 1 23 ]
-"856
+"864
 } 0
-"248 C:\Users\ianwh\github/VLCBlib_PIC/event_consumer_simple.c
+"265 C:\Users\ianwh\github/VLCBlib_PIC/event_consumer_simple.c
 [v _consumerEventCheckLen consumerEventCheckLen `(E23341  1 s 1 consumerEventCheckLen ]
 {
 [s S183 Message 9 `uc 1 len 1 0 `E22879 1 opc 1 1 `[7]uc 1 bytes 7 2 ]
 [v consumerEventCheckLen@m m `*.39S183  1 p 2 47 ]
 [v consumerEventCheckLen@needed needed `uc  1 p 1 49 ]
-"250
+"267
 } 0
-"1108 C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+"1109 C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
 [v _checkLen checkLen `(E23341  1 e 1 0 ]
 {
 [s S183 Message 9 `uc 1 len 1 0 `E22879 1 opc 1 1 `[7]uc 1 bytes 7 2 ]
 [v checkLen@m m `*.39S183  1 p 2 42 ]
 [v checkLen@needed needed `uc  1 p 1 44 ]
 [v checkLen@service service `uc  1 p 1 45 ]
-"1120
+"1121
 } 0
 "322 C:\Users\ianwh\github\CANPAN3/canpan3Events.c
 [v _APP_processConsumedEvent APP_processConsumedEvent `(E23291  1 e 1 0 ]
@@ -5001,17 +5028,17 @@ FLASH_NVM_TYPE 1
 [v APP_processConsumedEvent@onOff onOff `uc  1 a 1 32 ]
 "327
 [v APP_processConsumedEvent@polarity polarity `uc  1 a 1 31 ]
-"326
-[v APP_processConsumedEvent@flags flags `uc  1 a 1 30 ]
 "324
-[v APP_processConsumedEvent@ledMode ledMode `uc  1 a 1 29 ]
+[v APP_processConsumedEvent@ledMode ledMode `uc  1 a 1 30 ]
+"326
+[v APP_processConsumedEvent@flags flags `uc  1 a 1 29 ]
 "322
 [v APP_processConsumedEvent@tableIndex tableIndex `uc  1 p 1 wreg ]
 [s S183 Message 9 `uc 1 len 1 0 `E22879 1 opc 1 1 `[7]uc 1 bytes 7 2 ]
 [v APP_processConsumedEvent@m m `*.39S183  1 p 2 23 ]
 "329
 [v APP_processConsumedEvent@tableIndex tableIndex `uc  1 p 1 28 ]
-"396
+"401
 } 0
 "100 C:\Users\ianwh\github\CANPAN3/canpan3Leds.c
 [v _setLedState setLedState `(v  1 e 1 0 ]
@@ -5051,17 +5078,17 @@ FLASH_NVM_TYPE 1
 [v startTimedResponse@type type `uc  1 p 1 8 ]
 "110
 } 0
-"833 C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+"834 C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
 [v _findServiceIndex findServiceIndex `(uc  1 e 1 0 ]
 {
 [v findServiceIndex@serviceType serviceType `uc  1 p 1 wreg ]
-"834
-[v findServiceIndex@i i `uc  1 a 1 3 ]
-"833
-[v findServiceIndex@serviceType serviceType `uc  1 p 1 wreg ]
 "835
+[v findServiceIndex@i i `uc  1 a 1 3 ]
+"834
+[v findServiceIndex@serviceType serviceType `uc  1 p 1 wreg ]
+"836
 [v findServiceIndex@serviceType serviceType `uc  1 p 1 2 ]
-"841
+"842
 } 0
 "293 C:\Users\ianwh\github\CANPAN3/main.c
 [v _APP_postProcessMessage APP_postProcessMessage `(E23291  1 e 1 0 ]
@@ -5074,7 +5101,7 @@ FLASH_NVM_TYPE 1
 [v _loop loop `(v  1 e 1 0 ]
 {
 "242
-[v loop@tableIndex tableIndex `uc  1 a 1 68 ]
+[v loop@tableIndex tableIndex `uc  1 a 1 60 ]
 "272
 } 0
 "130 C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
@@ -5111,10 +5138,10 @@ FLASH_NVM_TYPE 1
 "120
 [v inputScan@row row `uc  1 a 1 53 ]
 "122
-[v inputScan@diff diff `uc  1 a 1 52 ]
+[v inputScan@diff diff `uc  1 a 1 50 ]
 "248
 } 0
-"1193 C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+"1194 C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
 [v _sendMessage5 sendMessage5 `(v  1 e 1 0 ]
 {
 [v sendMessage5@opc opc `E22929  1 p 1 wreg ]
@@ -5125,7 +5152,7 @@ FLASH_NVM_TYPE 1
 [v sendMessage5@data4 data4 `uc  1 p 1 39 ]
 [v sendMessage5@data5 data5 `uc  1 p 1 40 ]
 [v sendMessage5@opc opc `E22929  1 p 1 41 ]
-"1195
+"1196
 } 0
 "256 C:\Users\ianwh\github\CANPAN3/canpan3Inputs.c
 [v _saveSwitchState saveSwitchState `(v  1 e 1 0 ]
@@ -5153,17 +5180,17 @@ FLASH_NVM_TYPE 1
 [v getNV@index index `uc  1 p 1 3 ]
 "190
 } 0
-"878 C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+"886 C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
 [v _getEVs getEVs `(uc  1 e 1 0 ]
 {
 [v getEVs@tableIndex tableIndex `uc  1 p 1 wreg ]
-"880
+"888
 [v getEVs@evIdx evIdx `uc  1 a 1 22 ]
-"878
+"886
 [v getEVs@tableIndex tableIndex `uc  1 p 1 wreg ]
-"881
-[v getEVs@tableIndex tableIndex `uc  1 p 1 21 ]
 "889
+[v getEVs@tableIndex tableIndex `uc  1 p 1 21 ]
+"897
 } 0
 "320 C:\Users\ianwh\github\CANPAN3/canpan3Inputs.c
 [v _findEventForSwitch findEventForSwitch `(uc  1 e 1 0 ]
@@ -5197,7 +5224,7 @@ FLASH_NVM_TYPE 1
 [v canpanSendProducedEvent@tableIndex tableIndex `uc  1 p 1 42 ]
 "306
 } 0
-"1180 C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+"1181 C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
 [v _sendMessage4 sendMessage4 `(v  1 e 1 0 ]
 {
 [v sendMessage4@opc opc `E22929  1 p 1 wreg ]
@@ -5207,9 +5234,9 @@ FLASH_NVM_TYPE 1
 [v sendMessage4@data3 data3 `uc  1 p 1 38 ]
 [v sendMessage4@data4 data4 `uc  1 p 1 39 ]
 [v sendMessage4@opc opc `E22929  1 p 1 40 ]
-"1182
+"1183
 } 0
-"1238
+"1239
 [v _sendMessage sendMessage `(v  1 e 1 0 ]
 {
 [v sendMessage@opc opc `E22929  1 p 1 wreg ]
@@ -5223,7 +5250,7 @@ FLASH_NVM_TYPE 1
 [v sendMessage@data6 data6 `uc  1 p 1 33 ]
 [v sendMessage@data7 data7 `uc  1 p 1 34 ]
 [v sendMessage@opc opc `E22929  1 p 1 35 ]
-"1253
+"1254
 } 0
 "574 C:\Users\ianwh\github/VLCBlib_PIC/can18_can_2.c
 [v _canSendMessage canSendMessage `(E23619  1 s 1 canSendMessage ]
@@ -5258,25 +5285,25 @@ FLASH_NVM_TYPE 1
 [v sendRTR@txFifoObj txFifoObj `*.39uc  1 a 2 0 ]
 "693
 } 0
-"1130 C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+"1131 C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
 [v _isEvent isEvent `(E23475  1 e 1 0 ]
 {
 [v isEvent@opc opc `uc  1 p 1 wreg ]
 [v isEvent@opc opc `uc  1 p 1 wreg ]
 [v isEvent@opc opc `uc  1 p 1 1 ]
-"1132
+"1133
 } 0
-"848
+"849
 [v _have have `(E23602  1 e 1 0 ]
 {
 [v have@id id `uc  1 p 1 wreg ]
-"849
-[v have@i i `uc  1 a 1 3 ]
-"848
-[v have@id id `uc  1 p 1 wreg ]
 "850
+[v have@i i `uc  1 a 1 3 ]
+"849
+[v have@id id `uc  1 p 1 wreg ]
+"851
 [v have@id id `uc  1 p 1 2 ]
-"856
+"857
 } 0
 "536 C:\Users\ianwh\github/VLCBlib_PIC/can18_can_2.c
 [v _getNumTxBuffersInUse getNumTxBuffersInUse `(uc  1 s 1 getNumTxBuffersInUse ]
@@ -5332,17 +5359,17 @@ FLASH_NVM_TYPE 1
 [v clearLed@no no `uc  1 p 1 11 ]
 "225
 } 0
-"156 C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
+"158 C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
 [v _initRomOps initRomOps `(v  1 e 1 0 ]
 {
-"164
+"166
 } 0
-"966 C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+"967 C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
 [v _checkPowerOnPb checkPowerOnPb `(v  1 s 1 checkPowerOnPb ]
 {
-"967
-[v checkPowerOnPb@i i `uc  1 a 1 67 ]
-"992
+"968
+[v checkPowerOnPb@i i `uc  1 a 1 4 ]
+"993
 } 0
 "235 C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
 [v _showStatus showStatus `(v  1 e 1 0 ]
@@ -5352,23 +5379,23 @@ FLASH_NVM_TYPE 1
 [v showStatus@s s `E23437  1 p 1 2 ]
 "285
 } 0
-"941 C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+"942 C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
 [v _pbUpTimer pbUpTimer `(uc  1 e 1 0 ]
 {
 [v pbUpTimer@timeout timeout `uc  1 p 1 wreg ]
 [v pbUpTimer@timeout timeout `uc  1 p 1 wreg ]
-"943
+"944
 [v pbUpTimer@timeout timeout `uc  1 p 1 27 ]
-"952
+"953
 } 0
-"922
+"923
 [v _pbDownTimer pbDownTimer `(uc  1 e 1 0 ]
 {
 [v pbDownTimer@timeout timeout `uc  1 p 1 wreg ]
 [v pbDownTimer@timeout timeout `uc  1 p 1 wreg ]
-"924
+"925
 [v pbDownTimer@timeout timeout `uc  1 p 1 27 ]
-"933
+"934
 } 0
 "89 C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
 [v _leds_poll leds_poll `(v  1 e 1 0 ]
@@ -5424,32 +5451,32 @@ FLASH_NVM_TYPE 1
 [v ___lldiv@divisor divisor `ul  1 p 4 14 ]
 "30
 } 0
-"867 C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+"868 C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
 [v _factoryReset factoryReset `(v  1 e 1 0 ]
 {
-"868
-[v factoryReset@i i `uc  1 a 1 66 ]
-"879
+"869
+[v factoryReset@i i `uc  1 a 1 3 ]
+"880
 } 0
 "126 C:\Users\ianwh\github/VLCBlib_PIC/nv.c
-[v _nvFactoryReset nvFactoryReset `(v  1 s 1 nvFactoryReset ]
+[v _nvFactoryReset nvFactoryReset `R(v  1 s 1 nvFactoryReset ]
 {
 "127
-[v nvFactoryReset@i i `uc  1 a 1 22 ]
+[v nvFactoryReset@i i `uc  1 a 1 0 ]
 "131
-} 0
+} 1
 "279 C:\Users\ianwh\github/VLCBlib_PIC/mns.c
-[v _mnsFactoryReset mnsFactoryReset `(v  1 s 1 mnsFactoryReset ]
+[v _mnsFactoryReset mnsFactoryReset `RR(v  1 s 1 mnsFactoryReset ]
 {
 "290
 } 0
 "210 C:\Users\ianwh\github/VLCBlib_PIC/can18_can_2.c
-[v _canFactoryReset canFactoryReset `(v  1 s 1 canFactoryReset ]
+[v _canFactoryReset canFactoryReset `R(v  1 s 1 canFactoryReset ]
 {
 "213
 } 0
 "190 C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-[v _teachFactoryReset teachFactoryReset `(v  1 s 1 teachFactoryReset ]
+[v _teachFactoryReset teachFactoryReset `R(v  1 s 1 teachFactoryReset ]
 {
 "192
 } 0
@@ -5465,7 +5492,7 @@ FLASH_NVM_TYPE 1
 [v _APP_factoryReset APP_factoryReset `(v  1 e 1 0 ]
 {
 "151
-[v APP_factoryReset@sw sw `uc  1 a 1 63 ]
+[v APP_factoryReset@sw sw `uc  1 a 1 0 ]
 "161
 } 0
 "54 C:\Users\ianwh\github\CANPAN3/canpan3Events.c
@@ -5479,54 +5506,54 @@ FLASH_NVM_TYPE 1
 [v _APP_testMode APP_testMode `(v  1 e 1 0 ]
 {
 "171
-[v APP_testMode@sw sw `uc  1 a 1 65 ]
+[v APP_testMode@sw sw `uc  1 a 1 2 ]
 "178
 } 0
-"380 C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+"388 C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
 [v _clearAllEvents clearAllEvents `(v  1 e 1 0 ]
 {
-"381
-[v clearAllEvents@tableIndex tableIndex `uc  1 a 1 45 ]
 "389
+[v clearAllEvents@tableIndex tableIndex `uc  1 a 1 45 ]
+"397
 } 0
-"701
+"709
 [v _removeTableEntry removeTableEntry `(uc  1 s 1 removeTableEntry ]
 {
 [v removeTableEntry@tableIndex tableIndex `uc  1 p 1 wreg ]
-"702
+"710
 [v removeTableEntry@i i `uc  1 a 1 43 ]
-"701
+"709
 [v removeTableEntry@tableIndex tableIndex `uc  1 p 1 wreg ]
-"707
+"715
 [v removeTableEntry@tableIndex tableIndex `uc  1 p 1 44 ]
-"721
+"729
 } 0
 "106 C:\Users\ianwh\github\CANPAN3/canpan3Events.c
 [v _addTestEvent addTestEvent `(uc  1 e 1 0 ]
 {
 [v addTestEvent@sw sw `uc  1 p 1 wreg ]
 [v addTestEvent@sw sw `uc  1 p 1 wreg ]
-[v addTestEvent@sw sw `uc  1 p 1 64 ]
+[v addTestEvent@sw sw `uc  1 p 1 62 ]
 "121
 } 0
-"737 C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+"745 C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
 [v _addEvent addEvent `(uc  1 e 1 0 ]
 {
-"748
+"756
 [v addEvent@e e `uc  1 a 1 60 ]
-"746
+"754
 [v addEvent@en en `us  1 a 2 58 ]
-"738
+"746
 [v addEvent@tableIndex tableIndex `uc  1 a 1 61 ]
-"737
+"745
 [v addEvent@nodeNumber nodeNumber `us  1 p 2 42 ]
 [v addEvent@eventNumber eventNumber `us  1 p 2 44 ]
 [v addEvent@evNum evNum `uc  1 p 1 46 ]
 [v addEvent@evVal evVal `uc  1 p 1 47 ]
 [v addEvent@forceOwnNN forceOwnNN `E23308  1 p 1 48 ]
-"782
+"790
 } 0
-"828
+"836
 [v _writeEv writeEv `(uc  1 e 1 0 ]
 {
 [v writeEv@tableIndex tableIndex `uc  1 p 1 wreg ]
@@ -5534,9 +5561,9 @@ FLASH_NVM_TYPE 1
 [v writeEv@evNum evNum `uc  1 p 1 20 ]
 [v writeEv@evVal evVal `uc  1 p 1 21 ]
 [v writeEv@tableIndex tableIndex `uc  1 p 1 31 ]
-"839
+"847
 } 0
-"553 C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
+"555 C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
 [v _writeNVM writeNVM `(uc  1 e 1 0 ]
 {
 [v writeNVM@type type `E23277  1 p 1 wreg ]
@@ -5544,149 +5571,149 @@ FLASH_NVM_TYPE 1
 [v writeNVM@index index `um  1 p 3 13 ]
 [v writeNVM@value value `uc  1 p 1 16 ]
 [v writeNVM@type type `E23277  1 p 1 19 ]
-"562
+"564
 } 0
-"507
+"509
 [v _FLASH_Write FLASH_Write `(uc  1 e 1 0 ]
 {
 [v FLASH_Write@index index `um  1 p 3 5 ]
 [v FLASH_Write@value value `uc  1 p 1 8 ]
-"544
+"546
 } 0
-"469
+"471
 [v _loadFlashBlock loadFlashBlock `(v  1 e 1 0 ]
 {
-"497
+"499
 } 0
-"395
+"397
 [v _flushFlashBlock flushFlashBlock `(v  1 e 1 0 ]
 {
-"396
+"398
 [v flushFlashBlock@interruptEnabled interruptEnabled `uc  1 a 1 4 ]
-"464
+"466
 } 0
-"344
+"346
 [v _eraseFlashBlock eraseFlashBlock `(v  1 e 1 0 ]
 {
-"345
+"347
 [v eraseFlashBlock@interruptEnabled interruptEnabled `uc  1 a 1 3 ]
-"388
+"390
 } 0
 "286 C:\Users\ianwh\github\CANPAN3/main.c
 [v _APP_isSuitableTimeToWriteFlash APP_isSuitableTimeToWriteFlash `(E23231  1 e 1 0 ]
 {
 "288
 } 0
-"218 C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
+"220 C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
 [v _EEPROM_Write EEPROM_Write `(uc  1 e 1 0 ]
 {
 [v EEPROM_Write@index index `um  1 p 3 8 ]
 [v EEPROM_Write@value value `uc  1 p 1 11 ]
-"240
+"242
 } 0
 "639 C:\Users\ianwh\github/VLCBlib_PIC/mns.c
 [v _updateModuleErrorStatus updateModuleErrorStatus `(v  1 e 1 0 ]
 {
 "643
 } 0
-"248 C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
+"250 C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
 [v _EEPROM_WriteNoVerify EEPROM_WriteNoVerify `(uc  1 e 1 0 ]
 {
-"249
+"251
 [v EEPROM_WriteNoVerify@interruptEnabled interruptEnabled `uc  1 a 1 7 ]
-"248
+"250
 [v EEPROM_WriteNoVerify@index index `um  1 p 3 0 ]
 [v EEPROM_WriteNoVerify@value value `uc  1 p 1 3 ]
-"306
+"308
 } 0
-"990 C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+"998 C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
 [v _rebuildHashtable rebuildHashtable `(v  1 e 1 0 ]
 {
-"993
+"1001
 [v rebuildHashtable@chainIdx chainIdx `uc  1 a 1 34 ]
-"994
+"1002
 [v rebuildHashtable@tableIndex tableIndex `uc  1 a 1 33 ]
-"992
+"1000
 [v rebuildHashtable@hash hash `uc  1 a 1 32 ]
-"1018
+"1026
 } 0
-"791
+"799
 [v _findEvent findEvent `(uc  1 e 1 0 ]
 {
-"797
+"805
 [v findEvent@en en `us  1 a 2 37 ]
 [v findEvent@nn nn `us  1 a 2 35 ]
-"796
+"804
 [v findEvent@tableIndex tableIndex `uc  1 a 1 41 ]
-"794
+"802
 [v findEvent@chainIdx chainIdx `uc  1 a 1 40 ]
-"793
+"801
 [v findEvent@hash hash `uc  1 a 1 39 ]
-"791
+"799
 [v findEvent@nodeNumber nodeNumber `us  1 p 2 29 ]
 [v findEvent@eventNumber eventNumber `us  1 p 2 31 ]
-"818
+"826
 } 0
-"898
+"906
 [v _getNN getNN `(us  1 e 2 0 ]
 {
 [v getNN@tableIndex tableIndex `uc  1 p 1 wreg ]
-"900
+"908
 [v getNN@lo lo `us  1 a 2 19 ]
-"899
+"907
 [v getNN@hi hi `us  1 a 2 17 ]
-"901
+"909
 [v getNN@flags flags `uc  1 a 1 21 ]
-"898
+"906
 [v getNN@tableIndex tableIndex `uc  1 p 1 wreg ]
-"902
+"910
 [v getNN@tableIndex tableIndex `uc  1 p 1 22 ]
-"913
+"921
 } 0
-"976
+"984
 [v _getHash getHash `(uc  1 e 1 0 ]
 {
-"977
+"985
 [v getHash@hash hash `uc  1 a 1 28 ]
-"976
+"984
 [v getHash@nn nn `us  1 p 2 23 ]
 [v getHash@en en `us  1 p 2 25 ]
-"984
+"992
 } 0
-"922
+"930
 [v _getEN getEN `(us  1 e 2 0 ]
 {
 [v getEN@tableIndex tableIndex `uc  1 p 1 wreg ]
-"924
+"932
 [v getEN@lo lo `us  1 a 2 19 ]
-"923
+"931
 [v getEN@hi hi `us  1 a 2 17 ]
-"922
+"930
 [v getEN@tableIndex tableIndex `uc  1 p 1 wreg ]
-"926
+"934
 [v getEN@tableIndex tableIndex `uc  1 p 1 21 ]
-"929
+"937
 } 0
-"570 C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
+"572 C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
 [v _readNVM readNVM `(s  1 e 2 0 ]
 {
 [v readNVM@type type `E23277  1 p 1 wreg ]
 [v readNVM@type type `E23277  1 p 1 wreg ]
 [v readNVM@index index `um  1 p 3 6 ]
 [v readNVM@type type `E23277  1 p 1 11 ]
-"584
+"586
 } 0
-"315
+"317
 [v _FLASH_Read FLASH_Read `(uc  1 s 1 FLASH_Read ]
 {
 [v FLASH_Read@address address `um  1 p 3 0 ]
-"337
+"339
 } 0
-"171
+"173
 [v _EEPROM_Read EEPROM_Read `(uc  1 e 1 0 ]
 {
 [v EEPROM_Read@index index `um  1 p 3 0 ]
-"210
+"212
 } 0
 "370 C:\Users\ianwh\github/VLCBlib_PIC/can18_can_2.c
 [v _receiveOverrun receiveOverrun `IIH(v  1 e 1 0 ]
@@ -5698,8 +5725,8 @@ FLASH_NVM_TYPE 1
 {
 "214
 } 0
-"1369 C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+"1370 C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
 [v _DEFAULT_ISR DEFAULT_ISR `IIH(v  1 e 1 0 ]
 {
-"1372
+"1373
 } 0

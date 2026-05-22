@@ -39312,8 +39312,7 @@ extern volatile uint8_t timerExtension1;
 
 extern volatile uint8_t timerExtension2;
 # 44 "../../VLCBlib_PIC/statusLeds.h" 2
-# 1 "../module.h" 1
-# 45 "../../VLCBlib_PIC/statusLeds.h" 2
+
 # 1 "../../VLCBlib_PIC/statusDisplay.h" 1
 # 55 "../../VLCBlib_PIC/statusDisplay.h"
 typedef enum StatusDisplay {
@@ -39367,6 +39366,7 @@ extern uint16_t getNN(uint8_t tableIndex);
 extern uint16_t getEN(uint8_t tableIndex);
 extern uint8_t findEvent(uint16_t nodeNumber, uint16_t eventNumber);
 extern uint8_t addEvent(uint16_t nodeNumber, uint16_t eventNumber, uint8_t evNum, uint8_t evVal, Boolean forceOwnNN);
+extern uint8_t addIndexedEvent(uint8_t enNum, uint8_t nnh, uint8_t nnl, uint8_t enh, uint8_t enl, uint8_t evNum, uint8_t evVal, Boolean forceOwnNN);
 
 
 extern void rebuildHashtable(void);
@@ -39390,9 +39390,10 @@ typedef uint8_t Happening;
 extern const Service eventProducerService;
 # 95 "../../VLCBlib_PIC/event_producer.h"
 extern Boolean sendProducedEvent(Happening h, EventState state);
+extern void sendSimpleProducedEvent(uint8_t tableIndex, EventState state);
 extern void deleteHappeningRange(Happening happening, uint8_t number);
 extern void incrementProducerCounter(void);
-# 106 "../../VLCBlib_PIC/event_producer.h"
+# 107 "../../VLCBlib_PIC/event_producer.h"
 extern EventState APP_GetEventState(Happening h);
 
 
@@ -39542,5 +39543,29 @@ static uint8_t producerEsdData(uint8_t index) {
             return 1;
         default:
             return 0;
+    }
+}
+
+
+void sendSimpleProducedEvent(uint8_t tableIndex, EventState state) {
+    uint16_t enn = getNN(tableIndex);
+    uint16_t een = getEN(tableIndex);
+    if (enn == 0) {
+
+        if (state == EVENT_ON) {
+
+            sendMessage4(OPC_ASON, nn.bytes.hi, nn.bytes.lo, een/256, een&0xFF);
+        } else {
+
+            sendMessage4(OPC_ASOF, nn.bytes.hi, nn.bytes.lo, een/256, een&0xFF);
+        }
+    } else {
+        if (state == EVENT_ON) {
+
+            sendMessage4(OPC_ACON, enn/256, enn&0xFF, een/256, een&0xFF);
+        } else {
+
+            sendMessage4(OPC_ACOF, enn/256, enn&0xFF, een/256, een&0xFF);
+        }
     }
 }

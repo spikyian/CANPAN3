@@ -39313,8 +39313,7 @@ extern const Transport * transport;
 extern ValidTime APP_isSuitableTimeToWriteFlash(void);
 # 43 "../../VLCBlib_PIC/statusLeds.h" 2
 
-# 1 "../module.h" 1
-# 45 "../../VLCBlib_PIC/statusLeds.h" 2
+
 # 1 "../../VLCBlib_PIC/statusDisplay.h" 1
 # 55 "../../VLCBlib_PIC/statusDisplay.h"
 typedef enum StatusDisplay {

@@ -390,6 +390,11 @@ Processed APP_processConsumedEvent(uint8_t tableIndex, Message *m) {
                     }
                     break;
             }
+        } else if (LM_FLASH == ledMode && onOff && (polarity = evs[EV_LEDPOLARITY1 + ledNo/8]& (1 << (ledNo%8)))) {
+            // Keith Bruce 22 May 2026 - Allow flash to turn off other LEDs for use with signalling.
+            // Added else clause.
+            // Active false (unchecked), Flash On event and Invert is true (checked). 
+            setLedState(ledNo, CANPANLED_OFF);
         }
     }
     return PROCESSED;

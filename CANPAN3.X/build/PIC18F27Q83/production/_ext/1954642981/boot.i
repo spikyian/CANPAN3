@@ -38319,8 +38319,7 @@ extern volatile uint8_t timerExtension1;
 
 extern volatile uint8_t timerExtension2;
 # 44 "../../VLCBlib_PIC/statusLeds.h" 2
-# 1 "../module.h" 1
-# 45 "../../VLCBlib_PIC/statusLeds.h" 2
+
 # 1 "../../VLCBlib_PIC/statusDisplay.h" 1
 # 55 "../../VLCBlib_PIC/statusDisplay.h"
 typedef enum StatusDisplay {
@@ -39455,7 +39454,7 @@ const uint8_t paramBlock[] __attribute__((address(0x820))) = {
     0,8,0,0,
     0,0,0,0,
     CPUM_MICROCHIP,
-    11,
+    12,
     0,
     0,
     0,
@@ -39466,8 +39465,8 @@ const uint8_t paramBlock[] __attribute__((address(0x820))) = {
     0x08,
     0,
     0,
-    ((MANU_MERG+'a'+MTYP_CANPAN+254 +13 +67 +5 +(8) +(8)+CPUM_MICROCHIP+11 +(20)+(0x48)+(0x08)+PF_CONSUMER+PF_PRODUCER+PB_CAN+P18F27Q83+PF_VLCB)&0xFF),
-    ((MANU_MERG+'a'+MTYP_CANPAN+254 +13 +67 +5 +(8) +(8)+CPUM_MICROCHIP+11 +(20)+(0x48)+(0x08)+PF_CONSUMER+PF_PRODUCER+PB_CAN+P18F27Q83+PF_VLCB)>>8)
+    ((MANU_MERG+'a'+MTYP_CANPAN+254 +13 +67 +5 +(8) +(8)+CPUM_MICROCHIP+12 +(20)+(0x48)+(0x08)+PF_CONSUMER+PF_PRODUCER+PB_CAN+P18F27Q83+PF_VLCB)&0xFF),
+    ((MANU_MERG+'a'+MTYP_CANPAN+254 +13 +67 +5 +(8) +(8)+CPUM_MICROCHIP+12 +(20)+(0x48)+(0x08)+PF_CONSUMER+PF_PRODUCER+PB_CAN+P18F27Q83+PF_VLCB)>>8)
 };
 
 

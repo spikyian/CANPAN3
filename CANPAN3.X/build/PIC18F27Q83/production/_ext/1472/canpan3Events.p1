@@ -91,8 +91,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 "171 ../../VLCBlib_PIC/nvm.h
 [; ;../../VLCBlib_PIC/nvm.h: 171: extern uint8_t writeNVM(NVMtype type, uint24_t index, uint8_t value);
 [v _writeNVM `(uc ~T0 @X0 0 ef3`E23227`um`uc ]
-"109 ../../VLCBlib_PIC/event_teach.h
-[; ;../../VLCBlib_PIC/event_teach.h: 109: typedef struct {
+"110 ../../VLCBlib_PIC/event_teach.h
+[; ;../../VLCBlib_PIC/event_teach.h: 110: typedef struct {
 [s S3301 `us 1 `us 1 ]
 [n S3301 . NN EN ]
 "44 ../canpan3Inputs.h
@@ -100,13 +100,13 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _doSoD `(v ~T0 @X0 0 ef ]
 "349 ../canpan3Events.c
 [; ;../canpan3Events.c: 349:                             setLedState(ledNo, CANPANLED_OFF);
-[c E23518 0 1 2 3 .. ]
-[n E23518 canpan3LedState CANPANLED_ON CANPANLED_OFF CANPANLED_FLASH CANPANLED_ANTIFLASH  ]
+[c E23527 0 1 2 3 .. ]
+[n E23527 canpan3LedState CANPANLED_ON CANPANLED_OFF CANPANLED_FLASH CANPANLED_ANTIFLASH  ]
 "50 ../canpan3Leds.h
 [; ;../canpan3Leds.h: 50: extern void setLedState(uint8_t led, enum canpan3LedState state);
-[v _setLedState `(v ~T0 @X0 0 ef2`uc`E23518 ]
-"404 ../canpan3Events.c
-[; ;../canpan3Events.c: 404: EventState APP_GetEventIndexState(uint8_t tableIndex) {
+[v _setLedState `(v ~T0 @X0 0 ef2`uc`E23527 ]
+"409 ../canpan3Events.c
+[; ;../canpan3Events.c: 409: EventState APP_GetEventIndexState(uint8_t tableIndex) {
 [c E23278 255 0 1 .. ]
 [n E23278 . EVENT_UNKNOWN EVENT_OFF EVENT_ON  ]
 "306 C:/Users/ianwh/.mchp_packs/Microchip/PIC18F-Q_DFP/1.28.451/xc8\pic\include\proc/pic18f27q83.h
@@ -4352,7 +4352,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 {
 "349
 [; ;../canpan3Events.c: 349:                             setLedState(ledNo, CANPANLED_OFF);
-[e ( _setLedState (2 , _ledNo . `E23518 1 ]
+[e ( _setLedState (2 , _ledNo . `E23527 1 ]
 "350
 [; ;../canpan3Events.c: 350:                         } else {
 }
@@ -4361,7 +4361,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 {
 "351
 [; ;../canpan3Events.c: 351:                             setLedState(ledNo, CANPANLED_ON);
-[e ( _setLedState (2 , _ledNo . `E23518 0 ]
+[e ( _setLedState (2 , _ledNo . `E23527 0 ]
 "352
 [; ;../canpan3Events.c: 352:                         }
 }
@@ -4378,7 +4378,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 {
 "357
 [; ;../canpan3Events.c: 357:                             setLedState(ledNo, CANPANLED_ON);
-[e ( _setLedState (2 , _ledNo . `E23518 0 ]
+[e ( _setLedState (2 , _ledNo . `E23527 0 ]
 "358
 [; ;../canpan3Events.c: 358:                         } else {
 }
@@ -4387,7 +4387,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 {
 "359
 [; ;../canpan3Events.c: 359:                             setLedState(ledNo, CANPANLED_OFF);
-[e ( _setLedState (2 , _ledNo . `E23518 1 ]
+[e ( _setLedState (2 , _ledNo . `E23527 1 ]
 "360
 [; ;../canpan3Events.c: 360:                         }
 }
@@ -4412,7 +4412,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 {
 "366
 [; ;../canpan3Events.c: 366:                             setLedState(ledNo, CANPANLED_OFF);
-[e ( _setLedState (2 , _ledNo . `E23518 1 ]
+[e ( _setLedState (2 , _ledNo . `E23527 1 ]
 "367
 [; ;../canpan3Events.c: 367:                         } else {
 }
@@ -4421,7 +4421,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 {
 "368
 [; ;../canpan3Events.c: 368:                             setLedState(ledNo, CANPANLED_ON);
-[e ( _setLedState (2 , _ledNo . `E23518 0 ]
+[e ( _setLedState (2 , _ledNo . `E23527 0 ]
 "369
 [; ;../canpan3Events.c: 369:                         }
 }
@@ -4446,7 +4446,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 {
 "375
 [; ;../canpan3Events.c: 375:                             setLedState(ledNo, CANPANLED_ON);
-[e ( _setLedState (2 , _ledNo . `E23518 0 ]
+[e ( _setLedState (2 , _ledNo . `E23527 0 ]
 "376
 [; ;../canpan3Events.c: 376:                         } else {
 }
@@ -4455,7 +4455,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 {
 "377
 [; ;../canpan3Events.c: 377:                             setLedState(ledNo, CANPANLED_OFF);
-[e ( _setLedState (2 , _ledNo . `E23518 1 ]
+[e ( _setLedState (2 , _ledNo . `E23527 1 ]
 "378
 [; ;../canpan3Events.c: 378:                         }
 }
@@ -4480,7 +4480,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 {
 "384
 [; ;../canpan3Events.c: 384:                             setLedState(ledNo, CANPANLED_ANTIFLASH);
-[e ( _setLedState (2 , _ledNo . `E23518 3 ]
+[e ( _setLedState (2 , _ledNo . `E23527 3 ]
 "385
 [; ;../canpan3Events.c: 385:                         } else {
 }
@@ -4489,7 +4489,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 {
 "386
 [; ;../canpan3Events.c: 386:                             setLedState(ledNo, CANPANLED_FLASH);
-[e ( _setLedState (2 , _ledNo . `E23518 2 ]
+[e ( _setLedState (2 , _ledNo . `E23527 2 ]
 "387
 [; ;../canpan3Events.c: 387:                         }
 }
@@ -4502,7 +4502,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 {
 "389
 [; ;../canpan3Events.c: 389:                         setLedState(ledNo, CANPANLED_OFF);
-[e ( _setLedState (2 , _ledNo . `E23518 1 ]
+[e ( _setLedState (2 , _ledNo . `E23527 1 ]
 "390
 [; ;../canpan3Events.c: 390:                     }
 }
@@ -4522,69 +4522,80 @@ Version 4.0 HI-TECH Software Intermediate Code
  3370 ]
 [e :U 3370 ]
 "393
-[; ;../canpan3Events.c: 393:         }
+[; ;../canpan3Events.c: 393:         } else if (0xF8 == ledMode && onOff && (polarity = evs[8 + ledNo/8]& (1 << (ledNo%8)))) {
 }
+[e $U 3392  ]
 [e :U 3369 ]
-"394
-[; ;../canpan3Events.c: 394:     }
+[e $ ! && && == -> 248 `i -> _ledMode `i != -> _onOff `i -> 0 `i != -> = _polarity -> & -> *U + &U _evs * -> -> + -> 8 `i / -> _ledNo `i -> 8 `i `ui `ux -> -> # *U &U _evs `ui `ux `i << -> 1 `i % -> _ledNo `i -> 8 `i `uc `i -> 0 `i 3393  ]
+{
+"397
+[; ;../canpan3Events.c: 397:             setLedState(ledNo, CANPANLED_OFF);
+[e ( _setLedState (2 , _ledNo . `E23527 1 ]
+"398
+[; ;../canpan3Events.c: 398:         }
+}
+[e :U 3393 ]
+[e :U 3392 ]
+"399
+[; ;../canpan3Events.c: 399:     }
 }
 [e ++ _ledNo -> -> 1 `i `uc ]
 [e $ < -> _ledNo `i * -> 4 `i -> 8 `i 3366  ]
 [e :U 3367 ]
 }
-"395
-[; ;../canpan3Events.c: 395:     return PROCESSED;
+"400
+[; ;../canpan3Events.c: 400:     return PROCESSED;
 [e ) . `E23291 1 ]
 [e $UE 3363  ]
-"396
-[; ;../canpan3Events.c: 396: }
+"401
+[; ;../canpan3Events.c: 401: }
 [e :UE 3363 ]
 }
-"404
-[; ;../canpan3Events.c: 404: EventState APP_GetEventIndexState(uint8_t tableIndex) {
+"409
+[; ;../canpan3Events.c: 409: EventState APP_GetEventIndexState(uint8_t tableIndex) {
 [v _APP_GetEventIndexState `(E23278 ~T0 @X0 1 ef1`uc ]
 {
 [e :U _APP_GetEventIndexState ]
 [v _tableIndex `uc ~T0 @X0 1 r1 ]
 [f ]
-"405
-[; ;../canpan3Events.c: 405:     uint8_t switchNo;
-[v _switchNo `uc ~T0 @X0 1 a ]
-"408
-[; ;../canpan3Events.c: 408:     if ( ! APP_isProducedEvent(tableIndex)) {
-[e $ ! ! != -> ( _APP_isProducedEvent (1 _tableIndex `i -> 0 `i 3393  ]
-{
-"409
-[; ;../canpan3Events.c: 409:         return EVENT_UNKNOWN;
-[e ) . `E23278 0 ]
-[e $UE 3392  ]
 "410
-[; ;../canpan3Events.c: 410:     }
-}
-[e :U 3393 ]
-"412
-[; ;../canpan3Events.c: 412:     getEVs(tableIndex);
-[e ( _getEVs (1 _tableIndex ]
+[; ;../canpan3Events.c: 410:     uint8_t switchNo;
+[v _switchNo `uc ~T0 @X0 1 a ]
 "413
-[; ;../canpan3Events.c: 413:     switchNo = evs[1];
-[e = _switchNo *U + &U _evs * -> -> -> 1 `i `ui `ux -> -> # *U &U _evs `ui `ux ]
-"414
-[; ;../canpan3Events.c: 414:     if ((switchNo < 1) || (switchNo > (8*4))) {
-[e $ ! || < -> _switchNo `i -> 1 `i > -> _switchNo `i * -> 8 `i -> 4 `i 3394  ]
+[; ;../canpan3Events.c: 413:     if ( ! APP_isProducedEvent(tableIndex)) {
+[e $ ! ! != -> ( _APP_isProducedEvent (1 _tableIndex `i -> 0 `i 3395  ]
 {
-"415
-[; ;../canpan3Events.c: 415:         return EVENT_UNKNOWN;
+"414
+[; ;../canpan3Events.c: 414:         return EVENT_UNKNOWN;
 [e ) . `E23278 0 ]
-[e $UE 3392  ]
-"416
-[; ;../canpan3Events.c: 416:     }
+[e $UE 3394  ]
+"415
+[; ;../canpan3Events.c: 415:     }
 }
-[e :U 3394 ]
+[e :U 3395 ]
+"417
+[; ;../canpan3Events.c: 417:     getEVs(tableIndex);
+[e ( _getEVs (1 _tableIndex ]
 "418
-[; ;../canpan3Events.c: 418:     return outputState[switchNo-1] ? EVENT_ON : EVENT_OFF;
-[e ) -> ? != -> *U + &U _outputState * -> -> - -> _switchNo `i -> 1 `i `ui `ux -> -> # *U &U _outputState `ui `ux `i -> 0 `i : . `E23278 2 . `E23278 1 `E23278 ]
-[e $UE 3392  ]
+[; ;../canpan3Events.c: 418:     switchNo = evs[1];
+[e = _switchNo *U + &U _evs * -> -> -> 1 `i `ui `ux -> -> # *U &U _evs `ui `ux ]
 "419
-[; ;../canpan3Events.c: 419: }
-[e :UE 3392 ]
+[; ;../canpan3Events.c: 419:     if ((switchNo < 1) || (switchNo > (8*4))) {
+[e $ ! || < -> _switchNo `i -> 1 `i > -> _switchNo `i * -> 8 `i -> 4 `i 3396  ]
+{
+"420
+[; ;../canpan3Events.c: 420:         return EVENT_UNKNOWN;
+[e ) . `E23278 0 ]
+[e $UE 3394  ]
+"421
+[; ;../canpan3Events.c: 421:     }
+}
+[e :U 3396 ]
+"423
+[; ;../canpan3Events.c: 423:     return outputState[switchNo-1] ? EVENT_ON : EVENT_OFF;
+[e ) -> ? != -> *U + &U _outputState * -> -> - -> _switchNo `i -> 1 `i `ui `ux -> -> # *U &U _outputState `ui `ux `i -> 0 `i : . `E23278 2 . `E23278 1 `E23278 ]
+[e $UE 3394  ]
+"424
+[; ;../canpan3Events.c: 424: }
+[e :UE 3394 ]
 }

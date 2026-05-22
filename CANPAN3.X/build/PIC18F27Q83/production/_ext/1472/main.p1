@@ -3739,7 +3739,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "131
 [; ;../main.c: 131: static TickValue eepromWriterTime;
 [v _eepromWriterTime `S3298 ~T0 @X0 1 s ]
-[v F23655 `*CS3296 ~T0 @X0 1 t ]
+[v F23667 `*CS3296 ~T0 @X0 1 t ]
 "133
 [; ;../main.c: 133: const Service * const services[] = {
 [v _services `C*CS3296 ~T0 @X0 -> 8 `i e ]
