@@ -119,7 +119,7 @@
 #define PARAM_MODULE_ID         MTYP_CANPAN
 #define PARAM_MAJOR_VERSION     5
 #define PARAM_MINOR_VERSION     'a'
-#define PARAM_BUILD_VERSION     12
+#define PARAM_BUILD_VERSION     13
 // Module name - must be 7 characters
 #define NAME    "PAN    "
 
@@ -132,7 +132,7 @@
     #define APP_setPortDirections(){ANCON0=ANCON1=0; TRISBbits.TRISB6=TRISBbits.TRISB7=0,TRISAbits.TRISA2=1;}
 #endif
 #if defined(_18FXXQ83_FAMILY_)
-    #define APP_setPortDirections(){ANSELA=ANSELB=0; WPUA=0b00101000;TRISBbits.TRISB6=TRISBbits.TRISB7=0,TRISAbits.TRISA3=1;}
+    #define APP_setPortDirections(){ANSELA=ANSELB=0; WPUA=0b00001000;TRISBbits.TRISB6=TRISBbits.TRISB7=0,TRISAbits.TRISA3=1;}
 #endif
 #define APP_writeLED1(state)   (LATBbits.LATB7=state)   // GREEN true is on
 #define APP_writeLED2(state)   (LATBbits.LATB6=state)   // YELLOW true is on 

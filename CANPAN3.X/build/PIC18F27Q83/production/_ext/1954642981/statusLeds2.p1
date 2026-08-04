@@ -3604,10 +3604,10 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :U _leds_powerUp ]
 [f ]
 "79
-[; ;../../VLCBlib_PIC/statusLeds2.c: 79:     {ANSELA=ANSELB=0; WPUA=0b00101000;TRISBbits.TRISB6=TRISBbits.TRISB7=0,TRISAbits.TRISA3=1;};
+[; ;../../VLCBlib_PIC/statusLeds2.c: 79:     {ANSELA=ANSELB=0; WPUA=0b00001000;TRISBbits.TRISB6=TRISBbits.TRISB7=0,TRISAbits.TRISA3=1;};
 {
 [e = _ANSELA = _ANSELB -> -> 0 `i `uc ]
-[e = _WPUA -> -> 40 `i `uc ]
+[e = _WPUA -> -> 8 `i `uc ]
 [e ; = . . _TRISBbits 0 6 = . . _TRISBbits 0 7 -> -> 0 `i `uc = . . _TRISAbits 0 3 -> -> 1 `i `uc ]
 }
 "80

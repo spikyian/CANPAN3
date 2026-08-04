@@ -5450,8 +5450,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;../../VLCBlib_PIC/mns.c: 886:     case PAR_BETA:
 [e :U 3454 ]
 "887
-[; ;../../VLCBlib_PIC/mns.c: 887:         return 12;
-[e ) -> -> 12 `i `uc ]
+[; ;../../VLCBlib_PIC/mns.c: 887:         return 13;
+[e ) -> -> 13 `i `uc ]
 [e $UE 3430  ]
 "888
 [; ;../../VLCBlib_PIC/mns.c: 888:     default:

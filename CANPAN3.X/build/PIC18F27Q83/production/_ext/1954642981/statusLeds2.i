@@ -39367,7 +39367,7 @@ static TickValue ledTimer;
 
 void leds_powerUp(void) {
 
-    {ANSELA=ANSELB=0; WPUA=0b00101000;TRISBbits.TRISB6=TRISBbits.TRISB7=0,TRISAbits.TRISA3=1;};
+    {ANSELA=ANSELB=0; WPUA=0b00001000;TRISBbits.TRISB6=TRISBbits.TRISB7=0,TRISAbits.TRISA3=1;};
     flashCounter[0] = 0;
     flashCounter[1] = 0;
     ledTimer.val = tickGet();

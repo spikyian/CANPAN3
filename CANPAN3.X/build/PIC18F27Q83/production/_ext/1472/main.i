@@ -39711,6 +39711,7 @@ void setup(void) {
     ANSELC = 0x00;
 
     TRISAbits.TRISA4 = 0; LATAbits.LATA4 = 0;
+    TRISAbits.TRISA5 = 0; LATAbits.LATA5 = 0;
 
 
     initEEPROMwriter();
@@ -39774,7 +39775,7 @@ void loop(void) {
         pollEEPROMwriter();
     }
 }
-# 286 "../main.c"
+# 287 "../main.c"
 ValidTime APP_isSuitableTimeToWriteFlash(void){
     return GOOD_TIME;
 }

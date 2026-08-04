@@ -167,12 +167,12 @@ SEND_OK 1
 NOT_RECEIVED 0
 RECEIVED 1
 ]
-"232
+"233
 [e E23258 Boolean `uc
 FALSE 0
 TRUE 1
 ]
-"286
+"287
 [e E23231 ValidTime `uc
 BAD_TIME 0
 GOOD_TIME 1
@@ -3317,11 +3317,11 @@ FLASH_NVM_TYPE 1
 [v _APP_testMode APP_testMode `(v  1 e 1 0 ]
 "183
 [v _setup setup `(v  1 e 1 0 ]
-"241
+"242
 [v _loop loop `(v  1 e 1 0 ]
-"286
+"287
 [v _APP_isSuitableTimeToWriteFlash APP_isSuitableTimeToWriteFlash `(E23231  1 e 1 0 ]
-"293
+"294
 [v _APP_postProcessMessage APP_postProcessMessage `(E23291  1 e 1 0 ]
 "7 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\__lldiv.c
 [v ___lldiv __lldiv `(ul  1 e 4 0 ]
@@ -4145,7 +4145,7 @@ FLASH_NVM_TYPE 1
 "183 C:\Users\ianwh\github\CANPAN3/main.c
 [v _setup setup `(v  1 e 1 0 ]
 {
-"236
+"237
 } 0
 "66 C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
 [v _initOutputs initOutputs `(v  1 e 1 0 ]
@@ -5090,19 +5090,19 @@ FLASH_NVM_TYPE 1
 [v findServiceIndex@serviceType serviceType `uc  1 p 1 2 ]
 "842
 } 0
-"293 C:\Users\ianwh\github\CANPAN3/main.c
+"294 C:\Users\ianwh\github\CANPAN3/main.c
 [v _APP_postProcessMessage APP_postProcessMessage `(E23291  1 e 1 0 ]
 {
 [s S183 Message 9 `uc 1 len 1 0 `E22879 1 opc 1 1 `[7]uc 1 bytes 7 2 ]
 [v APP_postProcessMessage@m m `*.39S183  1 p 2 0 ]
-"295
+"296
 } 0
-"241
+"242
 [v _loop loop `(v  1 e 1 0 ]
 {
-"242
+"243
 [v loop@tableIndex tableIndex `uc  1 a 1 60 ]
-"272
+"273
 } 0
 "130 C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
 [v _pollOutputs pollOutputs `(v  1 e 1 0 ]
@@ -5599,10 +5599,10 @@ FLASH_NVM_TYPE 1
 [v eraseFlashBlock@interruptEnabled interruptEnabled `uc  1 a 1 3 ]
 "390
 } 0
-"286 C:\Users\ianwh\github\CANPAN3/main.c
+"287 C:\Users\ianwh\github\CANPAN3/main.c
 [v _APP_isSuitableTimeToWriteFlash APP_isSuitableTimeToWriteFlash `(E23231  1 e 1 0 ]
 {
-"288
+"289
 } 0
 "220 C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
 [v _EEPROM_Write EEPROM_Write `(uc  1 e 1 0 ]

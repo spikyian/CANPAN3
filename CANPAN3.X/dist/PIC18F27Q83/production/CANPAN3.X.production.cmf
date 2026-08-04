@@ -15,14 +15,14 @@ $dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _name_text CODE 0 848 848 8 1 2
 cinit CODE 0 152E8 152E8 70 1 2
 text0 CODE 0 14E08 14E08 84 1 2
-text1 CODE 0 14A20 14A20 96 1 2
+text1 CODE 0 14A1C 14A1C 9A 1 2
 text2 CODE 0 1572A 1572A 68 1 2
 text3 CODE 0 15F64 15F64 48 1 2
 text4 CODE 0 15012 15012 7E 1 2
 text5 CODE 0 16A4E 16A4E 12 1 2
 text6 CODE 0 16AAE 16AAE 6 1 2
 text7 CODE 0 16148 16148 42 1 2
-text8 CODE 0 142C8 142C8 DC 1 2
+text8 CODE 0 142C4 142C4 DC 1 2
 text9 CODE 0 162C6 162C6 3C 1 2
 text10 CODE 0 1618A 1618A 40 1 2
 text11 CODE 0 1345C 1345C 160 1 2
@@ -40,16 +40,16 @@ text22 CODE 0 11828 11828 344 1 2
 text23 CODE 0 1510E 1510E 7A 1 2
 text24 CODE 0 1633E 1633E 3C 1 2
 text25 CODE 0 14BE0 14BE0 90 1 2
-text26 CODE 0 13E3C 13E3C 104 1 2
+text26 CODE 0 13E38 13E38 104 1 2
 text27 CODE 0 1671A 1671A 28 1 2
-text28 CODE 0 14770 14770 B4 1 2
+text28 CODE 0 1476C 1476C B4 1 2
 text29 CODE 0 15AEC 15AEC 58 1 2
 text30 CODE 0 16428 16428 38 1 2
 text31 CODE 0 16ABA 16ABA 6 1 2
 text32 CODE 0 16AC0 16AC0 6 1 2
 text33 CODE 0 11040 11040 42A 1 2
 text34 CODE 0 130FE 130FE 1B6 1 2
-text35 CODE 0 14978 14978 A8 1 2
+text35 CODE 0 14974 14974 A8 1 2
 text36 CODE 0 16038 16038 44 1 2
 text37 CODE 0 14D82 14D82 86 1 2
 text38 CODE 0 13868 13868 144 1 2
@@ -65,7 +65,7 @@ text47 CODE 0 15358 15358 70 1 2
 text48 CODE 0 10B6A 10B6A 4D6 1 2
 text49 CODE 0 15860 15860 60 1 2
 text50 CODE 0 16498 16498 36 1 2
-text51 CODE 0 14480 14480 C0 1 2
+text51 CODE 0 1447C 1447C C0 1 2
 text52 CODE 0 16AC6 16AC6 6 1 2
 text53 CODE 0 139AC 139AC 13E 1 2
 text54 CODE 0 16ADA 16ADA 4 1 2
@@ -74,8 +74,8 @@ text56 CODE 0 1659A 1659A 2E 1 2
 text57 CODE 0 1690C 1690C 1C 1 2
 text58 CODE 0 15274 15274 74 1 2
 text59 CODE 0 16742 16742 28 1 2
-text60 CODE 0 145FE 145FE BC 1 2
-text61 CODE 0 13D36 13D36 106 1 2
+text60 CODE 0 145FA 145FA BC 1 2
+text61 CODE 0 13D32 13D32 106 1 2
 text62 CODE 0 157FA 157FA 66 1 2
 text63 CODE 0 1607C 1607C 44 1 2
 text64 CODE 0 1637A 1637A 3A 1 2
@@ -98,7 +98,7 @@ text80 CODE 0 16538 16538 32 1 2
 text81 CODE 0 165F4 165F4 2A 1 2
 text82 CODE 0 1661E 1661E 2A 1 2
 text83 CODE 0 16648 16648 2A 1 2
-text84 CODE 0 13C22 13C22 114 1 2
+text84 CODE 0 13C22 13C22 110 1 2
 text85 CODE 0 161CA 161CA 40 1 2
 text86 CODE 0 16A9E 16A9E 8 1 2
 text87 CODE 0 16672 16672 2A 1 2
@@ -127,7 +127,7 @@ eeprom_data EEDATA 0 380000 380000 400 1 1
 dataBANK5 BANK5 1 5FE 5FE 2 1 1
 text100 CODE 0 16ADE 16ADE 4 1 2
 text101 CODE 0 1297A 1297A 1FE 1 2
-text102 CODE 0 143A4 143A4 DC 1 2
+text102 CODE 0 143A0 143A0 DC 1 2
 text103 CODE 0 15D92 15D92 50 1 2
 text104 CODE 0 11E7E 11E7E 25C 1 2
 text105 CODE 0 1669C 1669C 2A 1 2
@@ -147,22 +147,22 @@ text118 CODE 0 1688C 1688C 22 1 2
 text119 CODE 0 15436 15436 6E 1 2
 text120 CODE 0 158C0 158C0 60 1 2
 text121 CODE 0 15A38 15A38 5A 1 2
-text122 CODE 0 14026 14026 E2 1 2
+text122 CODE 0 14022 14022 E2 1 2
 text123 CODE 0 16AA6 16AA6 8 1 2
 text124 CODE 0 14E8C 14E8C 82 1 2
 text125 CODE 0 16288 16288 3E 1 2
 text126 CODE 0 16104 16104 44 1 2
 text127 CODE 0 169AE 169AE 18 1 2
 text128 CODE 0 15B44 15B44 58 1 2
-text129 CODE 0 14108 14108 E0 1 2
-text130 CODE 0 14824 14824 AA 1 2
-text131 CODE 0 148CE 148CE AA 1 2
+text129 CODE 0 14104 14104 E0 1 2
+text130 CODE 0 14820 14820 AA 1 2
+text131 CODE 0 148CA 148CA AA 1 2
 text132 CODE 0 120DA 120DA 252 1 2
 text133 CODE 0 15BF2 15BF2 56 1 2
 text134 CODE 0 14F0E 14F0E 82 1 2
 text135 CODE 0 15C48 15C48 56 1 2
 text136 CODE 0 14F90 14F90 82 1 2
-text137 CODE 0 13F40 13F40 E6 1 2
+text137 CODE 0 13F3C 13F3C E6 1 2
 text138 CODE 0 15ECE 15ECE 4C 1 2
 text139 CODE 0 1557E 1557E 6C 1 2
 text140 CODE 0 16960 16960 1C 1 2
@@ -177,7 +177,7 @@ text148 CODE 0 12B78 12B78 1DC 1 2
 text149 CODE 0 12F2C 12F2C 1D2 1 2
 text150 CODE 0 15920 15920 5E 1 2
 text151 CODE 0 15E32 15E32 4E 1 2
-text152 CODE 0 141E8 141E8 E0 1 2
+text152 CODE 0 141E4 141E4 E0 1 2
 text153 CODE 0 1620A 1620A 40 1 2
 text154 CODE 0 15A92 15A92 5A 1 2
 text155 CODE 0 159DC 159DC 5C 1 2
@@ -185,9 +185,9 @@ text156 CODE 0 16AE2 16AE2 4 1 2
 text157 CODE 0 15E80 15E80 4E 1 2
 text158 CODE 0 16A7E 16A7E C 1 2
 text159 CODE 0 15CF0 15CF0 52 1 2
-text160 CODE 0 14540 14540 BE 1 2
+text160 CODE 0 1453C 1453C BE 1 2
 text161 CODE 0 14CFA 14CFA 88 1 2
-text162 CODE 0 146BA 146BA B6 1 2
+text162 CODE 0 146B6 146B6 B6 1 2
 text163 CODE 0 168EE 168EE 1E 1 2
 text164 CODE 0 154A4 154A4 6E 1 2
 text165 CODE 0 1597E 1597E 5E 1 2
@@ -200,7 +200,7 @@ bssBIGRAM BIGRAM 1 848 848 280 1 1
 mediumconst MEDIUMCONST 0 FE34 FE34 1CC 1 2
 ivt0x900 CODE 0 900 900 102 1 2
 config CONFIG 4 300000 300000 23 1 1
-$C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_9.o
+$C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_9.o
 stack STACK 2 AC8 AC8 2C38 1 1
 init CODE 0 A02 A02 8 1 2
 reset_vec CODE 0 800 800 4 1 2
@@ -371,16 +371,16 @@ $dist/PIC18F27Q83/production\CANPAN3.X.production.o
 16904 text163 CODE >990:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
 16908 text163 CODE >991:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
 1690A text163 CODE >992:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-146BA text162 CODE >906:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-146BC text162 CODE >910:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-146C2 text162 CODE >911:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-146CC text162 CODE >914:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-146F6 text162 CODE >915:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-146FA text162 CODE >916:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-14704 text162 CODE >918:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-14730 text162 CODE >919:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-1475C text162 CODE >920:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-1476E text162 CODE >921:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+146B6 text162 CODE >906:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+146B8 text162 CODE >910:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+146BE text162 CODE >911:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+146C8 text162 CODE >914:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+146F2 text162 CODE >915:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+146F6 text162 CODE >916:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+14700 text162 CODE >918:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+1472C text162 CODE >919:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+14758 text162 CODE >920:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+1476A text162 CODE >921:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
 14CFA text161 CODE >799:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
 14CFA text161 CODE >801:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
 14D10 text161 CODE >803:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
@@ -391,21 +391,21 @@ $dist/PIC18F27Q83/production\CANPAN3.X.production.o
 14D58 text161 CODE >809:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
 14D74 text161 CODE >810:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
 14D78 text161 CODE >812:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-14540 text160 CODE >998:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-14540 text160 CODE >1005:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-14542 text160 CODE >1006:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-14544 text160 CODE >1007:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-14564 text160 CODE >1008:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-1456C text160 CODE >1009:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-14574 text160 CODE >1011:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-14576 text160 CODE >1012:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-14584 text160 CODE >1016:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-145A6 text160 CODE >1017:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-145A8 text160 CODE >1018:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-145CA text160 CODE >1020:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-145EA text160 CODE >1021:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-145EC text160 CODE >1023:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-145F4 text160 CODE >1025:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+1453C text160 CODE >998:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+1453C text160 CODE >1005:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+1453E text160 CODE >1006:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+14540 text160 CODE >1007:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+14560 text160 CODE >1008:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+14568 text160 CODE >1009:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+14570 text160 CODE >1011:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+14572 text160 CODE >1012:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+14580 text160 CODE >1016:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+145A2 text160 CODE >1017:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+145A4 text160 CODE >1018:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+145C6 text160 CODE >1020:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+145E6 text160 CODE >1021:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+145E8 text160 CODE >1023:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+145F0 text160 CODE >1025:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
 15CF0 text159 CODE >250:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
 15CF0 text159 CODE >252:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
 15CF8 text159 CODE >278:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
@@ -437,9 +437,9 @@ $dist/PIC18F27Q83/production\CANPAN3.X.production.o
 15EBE text157 CODE >239:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
 15ECA text157 CODE >241:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
 15ECC text157 CODE >242:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
-16AE2 text156 CODE >286:C:\Users\ianwh\github\CANPAN3/main.c
 16AE2 text156 CODE >287:C:\Users\ianwh\github\CANPAN3/main.c
-16AE4 text156 CODE >288:C:\Users\ianwh\github\CANPAN3/main.c
+16AE2 text156 CODE >288:C:\Users\ianwh\github\CANPAN3/main.c
+16AE4 text156 CODE >289:C:\Users\ianwh\github\CANPAN3/main.c
 159DC text155 CODE >346:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
 159DC text155 CODE >350:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
 159E6 text155 CODE >353:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
@@ -491,22 +491,22 @@ $dist/PIC18F27Q83/production\CANPAN3.X.production.o
 16240 text153 CODE >496:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
 16244 text153 CODE >498:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
 16248 text153 CODE >499:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
-141E8 text152 CODE >509:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
-141E8 text152 CODE >525:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
-14210 text152 CODE >526:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
-1421A text152 CODE >528:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
-1421E text152 CODE >529:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
-14222 text152 CODE >530:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
-14226 text152 CODE >531:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
-14226 text152 CODE >533:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
-1422A text152 CODE >537:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
-1423E text152 CODE >538:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
-14242 text152 CODE >540:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
-14286 text152 CODE >541:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
-142A6 text152 CODE >542:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
-142A8 text152 CODE >543:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
-142C4 text152 CODE >545:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
-142C6 text152 CODE >546:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
+141E4 text152 CODE >509:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
+141E4 text152 CODE >525:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
+1420C text152 CODE >526:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
+14216 text152 CODE >528:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
+1421A text152 CODE >529:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
+1421E text152 CODE >530:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
+14222 text152 CODE >531:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
+14222 text152 CODE >533:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
+14226 text152 CODE >537:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
+1423A text152 CODE >538:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
+1423E text152 CODE >540:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
+14282 text152 CODE >541:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
+142A2 text152 CODE >542:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
+142A4 text152 CODE >543:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
+142C0 text152 CODE >545:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
+142C2 text152 CODE >546:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
 15E32 text151 CODE >555:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
 15E34 text151 CODE >556:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
 15E36 text151 CODE >558:C:\Users\ianwh\github/VLCBlib_PIC/nvm.c
@@ -643,14 +643,14 @@ $dist/PIC18F27Q83/production\CANPAN3.X.production.o
 15ED6 text138 CODE >129:C:\Users\ianwh\github/VLCBlib_PIC/nv.c
 15F06 text138 CODE >130:C:\Users\ianwh\github/VLCBlib_PIC/nv.c
 15F16 text138 CODE >131:C:\Users\ianwh\github/VLCBlib_PIC/nv.c
-13F40 text137 CODE >868:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
-13F40 text137 CODE >871:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
-13F44 text137 CODE >872:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
-13FAC text137 CODE >873:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
-14000 text137 CODE >875:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
-1400A text137 CODE >877:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
-14020 text137 CODE >879:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
-14024 text137 CODE >880:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+13F3C text137 CODE >868:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+13F3C text137 CODE >871:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+13F40 text137 CODE >872:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+13FA8 text137 CODE >873:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+13FFC text137 CODE >875:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+14006 text137 CODE >877:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+1401C text137 CODE >879:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+14020 text137 CODE >880:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
 14F90 text136 CODE >7:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\__lldiv.c
 14F90 text136 CODE >13:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\__lldiv.c
 14FA0 text136 CODE >14:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\__lldiv.c
@@ -814,78 +814,78 @@ $dist/PIC18F27Q83/production\CANPAN3.X.production.o
 1231A text132 CODE >226:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
 12320 text132 CODE >226:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
 12326 text132 CODE >226:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-148CE text131 CODE >923:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
-148D0 text131 CODE >925:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
-148E4 text131 CODE >926:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
-148E6 text131 CODE >927:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
-148EA text131 CODE >928:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
-1493A text131 CODE >929:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
-1493E text131 CODE >926:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
-1493E text131 CODE >931:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
-14942 text131 CODE >933:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
-14976 text131 CODE >934:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
-14824 text130 CODE >942:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
-14826 text130 CODE >944:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
-1483A text130 CODE >945:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
-1483C text130 CODE >946:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
-14840 text130 CODE >947:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
-14890 text130 CODE >948:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
-14894 text130 CODE >945:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
-14894 text130 CODE >950:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
-14898 text130 CODE >952:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
-148CC text130 CODE >953:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
-14108 text129 CODE >235:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-1410A text129 CODE >236:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-1410C text129 CODE >237:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-1410C text129 CODE >238:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-14110 text129 CODE >239:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-14112 text129 CODE >240:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-14114 text129 CODE >242:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-1411A text129 CODE >243:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-1411C text129 CODE >244:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-1411E text129 CODE >245:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-1411E text129 CODE >246:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-14122 text129 CODE >247:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-14126 text129 CODE >248:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-14128 text129 CODE >251:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-14128 text129 CODE >254:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-1412C text129 CODE >255:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-14130 text129 CODE >256:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-14132 text129 CODE >257:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-14132 text129 CODE >258:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-14136 text129 CODE >259:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-1413A text129 CODE >260:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-1413E text129 CODE >261:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-14142 text129 CODE >262:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-14144 text129 CODE >264:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-1414C text129 CODE >265:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-14150 text129 CODE >266:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-14158 text129 CODE >267:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-1415E text129 CODE >271:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-14166 text129 CODE >272:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-1416A text129 CODE >273:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-14172 text129 CODE >274:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-14178 text129 CODE >278:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-14178 text129 CODE >279:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-1417C text129 CODE >280:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-1417E text129 CODE >281:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-14182 text129 CODE >282:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-14186 text129 CODE >283:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-14188 text129 CODE >284:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-14192 text129 CODE >284:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-1419A text129 CODE >284:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-141A0 text129 CODE >284:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-141A6 text129 CODE >284:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-141AC text129 CODE >284:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-141B2 text129 CODE >284:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-141B8 text129 CODE >284:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-141BE text129 CODE >284:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-141C4 text129 CODE >284:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-141CA text129 CODE >284:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-141D0 text129 CODE >284:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-141D6 text129 CODE >284:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-141DC text129 CODE >284:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
-141E2 text129 CODE >284:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+148CA text131 CODE >923:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+148CC text131 CODE >925:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+148E0 text131 CODE >926:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+148E2 text131 CODE >927:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+148E6 text131 CODE >928:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+14936 text131 CODE >929:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+1493A text131 CODE >926:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+1493A text131 CODE >931:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+1493E text131 CODE >933:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+14972 text131 CODE >934:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+14820 text130 CODE >942:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+14822 text130 CODE >944:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+14836 text130 CODE >945:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+14838 text130 CODE >946:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+1483C text130 CODE >947:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+1488C text130 CODE >948:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+14890 text130 CODE >945:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+14890 text130 CODE >950:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+14894 text130 CODE >952:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+148C8 text130 CODE >953:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+14104 text129 CODE >235:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+14106 text129 CODE >236:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+14108 text129 CODE >237:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+14108 text129 CODE >238:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+1410C text129 CODE >239:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+1410E text129 CODE >240:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+14110 text129 CODE >242:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+14116 text129 CODE >243:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+14118 text129 CODE >244:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+1411A text129 CODE >245:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+1411A text129 CODE >246:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+1411E text129 CODE >247:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+14122 text129 CODE >248:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+14124 text129 CODE >251:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+14124 text129 CODE >254:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+14128 text129 CODE >255:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+1412C text129 CODE >256:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+1412E text129 CODE >257:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+1412E text129 CODE >258:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+14132 text129 CODE >259:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+14136 text129 CODE >260:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+1413A text129 CODE >261:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+1413E text129 CODE >262:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+14140 text129 CODE >264:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+14148 text129 CODE >265:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+1414C text129 CODE >266:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+14154 text129 CODE >267:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+1415A text129 CODE >271:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+14162 text129 CODE >272:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+14166 text129 CODE >273:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+1416E text129 CODE >274:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+14174 text129 CODE >278:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+14174 text129 CODE >279:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+14178 text129 CODE >280:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+1417A text129 CODE >281:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+1417E text129 CODE >282:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+14182 text129 CODE >283:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+14184 text129 CODE >284:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+1418E text129 CODE >284:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+14196 text129 CODE >284:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+1419C text129 CODE >284:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+141A2 text129 CODE >284:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+141A8 text129 CODE >284:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+141AE text129 CODE >284:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+141B4 text129 CODE >284:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+141BA text129 CODE >284:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+141C0 text129 CODE >284:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+141C6 text129 CODE >284:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+141CC text129 CODE >284:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+141D2 text129 CODE >284:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+141D8 text129 CODE >284:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
+141DE text129 CODE >284:C:\Users\ianwh\github/VLCBlib_PIC/statusLeds2.c
 15B44 text128 CODE >967:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
 15B44 text128 CODE >971:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
 15B48 text128 CODE >973:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
@@ -934,13 +934,13 @@ $dist/PIC18F27Q83/production\CANPAN3.X.production.o
 16AA6 text123 CODE >167:C:\Users\ianwh\github/VLCBlib_PIC/event_producer_simple.c
 16AA6 text123 CODE >168:C:\Users\ianwh\github/VLCBlib_PIC/event_producer_simple.c
 16AAC text123 CODE >169:C:\Users\ianwh\github/VLCBlib_PIC/event_producer_simple.c
-14026 text122 CODE >80:C:\Users\ianwh\github/VLCBlib_PIC/messageQueue.c
-14026 text122 CODE >82:C:\Users\ianwh\github/VLCBlib_PIC/messageQueue.c
-14092 text122 CODE >83:C:\Users\ianwh\github/VLCBlib_PIC/messageQueue.c
-140A2 text122 CODE >84:C:\Users\ianwh\github/VLCBlib_PIC/messageQueue.c
-140B0 text122 CODE >85:C:\Users\ianwh\github/VLCBlib_PIC/messageQueue.c
-140DE text122 CODE >86:C:\Users\ianwh\github/VLCBlib_PIC/messageQueue.c
-14106 text122 CODE >87:C:\Users\ianwh\github/VLCBlib_PIC/messageQueue.c
+14022 text122 CODE >80:C:\Users\ianwh\github/VLCBlib_PIC/messageQueue.c
+14022 text122 CODE >82:C:\Users\ianwh\github/VLCBlib_PIC/messageQueue.c
+1408E text122 CODE >83:C:\Users\ianwh\github/VLCBlib_PIC/messageQueue.c
+1409E text122 CODE >84:C:\Users\ianwh\github/VLCBlib_PIC/messageQueue.c
+140AC text122 CODE >85:C:\Users\ianwh\github/VLCBlib_PIC/messageQueue.c
+140DA text122 CODE >86:C:\Users\ianwh\github/VLCBlib_PIC/messageQueue.c
+14102 text122 CODE >87:C:\Users\ianwh\github/VLCBlib_PIC/messageQueue.c
 15A38 text121 CODE >554:C:\Users\ianwh\github/VLCBlib_PIC/can18_can_2.c
 15A38 text121 CODE >555:C:\Users\ianwh\github/VLCBlib_PIC/can18_can_2.c
 15A3E text121 CODE >556:C:\Users\ianwh\github/VLCBlib_PIC/can18_can_2.c
@@ -1193,75 +1193,75 @@ $dist/PIC18F27Q83/production\CANPAN3.X.production.o
 15DA8 text103 CODE >105:C:\Users\ianwh\github\CANPAN3/EEPROMbuffer.c
 15DBA text103 CODE >107:C:\Users\ianwh\github\CANPAN3/EEPROMbuffer.c
 15DD8 text103 CODE >110:C:\Users\ianwh\github\CANPAN3/EEPROMbuffer.c
-143A4 text102 CODE >130:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-143A4 text102 CODE >135:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-143AC text102 CODE >137:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-143AE text102 CODE >138:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-143B2 text102 CODE >141:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-143B4 text102 CODE >143:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-143B6 text102 CODE >144:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-143B8 text102 CODE >145:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-143BA text102 CODE >146:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-143BC text102 CODE >148:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-143CC text102 CODE >149:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-143D0 text102 CODE >150:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-143D4 text102 CODE >151:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-143D6 text102 CODE >153:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-143DA text102 CODE >158:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-143DA text102 CODE >159:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-143E0 text102 CODE >166:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-143E0 text102 CODE >167:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-143E2 text102 CODE >168:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-143E4 text102 CODE >169:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-143E4 text102 CODE >170:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-143E6 text102 CODE >171:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-143E8 text102 CODE >172:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-143E8 text102 CODE >173:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-143EA text102 CODE >174:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-143EC text102 CODE >175:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-143EC text102 CODE >176:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-143EE text102 CODE >177:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-143F0 text102 CODE >178:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-143F6 text102 CODE >178:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-143FC text102 CODE >178:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-14402 text102 CODE >178:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-14408 text102 CODE >178:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-1440E text102 CODE >182:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-1440E text102 CODE >187:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-14410 text102 CODE >190:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-1441A text102 CODE >191:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-1441C text102 CODE >192:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-14440 text102 CODE >193:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-1445C text102 CODE >195:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-14464 text102 CODE >197:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-14468 text102 CODE >200:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-14468 text102 CODE >201:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-1446E text102 CODE >203:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-14470 text102 CODE >205:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-14476 text102 CODE >206:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-1447C text102 CODE >207:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-1447E text102 CODE >209:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-1297A text101 CODE >241:C:\Users\ianwh\github\CANPAN3/main.c
-1297A text101 CODE >245:C:\Users\ianwh\github\CANPAN3/main.c
-12982 text101 CODE >246:C:\Users\ianwh\github\CANPAN3/main.c
-129FA text101 CODE >247:C:\Users\ianwh\github\CANPAN3/main.c
-129FE text101 CODE >248:C:\Users\ianwh\github\CANPAN3/main.c
-12A02 text101 CODE >249:C:\Users\ianwh\github\CANPAN3/main.c
-12A14 text101 CODE >252:C:\Users\ianwh\github\CANPAN3/main.c
-12A50 text101 CODE >253:C:\Users\ianwh\github\CANPAN3/main.c
-12A54 text101 CODE >254:C:\Users\ianwh\github\CANPAN3/main.c
-12A68 text101 CODE >257:C:\Users\ianwh\github\CANPAN3/main.c
-12ACA text101 CODE >258:C:\Users\ianwh\github\CANPAN3/main.c
-12ACE text101 CODE >259:C:\Users\ianwh\github\CANPAN3/main.c
-12AE2 text101 CODE >262:C:\Users\ianwh\github\CANPAN3/main.c
-12B1E text101 CODE >263:C:\Users\ianwh\github\CANPAN3/main.c
-12B22 text101 CODE >264:C:\Users\ianwh\github\CANPAN3/main.c
-12B36 text101 CODE >269:C:\Users\ianwh\github\CANPAN3/main.c
-12B72 text101 CODE >270:C:\Users\ianwh\github\CANPAN3/main.c
-12B76 text101 CODE >272:C:\Users\ianwh\github\CANPAN3/main.c
-16ADE text100 CODE >293:C:\Users\ianwh\github\CANPAN3/main.c
+143A0 text102 CODE >130:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+143A0 text102 CODE >135:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+143A8 text102 CODE >137:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+143AA text102 CODE >138:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+143AE text102 CODE >141:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+143B0 text102 CODE >143:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+143B2 text102 CODE >144:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+143B4 text102 CODE >145:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+143B6 text102 CODE >146:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+143B8 text102 CODE >148:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+143C8 text102 CODE >149:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+143CC text102 CODE >150:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+143D0 text102 CODE >151:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+143D2 text102 CODE >153:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+143D6 text102 CODE >158:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+143D6 text102 CODE >159:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+143DC text102 CODE >166:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+143DC text102 CODE >167:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+143DE text102 CODE >168:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+143E0 text102 CODE >169:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+143E0 text102 CODE >170:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+143E2 text102 CODE >171:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+143E4 text102 CODE >172:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+143E4 text102 CODE >173:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+143E6 text102 CODE >174:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+143E8 text102 CODE >175:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+143E8 text102 CODE >176:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+143EA text102 CODE >177:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+143EC text102 CODE >178:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+143F2 text102 CODE >178:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+143F8 text102 CODE >178:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+143FE text102 CODE >178:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+14404 text102 CODE >178:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+1440A text102 CODE >182:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+1440A text102 CODE >187:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+1440C text102 CODE >190:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+14416 text102 CODE >191:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+14418 text102 CODE >192:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+1443C text102 CODE >193:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+14458 text102 CODE >195:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+14460 text102 CODE >197:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+14464 text102 CODE >200:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+14464 text102 CODE >201:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+1446A text102 CODE >203:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+1446C text102 CODE >205:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+14472 text102 CODE >206:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+14478 text102 CODE >207:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+1447A text102 CODE >209:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
+1297A text101 CODE >242:C:\Users\ianwh\github\CANPAN3/main.c
+1297A text101 CODE >246:C:\Users\ianwh\github\CANPAN3/main.c
+12982 text101 CODE >247:C:\Users\ianwh\github\CANPAN3/main.c
+129FA text101 CODE >248:C:\Users\ianwh\github\CANPAN3/main.c
+129FE text101 CODE >249:C:\Users\ianwh\github\CANPAN3/main.c
+12A02 text101 CODE >250:C:\Users\ianwh\github\CANPAN3/main.c
+12A14 text101 CODE >253:C:\Users\ianwh\github\CANPAN3/main.c
+12A50 text101 CODE >254:C:\Users\ianwh\github\CANPAN3/main.c
+12A54 text101 CODE >255:C:\Users\ianwh\github\CANPAN3/main.c
+12A68 text101 CODE >258:C:\Users\ianwh\github\CANPAN3/main.c
+12ACA text101 CODE >259:C:\Users\ianwh\github\CANPAN3/main.c
+12ACE text101 CODE >260:C:\Users\ianwh\github\CANPAN3/main.c
+12AE2 text101 CODE >263:C:\Users\ianwh\github\CANPAN3/main.c
+12B1E text101 CODE >264:C:\Users\ianwh\github\CANPAN3/main.c
+12B22 text101 CODE >265:C:\Users\ianwh\github\CANPAN3/main.c
+12B36 text101 CODE >270:C:\Users\ianwh\github\CANPAN3/main.c
+12B72 text101 CODE >271:C:\Users\ianwh\github\CANPAN3/main.c
+12B76 text101 CODE >273:C:\Users\ianwh\github\CANPAN3/main.c
 16ADE text100 CODE >294:C:\Users\ianwh\github\CANPAN3/main.c
-16AE0 text100 CODE >295:C:\Users\ianwh\github\CANPAN3/main.c
+16ADE text100 CODE >295:C:\Users\ianwh\github\CANPAN3/main.c
+16AE0 text100 CODE >296:C:\Users\ianwh\github\CANPAN3/main.c
 153C8 text99 CODE >834:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
 153CA text99 CODE >836:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
 153CC text99 CODE >837:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
@@ -1430,29 +1430,28 @@ $dist/PIC18F27Q83/production\CANPAN3.X.production.o
 13C7A text84 CODE >878:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
 13C8C text84 CODE >881:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
 13C9E text84 CODE >883:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
-13CB0 text84 CODE >887:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
+13CB0 text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
 13CB4 text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
-13CB8 text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
-13CBE text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
-13CC4 text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
-13CCA text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
-13CD0 text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
-13CD6 text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
-13CDC text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
-13CE2 text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
-13CE8 text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
-13CEE text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
-13CF4 text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
-13CFA text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
-13D00 text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
-13D06 text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
-13D0C text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
-13D12 text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
-13D18 text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
-13D1E text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
-13D24 text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
-13D2A text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
-13D30 text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
+13CBA text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
+13CC0 text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
+13CC6 text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
+13CCC text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
+13CD2 text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
+13CD8 text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
+13CDE text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
+13CE4 text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
+13CEA text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
+13CF0 text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
+13CF6 text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
+13CFC text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
+13D02 text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
+13D08 text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
+13D0E text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
+13D14 text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
+13D1A text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
+13D20 text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
+13D26 text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
+13D2C text84 CODE >890:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
 16648 text83 CODE >1158:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
 1664A text83 CODE >1159:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
 16670 text83 CODE >1160:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
@@ -1601,37 +1600,37 @@ $dist/PIC18F27Q83/production\CANPAN3.X.production.o
 15828 text62 CODE >139:C:\Users\ianwh\github\CANPAN3/canpan3Events.c
 15846 text62 CODE >140:C:\Users\ianwh\github\CANPAN3/canpan3Events.c
 15856 text62 CODE >142:C:\Users\ianwh\github\CANPAN3/canpan3Events.c
-13D36 text61 CODE >275:C:\Users\ianwh\github\CANPAN3/canpan3Events.c
-13D36 text61 CODE >282:C:\Users\ianwh\github\CANPAN3/canpan3Events.c
-13D3E text61 CODE >283:C:\Users\ianwh\github\CANPAN3/canpan3Events.c
-13D42 text61 CODE >284:C:\Users\ianwh\github\CANPAN3/canpan3Events.c
-13D5A text61 CODE >286:C:\Users\ianwh\github\CANPAN3/canpan3Events.c
-13D66 text61 CODE >287:C:\Users\ianwh\github\CANPAN3/canpan3Events.c
-13D76 text61 CODE >288:C:\Users\ianwh\github\CANPAN3/canpan3Events.c
-13D84 text61 CODE >290:C:\Users\ianwh\github\CANPAN3/canpan3Events.c
-13D92 text61 CODE >292:C:\Users\ianwh\github\CANPAN3/canpan3Events.c
-13D9A text61 CODE >295:C:\Users\ianwh\github\CANPAN3/canpan3Events.c
-13DA8 text61 CODE >296:C:\Users\ianwh\github\CANPAN3/canpan3Events.c
-13DAE text61 CODE >299:C:\Users\ianwh\github\CANPAN3/canpan3Events.c
-13DD8 text61 CODE >300:C:\Users\ianwh\github\CANPAN3/canpan3Events.c
-13E04 text61 CODE >303:C:\Users\ianwh\github\CANPAN3/canpan3Events.c
-13E16 text61 CODE >304:C:\Users\ianwh\github\CANPAN3/canpan3Events.c
-13E18 text61 CODE >308:C:\Users\ianwh\github\CANPAN3/canpan3Events.c
-13E1A text61 CODE >311:C:\Users\ianwh\github\CANPAN3/canpan3Events.c
-13E3A text61 CODE >312:C:\Users\ianwh\github\CANPAN3/canpan3Events.c
-145FE text60 CODE >513:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-145FE text60 CODE >515:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-14602 text60 CODE >516:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-14608 text60 CODE >517:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-1461A text60 CODE >519:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-14636 text60 CODE >523:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-14656 text60 CODE >524:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-1465E text60 CODE >526:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-14670 text60 CODE >528:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-1468C text60 CODE >533:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-14690 text60 CODE >535:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-1469E text60 CODE >537:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-146B8 text60 CODE >540:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+13D32 text61 CODE >275:C:\Users\ianwh\github\CANPAN3/canpan3Events.c
+13D32 text61 CODE >282:C:\Users\ianwh\github\CANPAN3/canpan3Events.c
+13D3A text61 CODE >283:C:\Users\ianwh\github\CANPAN3/canpan3Events.c
+13D3E text61 CODE >284:C:\Users\ianwh\github\CANPAN3/canpan3Events.c
+13D56 text61 CODE >286:C:\Users\ianwh\github\CANPAN3/canpan3Events.c
+13D62 text61 CODE >287:C:\Users\ianwh\github\CANPAN3/canpan3Events.c
+13D72 text61 CODE >288:C:\Users\ianwh\github\CANPAN3/canpan3Events.c
+13D80 text61 CODE >290:C:\Users\ianwh\github\CANPAN3/canpan3Events.c
+13D8E text61 CODE >292:C:\Users\ianwh\github\CANPAN3/canpan3Events.c
+13D96 text61 CODE >295:C:\Users\ianwh\github\CANPAN3/canpan3Events.c
+13DA4 text61 CODE >296:C:\Users\ianwh\github\CANPAN3/canpan3Events.c
+13DAA text61 CODE >299:C:\Users\ianwh\github\CANPAN3/canpan3Events.c
+13DD4 text61 CODE >300:C:\Users\ianwh\github\CANPAN3/canpan3Events.c
+13E00 text61 CODE >303:C:\Users\ianwh\github\CANPAN3/canpan3Events.c
+13E12 text61 CODE >304:C:\Users\ianwh\github\CANPAN3/canpan3Events.c
+13E14 text61 CODE >308:C:\Users\ianwh\github\CANPAN3/canpan3Events.c
+13E16 text61 CODE >311:C:\Users\ianwh\github\CANPAN3/canpan3Events.c
+13E36 text61 CODE >312:C:\Users\ianwh\github\CANPAN3/canpan3Events.c
+145FA text60 CODE >513:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+145FA text60 CODE >515:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+145FE text60 CODE >516:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+14604 text60 CODE >517:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+14616 text60 CODE >519:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+14632 text60 CODE >523:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+14652 text60 CODE >524:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+1465A text60 CODE >526:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+1466C text60 CODE >528:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+14688 text60 CODE >533:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+1468C text60 CODE >535:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+1469A text60 CODE >537:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+146B4 text60 CODE >540:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
 16742 text59 CODE >696:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
 16742 text59 CODE >698:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
 16758 text59 CODE >699:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
@@ -1688,22 +1687,22 @@ $dist/PIC18F27Q83/production\CANPAN3.X.production.o
 16AC6 text52 CODE >952:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
 16AC8 text52 CODE >953:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
 16ACA text52 CODE >954:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-14480 text51 CODE >548:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-14482 text51 CODE >552:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-1448A text51 CODE >555:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-14490 text51 CODE >556:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-144A4 text51 CODE >560:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-144A8 text51 CODE >562:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-144AE text51 CODE >563:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-144B6 text51 CODE >564:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-144BC text51 CODE >567:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-144C0 text51 CODE >568:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-144DC text51 CODE >571:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-144EE text51 CODE >574:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-144F2 text51 CODE >576:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-14506 text51 CODE >578:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-14524 text51 CODE >582:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-1453E text51 CODE >583:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+1447C text51 CODE >548:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+1447E text51 CODE >552:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+14486 text51 CODE >555:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+1448C text51 CODE >556:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+144A0 text51 CODE >560:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+144A4 text51 CODE >562:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+144AA text51 CODE >563:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+144B2 text51 CODE >564:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+144B8 text51 CODE >567:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+144BC text51 CODE >568:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+144D8 text51 CODE >571:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+144EA text51 CODE >574:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+144EE text51 CODE >576:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+14502 text51 CODE >578:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+14520 text51 CODE >582:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+1453A text51 CODE >583:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
 16498 text50 CODE >479:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
 16498 text50 CODE >481:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
 1649A text50 CODE >483:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
@@ -2146,13 +2145,13 @@ $dist/PIC18F27Q83/production\CANPAN3.X.production.o
 1604A text36 CODE >14:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\memcpy.c
 1605A text36 CODE >15:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\memcpy.c
 1606A text36 CODE >13:C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\memcpy.c
-14978 text35 CODE >96:C:\Users\ianwh\github/VLCBlib_PIC/messageQueue.c
-14978 text35 CODE >98:C:\Users\ianwh\github/VLCBlib_PIC/messageQueue.c
-14998 text35 CODE >99:C:\Users\ianwh\github/VLCBlib_PIC/messageQueue.c
-149A2 text35 CODE >101:C:\Users\ianwh\github/VLCBlib_PIC/messageQueue.c
-149E8 text35 CODE >102:C:\Users\ianwh\github/VLCBlib_PIC/messageQueue.c
-14A16 text35 CODE >103:C:\Users\ianwh\github/VLCBlib_PIC/messageQueue.c
-14A1E text35 CODE >104:C:\Users\ianwh\github/VLCBlib_PIC/messageQueue.c
+14974 text35 CODE >96:C:\Users\ianwh\github/VLCBlib_PIC/messageQueue.c
+14974 text35 CODE >98:C:\Users\ianwh\github/VLCBlib_PIC/messageQueue.c
+14994 text35 CODE >99:C:\Users\ianwh\github/VLCBlib_PIC/messageQueue.c
+1499E text35 CODE >101:C:\Users\ianwh\github/VLCBlib_PIC/messageQueue.c
+149E4 text35 CODE >102:C:\Users\ianwh\github/VLCBlib_PIC/messageQueue.c
+14A12 text35 CODE >103:C:\Users\ianwh\github/VLCBlib_PIC/messageQueue.c
+14A1A text35 CODE >104:C:\Users\ianwh\github/VLCBlib_PIC/messageQueue.c
 130FE text34 CODE >704:C:\Users\ianwh\github/VLCBlib_PIC/can18_can_2.c
 130FE text34 CODE >713:C:\Users\ianwh\github/VLCBlib_PIC/can18_can_2.c
 13112 text34 CODE >714:C:\Users\ianwh\github/VLCBlib_PIC/can18_can_2.c
@@ -2279,35 +2278,35 @@ $dist/PIC18F27Q83/production\CANPAN3.X.production.o
 15B1A text29 CODE >443:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
 15B40 text29 CODE >446:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
 15B42 text29 CODE >447:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-14770 text28 CODE >665:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-14772 text28 CODE >668:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-1477A text28 CODE >671:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-147A2 text28 CODE >672:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-147A6 text28 CODE >675:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-147B4 text28 CODE >676:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-147C2 text28 CODE >677:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-147D4 text28 CODE >678:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-147D8 text28 CODE >679:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-147E2 text28 CODE >680:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-14800 text28 CODE >681:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-14802 text28 CODE >682:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-14820 text28 CODE >685:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
-14822 text28 CODE >686:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+1476C text28 CODE >665:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+1476E text28 CODE >668:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+14776 text28 CODE >671:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+1479E text28 CODE >672:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+147A2 text28 CODE >675:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+147B0 text28 CODE >676:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+147BE text28 CODE >677:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+147D0 text28 CODE >678:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+147D4 text28 CODE >679:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+147DE text28 CODE >680:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+147FC text28 CODE >681:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+147FE text28 CODE >682:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+1481C text28 CODE >685:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
+1481E text28 CODE >686:C:\Users\ianwh\github/VLCBlib_PIC/event_teach_simple.c
 1671A text27 CODE >943:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
 1671A text27 CODE >944:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
 16720 text27 CODE >945:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
 16724 text27 CODE >947:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
 1673E text27 CODE >948:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
 16740 text27 CODE >949:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
-13E3C text26 CODE >920:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
-13E3C text26 CODE >921:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
-13E82 text26 CODE >922:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
-13EA0 text26 CODE >923:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
-13EA4 text26 CODE >925:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
-13F02 text26 CODE >926:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
-13F0A text26 CODE >931:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
-13F3C text26 CODE >932:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
-13F3E text26 CODE >933:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
+13E38 text26 CODE >920:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
+13E38 text26 CODE >921:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
+13E7E text26 CODE >922:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
+13E9C text26 CODE >923:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
+13EA0 text26 CODE >925:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
+13EFE text26 CODE >926:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
+13F06 text26 CODE >931:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
+13F38 text26 CODE >932:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
+13F3A text26 CODE >933:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
 14BE0 text25 CODE >901:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
 14BE0 text25 CODE >902:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
 14BE6 text25 CODE >903:C:\Users\ianwh\github/VLCBlib_PIC/mns.c
@@ -2568,15 +2567,15 @@ $dist/PIC18F27Q83/production\CANPAN3.X.production.o
 162E4 text9 CODE >102:C:\Users\ianwh\github/VLCBlib_PIC/event_producer_simple.c
 162F4 text9 CODE >103:C:\Users\ianwh\github/VLCBlib_PIC/event_producer_simple.c
 162FE text9 CODE >104:C:\Users\ianwh\github/VLCBlib_PIC/event_producer_simple.c
-142C8 text8 CODE >887:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
-142C8 text8 CODE >892:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
-142CE text8 CODE >893:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
-142D2 text8 CODE >894:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
-142D6 text8 CODE >895:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
-142DC text8 CODE >897:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
-142DE text8 CODE >898:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
-14346 text8 CODE >899:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
-1439A text8 CODE >901:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+142C4 text8 CODE >887:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+142C4 text8 CODE >892:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+142CA text8 CODE >893:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+142CE text8 CODE >894:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+142D2 text8 CODE >895:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+142D8 text8 CODE >897:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+142DA text8 CODE >898:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+14342 text8 CODE >899:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
+14396 text8 CODE >901:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
 16148 text7 CODE >57:C:\Users\ianwh\github\CANPAN3/EEPROMbuffer.c
 16148 text7 CODE >58:C:\Users\ianwh\github\CANPAN3/EEPROMbuffer.c
 16154 text7 CODE >59:C:\Users\ianwh\github\CANPAN3/EEPROMbuffer.c
@@ -2657,30 +2656,31 @@ $dist/PIC18F27Q83/production\CANPAN3.X.production.o
 15788 text2 CODE >110:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
 1578C text2 CODE >113:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
 15790 text2 CODE >114:C:\Users\ianwh\github\CANPAN3/canpan3Outputs.c
-14A20 text1 CODE >183:C:\Users\ianwh\github\CANPAN3/main.c
-14A20 text1 CODE >190:C:\Users\ianwh\github\CANPAN3/main.c
-14A2A text1 CODE >202:C:\Users\ianwh\github\CANPAN3/main.c
-14A30 text1 CODE >203:C:\Users\ianwh\github\CANPAN3/main.c
-14A32 text1 CODE >204:C:\Users\ianwh\github\CANPAN3/main.c
-14A34 text1 CODE >205:C:\Users\ianwh\github\CANPAN3/main.c
-14A36 text1 CODE >206:C:\Users\ianwh\github\CANPAN3/main.c
-14A38 text1 CODE >207:C:\Users\ianwh\github\CANPAN3/main.c
-14A3A text1 CODE >209:C:\Users\ianwh\github\CANPAN3/main.c
-14A3E text1 CODE >212:C:\Users\ianwh\github\CANPAN3/main.c
-14A42 text1 CODE >213:C:\Users\ianwh\github\CANPAN3/main.c
-14A46 text1 CODE >214:C:\Users\ianwh\github\CANPAN3/main.c
-14A4A text1 CODE >215:C:\Users\ianwh\github\CANPAN3/main.c
-14A4E text1 CODE >216:C:\Users\ianwh\github\CANPAN3/main.c
-14A52 text1 CODE >224:C:\Users\ianwh\github\CANPAN3/main.c
-14A54 text1 CODE >226:C:\Users\ianwh\github\CANPAN3/main.c
-14A68 text1 CODE >227:C:\Users\ianwh\github\CANPAN3/main.c
-14A78 text1 CODE >228:C:\Users\ianwh\github\CANPAN3/main.c
-14A88 text1 CODE >229:C:\Users\ianwh\github\CANPAN3/main.c
-14A98 text1 CODE >230:C:\Users\ianwh\github\CANPAN3/main.c
-14AA8 text1 CODE >232:C:\Users\ianwh\github\CANPAN3/main.c
-14AAC text1 CODE >233:C:\Users\ianwh\github\CANPAN3/main.c
-14AAE text1 CODE >235:C:\Users\ianwh\github\CANPAN3/main.c
-14AB4 text1 CODE >236:C:\Users\ianwh\github\CANPAN3/main.c
+14A1C text1 CODE >183:C:\Users\ianwh\github\CANPAN3/main.c
+14A1C text1 CODE >190:C:\Users\ianwh\github\CANPAN3/main.c
+14A26 text1 CODE >202:C:\Users\ianwh\github\CANPAN3/main.c
+14A2C text1 CODE >203:C:\Users\ianwh\github\CANPAN3/main.c
+14A2E text1 CODE >204:C:\Users\ianwh\github\CANPAN3/main.c
+14A30 text1 CODE >205:C:\Users\ianwh\github\CANPAN3/main.c
+14A32 text1 CODE >206:C:\Users\ianwh\github\CANPAN3/main.c
+14A34 text1 CODE >207:C:\Users\ianwh\github\CANPAN3/main.c
+14A36 text1 CODE >209:C:\Users\ianwh\github\CANPAN3/main.c
+14A3A text1 CODE >210:C:\Users\ianwh\github\CANPAN3/main.c
+14A3E text1 CODE >213:C:\Users\ianwh\github\CANPAN3/main.c
+14A42 text1 CODE >214:C:\Users\ianwh\github\CANPAN3/main.c
+14A46 text1 CODE >215:C:\Users\ianwh\github\CANPAN3/main.c
+14A4A text1 CODE >216:C:\Users\ianwh\github\CANPAN3/main.c
+14A4E text1 CODE >217:C:\Users\ianwh\github\CANPAN3/main.c
+14A52 text1 CODE >225:C:\Users\ianwh\github\CANPAN3/main.c
+14A54 text1 CODE >227:C:\Users\ianwh\github\CANPAN3/main.c
+14A68 text1 CODE >228:C:\Users\ianwh\github\CANPAN3/main.c
+14A78 text1 CODE >229:C:\Users\ianwh\github\CANPAN3/main.c
+14A88 text1 CODE >230:C:\Users\ianwh\github\CANPAN3/main.c
+14A98 text1 CODE >231:C:\Users\ianwh\github\CANPAN3/main.c
+14AA8 text1 CODE >233:C:\Users\ianwh\github\CANPAN3/main.c
+14AAC text1 CODE >234:C:\Users\ianwh\github\CANPAN3/main.c
+14AAE text1 CODE >236:C:\Users\ianwh\github\CANPAN3/main.c
+14AB4 text1 CODE >237:C:\Users\ianwh\github\CANPAN3/main.c
 14E08 text0 CODE >1262:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
 14E08 text0 CODE >1273:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
 14E12 text0 CODE >1274:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
@@ -2710,62 +2710,62 @@ $dist/PIC18F27Q83/production\CANPAN3.X.production.o
 14E80 text0 CODE >1343:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
 14E82 text0 CODE >1347:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
 14E86 text0 CODE >1348:C:\Users\ianwh\github/VLCBlib_PIC/vlcb.c
-152E8 cinit CODE >50885:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-152E8 cinit CODE >50887:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-152E8 cinit CODE >50890:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-152E8 cinit CODE >51084:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-152EA cinit CODE >51085:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-152EC cinit CODE >51086:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-152EE cinit CODE >51087:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-152F0 cinit CODE >51088:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-152F2 cinit CODE >51089:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-152F4 cinit CODE >51090:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-152F6 cinit CODE >51091:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-152FA cinit CODE >51092:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-152FC cinit CODE >51093:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-15300 cinit CODE >51097:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-15304 cinit CODE >51098:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-15308 cinit CODE >51099:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-15308 cinit CODE >51100:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-1530A cinit CODE >51101:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-1530C cinit CODE >51102:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-1530E cinit CODE >51103:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-15310 cinit CODE >51104:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-15312 cinit CODE >51105:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-15314 cinit CODE >51108:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-15318 cinit CODE >51109:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-1531A cinit CODE >51110:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-1531A cinit CODE >51111:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-1531C cinit CODE >51112:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-1531E cinit CODE >51113:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-15320 cinit CODE >51116:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-15324 cinit CODE >51117:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-15326 cinit CODE >51118:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-15326 cinit CODE >51119:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-15328 cinit CODE >51120:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-1532A cinit CODE >51121:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-1532C cinit CODE >51124:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-15330 cinit CODE >51125:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-15332 cinit CODE >51126:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-15332 cinit CODE >51127:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-15334 cinit CODE >51128:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-15336 cinit CODE >51129:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-15338 cinit CODE >51132:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-1533C cinit CODE >51133:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-1533E cinit CODE >51134:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-1533E cinit CODE >51135:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-15340 cinit CODE >51136:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-15342 cinit CODE >51137:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-15344 cinit CODE >51145:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-15346 cinit CODE >51146:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-15348 cinit CODE >51147:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-1534A cinit CODE >51148:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-1534C cinit CODE >51149:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-1534E cinit CODE >51150:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-15350 cinit CODE >51151:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-15352 cinit CODE >51157:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-15352 cinit CODE >51159:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
-15354 cinit CODE >51160:C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_1.s
+152E8 cinit CODE >50885:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+152E8 cinit CODE >50887:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+152E8 cinit CODE >50890:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+152E8 cinit CODE >51084:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+152EA cinit CODE >51085:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+152EC cinit CODE >51086:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+152EE cinit CODE >51087:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+152F0 cinit CODE >51088:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+152F2 cinit CODE >51089:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+152F4 cinit CODE >51090:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+152F6 cinit CODE >51091:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+152FA cinit CODE >51092:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+152FC cinit CODE >51093:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+15300 cinit CODE >51097:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+15304 cinit CODE >51098:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+15308 cinit CODE >51099:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+15308 cinit CODE >51100:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+1530A cinit CODE >51101:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+1530C cinit CODE >51102:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+1530E cinit CODE >51103:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+15310 cinit CODE >51104:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+15312 cinit CODE >51105:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+15314 cinit CODE >51108:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+15318 cinit CODE >51109:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+1531A cinit CODE >51110:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+1531A cinit CODE >51111:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+1531C cinit CODE >51112:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+1531E cinit CODE >51113:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+15320 cinit CODE >51116:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+15324 cinit CODE >51117:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+15326 cinit CODE >51118:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+15326 cinit CODE >51119:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+15328 cinit CODE >51120:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+1532A cinit CODE >51121:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+1532C cinit CODE >51124:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+15330 cinit CODE >51125:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+15332 cinit CODE >51126:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+15332 cinit CODE >51127:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+15334 cinit CODE >51128:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+15336 cinit CODE >51129:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+15338 cinit CODE >51132:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+1533C cinit CODE >51133:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+1533E cinit CODE >51134:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+1533E cinit CODE >51135:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+15340 cinit CODE >51136:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+15342 cinit CODE >51137:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+15344 cinit CODE >51145:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+15346 cinit CODE >51146:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+15348 cinit CODE >51147:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+1534A cinit CODE >51148:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+1534C cinit CODE >51149:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+1534E cinit CODE >51150:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+15350 cinit CODE >51151:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+15352 cinit CODE >51157:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+15352 cinit CODE >51159:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
+15354 cinit CODE >51160:C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_1.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -2859,21 +2859,21 @@ _IPR5 367 0 ABS 0 - dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _WPUA 401 0 ABS 0 - dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _WPUB 409 0 ABS 0 - dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _WPUC 411 0 ABS 0 - dist/PIC18F27Q83/production\CANPAN3.X.production.o
-___sp AC8 0 STACK 2 stack C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_9.o
+___sp AC8 0 STACK 2 stack C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_9.o
 _have 15436 0 CODE 0 text119 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _loop 1297A 0 CODE 0 text101 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _main 14E08 0 CODE 0 text0 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _name 848 0 CODE 0 _name_text dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _poll 11828 0 CODE 0 text22 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 btemp 540 0 COMRAM 1 temp dist/PIC18F27Q83/production\CANPAN3.X.production.o
-___stack_hi 20E4 0 STACK 2 stack C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_9.o
-___stack_lo AC8 0 STACK 2 stack C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_9.o
+___stack_hi 20E4 0 STACK 2 stack C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_9.o
+___stack_lo AC8 0 STACK 2 stack C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_9.o
 __end_of_teachCheckLen 158C0 0 CODE 0 text49 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 reqevCallback@tableIndex 53F 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
-_mnsTRallDiagnosticsCallback 13E3C 0 CODE 0 text26 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+_mnsTRallDiagnosticsCallback 13E38 0 CODE 0 text26 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 pop@q 501 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __HbssBIGRAM 0 0 ABS 0 bssBIGRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
-start A02 0 CODE 0 init C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_9.o
+start A02 0 CODE 0 init C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_9.o
 _mnsGetDiagnostic 167FC 0 CODE 0 text76 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _eraseFlashBlock 159DC 0 CODE 0 text155 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 checkLen@m 52B 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
@@ -2908,7 +2908,7 @@ __LidataBANK5 0 0 ABS 0 idataBANK5 dist/PIC18F27Q83/production\CANPAN3.X.product
 _nvDiagnostics 5A1 0 BANK5 1 bssBANK5 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __end_of_bootEsdData 167B4 0 CODE 0 text72 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _evtIdxToTableIndex 16AC6 0 CODE 0 text52 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-_factoryReset 13F40 0 CODE 0 text137 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+_factoryReset 13F3C 0 CODE 0 text137 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _inputScan$1303 534 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __Hpowerup 0 0 CODE 0 powerup dist/PIC18F27Q83/production\CANPAN3.X.production.o
 bootProcessMessage@m 5C3 0 BANK5 1 cstackBANK5 dist/PIC18F27Q83/production\CANPAN3.X.production.o
@@ -2939,14 +2939,14 @@ _prepareSelfEnumResponse 15512 0 CODE 0 text40 dist/PIC18F27Q83/production\CANPA
 _mnsProcessMessage$4983 5DE 0 BANK5 1 cstackBANK5 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _producerEsdData 16928 0 CODE 0 text68 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _enumerationState 591 0 BANK5 1 bssBANK5 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-__accesstop 560 0 ABS 0 - C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_9.o
-intlevel0 0 0 CODE 0 text C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_9.o
-intlevel1 0 0 CODE 0 text C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_9.o
-intlevel2 0 0 CODE 0 text C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_9.o
-intlevel3 0 0 CODE 0 text C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_9.o
+__accesstop 560 0 ABS 0 - C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_9.o
+intlevel0 0 0 CODE 0 text C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_9.o
+intlevel1 0 0 CODE 0 text C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_9.o
+intlevel2 0 0 CODE 0 text C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_9.o
+intlevel3 0 0 CODE 0 text C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_9.o
 __ptext100 16ADE 0 CODE 0 text100 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext101 1297A 0 CODE 0 text101 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-__ptext102 143A4 0 CODE 0 text102 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+__ptext102 143A0 0 CODE 0 text102 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext103 15D92 0 CODE 0 text103 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext104 11E7E 0 CODE 0 text104 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext105 1669C 0 CODE 0 text105 dist/PIC18F27Q83/production\CANPAN3.X.production.o
@@ -2966,22 +2966,22 @@ __ptext118 1688C 0 CODE 0 text118 dist/PIC18F27Q83/production\CANPAN3.X.producti
 __ptext119 15436 0 CODE 0 text119 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext120 158C0 0 CODE 0 text120 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext121 15A38 0 CODE 0 text121 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-__ptext122 14026 0 CODE 0 text122 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+__ptext122 14022 0 CODE 0 text122 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext123 16AA6 0 CODE 0 text123 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext124 14E8C 0 CODE 0 text124 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext125 16288 0 CODE 0 text125 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext126 16104 0 CODE 0 text126 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext127 169AE 0 CODE 0 text127 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext128 15B44 0 CODE 0 text128 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-__ptext129 14108 0 CODE 0 text129 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-__ptext130 14824 0 CODE 0 text130 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-__ptext131 148CE 0 CODE 0 text131 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+__ptext129 14104 0 CODE 0 text129 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+__ptext130 14820 0 CODE 0 text130 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+__ptext131 148CA 0 CODE 0 text131 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext132 120DA 0 CODE 0 text132 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext133 15BF2 0 CODE 0 text133 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext134 14F0E 0 CODE 0 text134 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext135 15C48 0 CODE 0 text135 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext136 14F90 0 CODE 0 text136 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-__ptext137 13F40 0 CODE 0 text137 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+__ptext137 13F3C 0 CODE 0 text137 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext138 15ECE 0 CODE 0 text138 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext139 1557E 0 CODE 0 text139 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext140 16960 0 CODE 0 text140 dist/PIC18F27Q83/production\CANPAN3.X.production.o
@@ -2996,7 +2996,7 @@ __ptext148 12B78 0 CODE 0 text148 dist/PIC18F27Q83/production\CANPAN3.X.producti
 __ptext149 12F2C 0 CODE 0 text149 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext150 15920 0 CODE 0 text150 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext151 15E32 0 CODE 0 text151 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-__ptext152 141E8 0 CODE 0 text152 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+__ptext152 141E4 0 CODE 0 text152 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext153 1620A 0 CODE 0 text153 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext154 15A92 0 CODE 0 text154 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext155 159DC 0 CODE 0 text155 dist/PIC18F27Q83/production\CANPAN3.X.production.o
@@ -3004,9 +3004,9 @@ __ptext156 16AE2 0 CODE 0 text156 dist/PIC18F27Q83/production\CANPAN3.X.producti
 __ptext157 15E80 0 CODE 0 text157 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext158 16A7E 0 CODE 0 text158 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext159 15CF0 0 CODE 0 text159 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-__ptext160 14540 0 CODE 0 text160 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+__ptext160 1453C 0 CODE 0 text160 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext161 14CFA 0 CODE 0 text161 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-__ptext162 146BA 0 CODE 0 text162 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+__ptext162 146B6 0 CODE 0 text162 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext163 168EE 0 CODE 0 text163 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext164 154A4 0 CODE 0 text164 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext165 1597E 0 CODE 0 text165 dist/PIC18F27Q83/production\CANPAN3.X.production.o
@@ -3022,7 +3022,7 @@ isEvent@opc 502 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.pr
 _getParameter 13C22 0 CODE 0 text84 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _consumerPowerUp 16302 0 CODE 0 text12 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 getNextWriteMessage@wr 50D 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
-__end_of_reqevCallback 14824 0 CODE 0 text28 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+__end_of_reqevCallback 14820 0 CODE 0 text28 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __end_of_APP_testMode 16996 0 CODE 0 text145 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _DEFAULT_ISR 16AD4 0 CODE 0 text170 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 APP_testMode@sw 5B1 0 BANK5 1 cstackBANK5 dist/PIC18F27Q83/production\CANPAN3.X.production.o
@@ -3050,7 +3050,7 @@ _C1FIFOUA2 170 0 ABS 0 - dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _C1FIFOUA3 17C 0 ABS 0 - dist/PIC18F27Q83/production\CANPAN3.X.production.o
 ?_tickGet 501 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 rebuildHashtable@chainIdx 523 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
-__end_of_APP_addEvent 13E3C 0 CODE 0 text61 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+__end_of_APP_addEvent 13E38 0 CODE 0 text61 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __end_of_updateModuleErrorStatus 16A8A 0 CODE 0 text158 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _nvTRnvrdCallback 1633E 0 CODE 0 text24 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 doNnevn@eventNumber 529 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
@@ -3110,8 +3110,8 @@ _C1FIFOCON3U 176 0 ABS 0 - dist/PIC18F27Q83/production\CANPAN3.X.production.o
 ___awdiv@dividend 501 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 pollOutputs@i 509 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __end_of_nvGetESDdata 16A0C 0 CODE 0 text69 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-___inthi_sp 20E4 0 STACK 2 stack C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_9.o
-___intlo_sp 3700 0 STACK 2 stack C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_9.o
+___inthi_sp 20E4 0 STACK 2 stack C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_9.o
+___intlo_sp 3700 0 STACK 2 stack C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_9.o
 have@id 503 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _C1CONH 101 0 ABS 0 - dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _C1CONL 100 0 ABS 0 - dist/PIC18F27Q83/production\CANPAN3.X.production.o
@@ -3228,7 +3228,7 @@ _setNewCanId 16504 0 CODE 0 text39 dist/PIC18F27Q83/production\CANPAN3.X.product
 reqevCallback@ev 53B 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __end_of___lldiv 15012 0 CODE 0 text136 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __end_of_canPri FF55 0 MEDIUMCONST 0 mediumconst dist/PIC18F27Q83/production\CANPAN3.X.production.o
-_doEvlrn 145FE 0 CODE 0 text60 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+_doEvlrn 145FA 0 CODE 0 text60 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _doEvuln 15274 0 CODE 0 text58 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _doFlash 14E8C 0 CODE 0 text124 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 nerdCallback@eventNumber 535 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
@@ -3236,7 +3236,7 @@ _doNnclr 1659A 0 CODE 0 text56 dist/PIC18F27Q83/production\CANPAN3.X.production.
 _doNnevn 164CE 0 CODE 0 text55 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 findEvent@eventNumber 520 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _doReqev 139AC 0 CODE 0 text53 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-_doReval 14480 0 CODE 0 text51 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+_doReval 1447C 0 CODE 0 text51 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _doRqevn 16498 0 CODE 0 text50 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 EEPROM_WriteNoVerify@index 501 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _writeNVM 15E32 0 CODE 0 text151 dist/PIC18F27Q83/production\CANPAN3.X.production.o
@@ -3244,7 +3244,7 @@ _SPI1STATUSbits 87 0 ABS 0 - dist/PIC18F27Q83/production\CANPAN3.X.production.o
 doEvuln@eventNumber 535 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 EEPROM_WriteNoVerify@value 504 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __L_paramBlock_text 820 0 CODE 0 _paramBlock_text dist/PIC18F27Q83/production\CANPAN3.X.production.o
-__end_of_factoryReset 14026 0 CODE 0 text137 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+__end_of_factoryReset 14022 0 CODE 0 text137 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 doReval@enNum 52D 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 doReval@evNum 52B 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 doReval@evVal 52F 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
@@ -3258,7 +3258,7 @@ APP_isConsumedEvent@ev 51A 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\C
 inputScan@row 536 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _eventTeachService FF91 0 MEDIUMCONST 0 mediumconst dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __end_of_setLEDsByMode 1656A 0 CODE 0 text80 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-_pollOutputs 143A4 0 CODE 0 text102 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+_pollOutputs 143A0 0 CODE 0 text102 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _APP_factoryReset 166F0 0 CODE 0 text143 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _CANRXPPS 23D 0 ABS 0 - dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _initEEPROMwriter 16148 0 CODE 0 text7 dist/PIC18F27Q83/production\CANPAN3.X.production.o
@@ -3273,10 +3273,10 @@ _producerDiagnostics 5A7 0 BANK5 1 bssBANK5 dist/PIC18F27Q83/production\CANPAN3.
 producerProcessMessage@m 5C3 0 BANK5 1 cstackBANK5 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _setupModePreviousMode 58C 0 BANK5 1 bssBANK5 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _eeBootFlag 582 0 BANK5 1 bssBANK5 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-__end_of_FLASH_Write 142C8 0 CODE 0 text152 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+__end_of_FLASH_Write 142C4 0 CODE 0 text152 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __end_of_writeNVM 15E80 0 CODE 0 text151 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __end_of_getEVs 1572A 0 CODE 0 text109 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-__end_of_getParameter 13D36 0 CODE 0 text84 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+__end_of_getParameter 13D32 0 CODE 0 text84 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 loadNvCache@temp 50F 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 rebuildHashtable@tableIndex 522 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _producerProcessMessage 12556 0 CODE 0 text42 dist/PIC18F27Q83/production\CANPAN3.X.production.o
@@ -3352,7 +3352,7 @@ writeEv@evNum 515 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.
 writeEv@evVal 516 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 teachGetESDdata@id 501 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 addEvent@e 53D 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
-isa$xinst 0 0 ABS 0 - C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_9.o
+isa$xinst 0 0 ABS 0 - C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_9.o
 _readNVM 1597E 0 CODE 0 text165 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 doReqev@nodeNumber 52C 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _heartbeatTimer 696 0 BANK6 1 bssBANK6 dist/PIC18F27Q83/production\CANPAN3.X.production.o
@@ -3563,7 +3563,7 @@ __S2 3700 0 ABS 0 - dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __S4 0 0 ABS 0 - dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __S5 0 0 ABS 0 - dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _evs 671 0 BANK6 1 bssBANK6 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-_pop 14978 0 CODE 0 text35 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+_pop 14974 0 CODE 0 text35 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 canSendMessage@mp 50E 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _canSendMessage 1146A 0 CODE 0 text115 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _APP_isSuitableTimeToWriteFlash 16AE2 0 CODE 0 text156 dist/PIC18F27Q83/production\CANPAN3.X.production.o
@@ -3607,7 +3607,7 @@ _canPri FF50 0 MEDIUMCONST 0 mediumconst dist/PIC18F27Q83/production\CANPAN3.X.p
 ?_readNVM 507 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _column 59C 0 BANK5 1 bssBANK5 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __end_of_nvService FFCD 0 MEDIUMCONST 0 mediumconst dist/PIC18F27Q83/production\CANPAN3.X.production.o
-__end_of_powerUp 143A4 0 CODE 0 text8 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+__end_of_powerUp 143A0 0 CODE 0 text8 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 sodTRCallback@sv 533 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 saveSwitchState@onOff 505 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 APP_processConsumedEvent@polarity 520 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
@@ -3619,7 +3619,7 @@ canpanSendProducedEvent@opc 52C 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/product
 __end_of_priorities FF35 0 MEDIUMCONST 0 mediumconst dist/PIC18F27Q83/production\CANPAN3.X.production.o
 mnsGetDiagnostic@index 50A 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __Hnvrram 0 0 COMRAM 1 nvrram dist/PIC18F27Q83/production\CANPAN3.X.production.o
-_rebuildHashtable 14540 0 CODE 0 text160 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+_rebuildHashtable 1453C 0 CODE 0 text160 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __end_of_startEnumeration 15CF0 0 CODE 0 text116 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _outputPollTime 69E 0 BANK6 1 bssBANK6 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 findEventForSwitch@switchNo 501 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
@@ -3628,7 +3628,7 @@ _canService FFE1 0 MEDIUMCONST 0 mediumconst dist/PIC18F27Q83/production\CANPAN3
 __end_of_DEFAULT_ISR 16ADA 0 CODE 0 text170 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 startEnumeration@txWaiting 50B 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __end_of_saveSwitchState 169AE 0 CODE 0 text106 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-__end_of_pop 14A20 0 CODE 0 text35 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+__end_of_pop 14A1C 0 CODE 0 text35 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _EEPROM_Write 15E80 0 CODE 0 text157 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __end_of_mnsPowerUp 135BC 0 CODE 0 text11 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _getEVs 156C0 0 CODE 0 text109 dist/PIC18F27Q83/production\CANPAN3.X.production.o
@@ -3637,7 +3637,7 @@ __end_of_startTimedResponse 16288 0 CODE 0 text98 dist/PIC18F27Q83/production\CA
 _rxQueue 6ED 0 BANK6 1 bssBANK6 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 ___lldiv@divisor 50F 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _loadFlashBlock 1620A 0 CODE 0 text153 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-_showStatus 14108 0 CODE 0 text129 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+_showStatus 14104 0 CODE 0 text129 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 ?_mnsGetDiagnostic 507 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __Hramtop 4000 0 RAM 0 ramtop dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _initEvents 16AAE 0 CODE 0 text6 dist/PIC18F27Q83/production\CANPAN3.X.production.o
@@ -3757,7 +3757,7 @@ _outputState 641 0 BANK6 1 bssBANK6 dist/PIC18F27Q83/production\CANPAN3.X.produc
 APP_preProcessMessage@switchNo 5EA 0 BANK5 1 cstackBANK5 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 producerEsdData@index 501 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 doRqevn@eventNumber 529 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
-_pbDownTimer 148CE 0 CODE 0 text131 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+_pbDownTimer 148CA 0 CODE 0 text131 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 APP_processConsumedEvent@tableIndex 51D 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _PIE0bits 49E 0 ABS 0 - dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _initInputs 15012 0 CODE 0 text4 dist/PIC18F27Q83/production\CANPAN3.X.production.o
@@ -3791,16 +3791,16 @@ __ptext22 11828 0 CODE 0 text22 dist/PIC18F27Q83/production\CANPAN3.X.production
 __ptext23 1510E 0 CODE 0 text23 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext24 1633E 0 CODE 0 text24 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext25 14BE0 0 CODE 0 text25 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-__ptext26 13E3C 0 CODE 0 text26 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+__ptext26 13E38 0 CODE 0 text26 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext27 1671A 0 CODE 0 text27 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-__ptext28 14770 0 CODE 0 text28 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+__ptext28 1476C 0 CODE 0 text28 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext29 15AEC 0 CODE 0 text29 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext30 16428 0 CODE 0 text30 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext31 16ABA 0 CODE 0 text31 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext32 16AC0 0 CODE 0 text32 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext33 11040 0 CODE 0 text33 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext34 130FE 0 CODE 0 text34 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-__ptext35 14978 0 CODE 0 text35 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+__ptext35 14974 0 CODE 0 text35 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext36 16038 0 CODE 0 text36 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext37 14D82 0 CODE 0 text37 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext38 13868 0 CODE 0 text38 dist/PIC18F27Q83/production\CANPAN3.X.production.o
@@ -3816,7 +3816,7 @@ __ptext47 15358 0 CODE 0 text47 dist/PIC18F27Q83/production\CANPAN3.X.production
 __ptext48 10B6A 0 CODE 0 text48 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext49 15860 0 CODE 0 text49 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext50 16498 0 CODE 0 text50 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-__ptext51 14480 0 CODE 0 text51 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+__ptext51 1447C 0 CODE 0 text51 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext52 16AC6 0 CODE 0 text52 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext53 139AC 0 CODE 0 text53 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext54 16ADA 0 CODE 0 text54 dist/PIC18F27Q83/production\CANPAN3.X.production.o
@@ -3825,8 +3825,8 @@ __ptext56 1659A 0 CODE 0 text56 dist/PIC18F27Q83/production\CANPAN3.X.production
 __ptext57 1690C 0 CODE 0 text57 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext58 15274 0 CODE 0 text58 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext59 16742 0 CODE 0 text59 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-__ptext60 145FE 0 CODE 0 text60 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-__ptext61 13D36 0 CODE 0 text61 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+__ptext60 145FA 0 CODE 0 text60 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+__ptext61 13D32 0 CODE 0 text61 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext62 157FA 0 CODE 0 text62 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext63 1607C 0 CODE 0 text63 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext64 1637A 0 CODE 0 text64 dist/PIC18F27Q83/production\CANPAN3.X.production.o
@@ -3866,7 +3866,7 @@ __ptext97 16A60 0 CODE 0 text97 dist/PIC18F27Q83/production\CANPAN3.X.production
 __ptext98 1624A 0 CODE 0 text98 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext99 153C8 0 CODE 0 text99 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _eventProducerService FF69 0 MEDIUMCONST 0 mediumconst dist/PIC18F27Q83/production\CANPAN3.X.production.o
-__end_of_mnsTRallDiagnosticsCallback 13F40 0 CODE 0 text26 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+__end_of_mnsTRallDiagnosticsCallback 13F3C 0 CODE 0 text26 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 ___awdiv 14F0E 0 CODE 0 text134 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _clearAllEvents 16A38 0 CODE 0 text146 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __end_of_checkPowerOnPb 15B9C 0 CODE 0 text128 dist/PIC18F27Q83/production\CANPAN3.X.production.o
@@ -3964,16 +3964,16 @@ __end_of_setNewCanId 16538 0 CODE 0 text39 dist/PIC18F27Q83/production\CANPAN3.X
 __Lfarbss 0 0 FARRAM 0 farbss dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _saveSwitchState 16996 0 CODE 0 text106 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _setLed 16288 0 CODE 0 text125 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-___inthi_stack_hi 3700 0 STACK 2 stack C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_9.o
-___inthi_stack_lo 20E4 0 STACK 2 stack C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_9.o
+___inthi_stack_hi 3700 0 STACK 2 stack C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_9.o
+___inthi_stack_lo 20E4 0 STACK 2 stack C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_9.o
 canSendMessage@temp 516 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __end_of_tickGet 15C48 0 CODE 0 text133 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __end_of_bootProcessMessage 153C8 0 CODE 0 text47 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _mnsProcessMessage 10000 0 CODE 0 text44 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-__end_of_pbUpTimer 148CE 0 CODE 0 text130 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+__end_of_pbUpTimer 148CA 0 CODE 0 text130 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 writeEEvalue@address 503 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __Lfardata 0 0 FARRAM 0 fardata dist/PIC18F27Q83/production\CANPAN3.X.production.o
-isa$std 1 0 ABS 0 - C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_9.o
+isa$std 1 0 ABS 0 - C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_9.o
 setNV@index 519 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _sodTRCallback 16428 0 CODE 0 text30 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 writeNVM@index 50E 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
@@ -3988,11 +3988,11 @@ __end_of_loadFlashBlock 1624A 0 CODE 0 text153 dist/PIC18F27Q83/production\CANPA
 inputScan@sv 53A 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 clearLed@no 50C 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _flashCounter 576 0 BANK5 1 bssBANK5 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-__end_of_pollOutputs 14480 0 CODE 0 text102 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+__end_of_pollOutputs 1447C 0 CODE 0 text102 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 APP_addEvent@eventNumber 5B1 0 BANK5 1 cstackBANK5 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _canWaitForTxQueueToDrain 16A9E 0 CODE 0 text86 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-stackhi 36FF 0 ABS 0 - C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_9.o
-stacklo AC8 0 ABS 0 - C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_9.o
+stackhi 36FF 0 ABS 0 - C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_9.o
+stacklo AC8 0 ABS 0 - C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_9.o
 pbDownTimer@timeout 51C 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _initRomOps 169AE 0 CODE 0 text127 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _brightness 599 0 BANK5 1 bssBANK5 dist/PIC18F27Q83/production\CANPAN3.X.production.o
@@ -4004,13 +4004,13 @@ doReqev@evVal 532 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.
 _getParameterFlags 161CA 0 CODE 0 text85 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _flashToggle 598 0 BANK5 1 bssBANK5 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _producerGetDiagnostic 167B4 0 CODE 0 text74 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-__end_of_showStatus 141E8 0 CODE 0 text129 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+__end_of_showStatus 141E4 0 CODE 0 text129 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _addEvent 12F2C 0 CODE 0 text149 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __pbssBIGRAM 848 0 BIGRAM 1 bssBIGRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _bootloaderType 596 0 BANK5 1 bssBANK5 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 teachGetDiagnostic@index 50A 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 loadNvCache@i 511 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
-_getNextWriteMessage 14026 0 CODE 0 text122 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+_getNextWriteMessage 14022 0 CODE 0 text122 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _initTicker 15D42 0 CODE 0 text19 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __end_of_initEvents 16AB4 0 CODE 0 text6 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 startTimedResponse@serviceIndex 505 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
@@ -4031,7 +4031,7 @@ __end_of_nvPowerUp 161CA 0 CODE 0 text10 dist/PIC18F27Q83/production\CANPAN3.X.p
 __end_of_setLedStateNoSave 15BF2 0 CODE 0 text95 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 isConsumedEvent@eventIndex 51C 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 APP_addEvent@tableIndex 5BA 0 BANK5 1 cstackBANK5 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-__end_of_rebuildHashtable 145FE 0 CODE 0 text160 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+__end_of_rebuildHashtable 145FA 0 CODE 0 text160 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __end_of_processEnumeration 139AC 0 CODE 0 text38 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _canTransport FFF5 0 MEDIUMCONST 0 mediumconst dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __HcstackBANK5 0 0 ABS 0 cstackBANK5 dist/PIC18F27Q83/production\CANPAN3.X.production.o
@@ -4040,7 +4040,7 @@ APP_postProcessMessage@m 501 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production
 _PIR0bits 4AE 0 ABS 0 - dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _last_mode_state 58E 0 BANK5 1 bssBANK5 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 producerProcessMessage@index 53F 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
-_pbUpTimer 14824 0 CODE 0 text130 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+_pbUpTimer 14820 0 CODE 0 text130 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __end_of_getHash 1690C 0 CODE 0 text163 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __end_of_addEvent 130FE 0 CODE 0 text149 dist/PIC18F27Q83/production\CANPAN3.X.production.o
@@ -4096,14 +4096,14 @@ __end_of_services FF45 0 MEDIUMCONST 0 mediumconst dist/PIC18F27Q83/production\C
 sodTRCallback@tableIndex 532 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _OSCCON1bits AD 0 ABS 0 - dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext0 14E08 0 CODE 0 text0 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-__ptext1 14A20 0 CODE 0 text1 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+__ptext1 14A1C 0 CODE 0 text1 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext2 1572A 0 CODE 0 text2 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext3 15F64 0 CODE 0 text3 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext4 15012 0 CODE 0 text4 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext5 16A4E 0 CODE 0 text5 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext6 16AAE 0 CODE 0 text6 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext7 16148 0 CODE 0 text7 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-__ptext8 142C8 0 CODE 0 text8 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+__ptext8 142C4 0 CODE 0 text8 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __ptext9 162C6 0 CODE 0 text9 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 teachCheckLen@learn 533 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _OSCCON3bits AF 0 ABS 0 - dist/PIC18F27Q83/production\CANPAN3.X.production.o
@@ -4213,7 +4213,7 @@ __Ltext98 0 0 ABS 0 text98 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __Ltext99 0 0 ABS 0 text99 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __end_of_checkLen 15274 0 CODE 0 text92 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _bootService FFA5 0 MEDIUMCONST 0 mediumconst dist/PIC18F27Q83/production\CANPAN3.X.production.o
-__ramtop 4000 0 RAM 0 ramtop C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_9.o
+__ramtop 4000 0 RAM 0 ramtop C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_9.o
 __end_of_APP_postProcessMessage 16AE2 0 CODE 0 text100 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __end_of_APP_nvValueChanged 16AEA 0 CODE 0 text66 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _cathodes 59A 0 BANK5 1 bssBANK5 dist/PIC18F27Q83/production\CANPAN3.X.production.o
@@ -4238,8 +4238,8 @@ _started 59F 0 BANK5 1 bssBANK5 dist/PIC18F27Q83/production\CANPAN3.X.production
 _rebuildLookupTable 157FA 0 CODE 0 text62 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 pbUpTimer@timeout 51C 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __end_of_APP_isProducedEvent 163B4 0 CODE 0 text64 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-___heap_hi 0 0 ABS 0 - C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_9.o
-___heap_lo 0 0 ABS 0 - C:\Users\ianwh\AppData\Local\Temp\xcAshng.\driver_tmp_9.o
+___heap_hi 0 0 ABS 0 - C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_9.o
+___heap_lo 0 0 ABS 0 - C:\Users\ianwh\AppData\Local\Temp\xcAs13ls.\driver_tmp_9.o
 __end_of_initTicker 15D92 0 CODE 0 text19 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _consumerProcessMessage 1232C 0 CODE 0 text45 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 getParameter@idx 506 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
@@ -4276,7 +4276,7 @@ __end_of_sendMessage 1510E 0 CODE 0 text114 dist/PIC18F27Q83/production\CANPAN3.
 __Lclrtext 0 0 ABS 0 clrtext dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _consumerEsdData 16A70 0 CODE 0 text70 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _ledMatrix 568 0 BANK5 1 bssBANK5 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-_reqevCallback 14770 0 CODE 0 text28 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+_reqevCallback 1476C 0 CODE 0 text28 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 APP_processConsumedEvent@m 518 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _SPI1CLK 8C 0 ABS 0 - dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _SPI1TXB 81 0 ABS 0 - dist/PIC18F27Q83/production\CANPAN3.X.production.o
@@ -4291,7 +4291,7 @@ ___lmul@multiplicand 509 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CAN
 sendMessage3@data1 525 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 sendMessage3@data2 526 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 sendMessage3@data3 527 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
-_powerUp 142C8 0 CODE 0 text8 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+_powerUp 142C4 0 CODE 0 text8 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 reqevCallback@nodeNumber 53D 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 ___lldiv@quotient 513 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 flushFlashBlock@interruptEnabled 505 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
@@ -4305,16 +4305,16 @@ _name_absaddr 848 0 ABS 0 - dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _getNumTxBuffersInUse 158C0 0 CODE 0 text120 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __pmediumconst FE34 0 MEDIUMCONST 0 mediumconst dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _setLedStateNoSave 15B9C 0 CODE 0 text95 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-_FLASH_Write 141E8 0 CODE 0 text152 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-__end_of_doEvlrn 146BA 0 CODE 0 text60 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+_FLASH_Write 141E4 0 CODE 0 text152 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+__end_of_doEvlrn 146B6 0 CODE 0 text60 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __end_of_doEvuln 152E8 0 CODE 0 text58 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __end_of_doFlash 14F0E 0 CODE 0 text124 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-__end_of_getNextWriteMessage 14108 0 CODE 0 text122 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+__end_of_getNextWriteMessage 14104 0 CODE 0 text122 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __end_of_doNnclr 165C8 0 CODE 0 text56 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __end_of_doNnevn 16504 0 CODE 0 text55 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __end_of_mnsFactoryReset 155EA 0 CODE 0 text139 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __end_of_doReqev 13AEA 0 CODE 0 text53 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-__end_of_doReval 14540 0 CODE 0 text51 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+__end_of_doReval 1453C 0 CODE 0 text51 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __end_of_doRqevn 164CE 0 CODE 0 text50 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __end_of_loadNvCache 15F64 0 CODE 0 text16 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 findEvent@en 526 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
@@ -4409,7 +4409,7 @@ __end_of_doSoD 16790 0 CODE 0 text96 dist/PIC18F27Q83/production\CANPAN3.X.produ
 __end_of_eventConsumerService FF91 0 MEDIUMCONST 0 mediumconst dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __end_of_getEN 15512 0 CODE 0 text164 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __end_of_getEv 156C0 0 CODE 0 text90 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-__end_of_getNN 14770 0 CODE 0 text162 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+__end_of_getNN 1476C 0 CODE 0 text162 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __end_of_getNV 163EE 0 CODE 0 text108 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __end_of_timedResponseInProgress 16A70 0 CODE 0 text97 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _PORTB 4CF 0 ABS 0 - dist/PIC18F27Q83/production\CANPAN3.X.production.o
@@ -4437,11 +4437,11 @@ _doSoD 1676A 0 CODE 0 text96 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _errno 59D 0 BANK5 1 bssBANK5 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _getEN 154A4 0 CODE 0 text164 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _getEv 15656 0 CODE 0 text90 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-_getNN 146BA 0 CODE 0 text162 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+_getNN 146B6 0 CODE 0 text162 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _getNV 163B4 0 CODE 0 text108 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _numEv 16ADA 0 CODE 0 text54 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _setNV 15188 0 CODE 0 text65 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-_setup 14A20 0 CODE 0 text1 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+_setup 14A1C 0 CODE 0 text1 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 writeEv@tableIndex 520 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 _mnsTRserviceDiscoveryCallback 14BE0 0 CODE 0 text25 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __end_of_canProcessMessage 14B4C 0 CODE 0 text46 dist/PIC18F27Q83/production\CANPAN3.X.production.o
@@ -4499,9 +4499,9 @@ __Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/PIC18F27Q83/production\CANPAN3.X.
 _teachProcessMessage 10B6A 0 CODE 0 text48 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 __end_of_isConsumedEvent 16A9E 0 CODE 0 text88 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 pollEEPROMwriter@i 50A 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
-__end_of_pbDownTimer 14978 0 CODE 0 text131 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+__end_of_pbDownTimer 14974 0 CODE 0 text131 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 factoryReset@i 5B2 0 BANK5 1 cstackBANK5 dist/PIC18F27Q83/production\CANPAN3.X.production.o
-_APP_addEvent 13D36 0 CODE 0 text61 dist/PIC18F27Q83/production\CANPAN3.X.production.o
+_APP_addEvent 13D32 0 CODE 0 text61 dist/PIC18F27Q83/production\CANPAN3.X.production.o
 tickGet@IntFlag1 506 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 tickGet@IntFlag2 505 0 COMRAM 1 cstackCOMRAM dist/PIC18F27Q83/production\CANPAN3.X.production.o
 # %SPLITSTAB Section
