@@ -60,8 +60,25 @@
 unsigned char ledMatrix[NUM_LED_ROWS];
 static unsigned char current_row = 0;
 static uint8_t cathodes;
-#define MAX_BRIGHTNESS  32
+#define MAX_BRIGHTNESS  32  // must be a power of 2
 static uint8_t brightness = 0;
+// The brightness NVs, cached so that pollOutputs() (an interrupt) never calls
+// getNV(). Kept up to date by updateLedBrightness() from APP_nvValueChanged().
+static uint8_t ledBright[NUM_LEDS];
+static uint8_t *rowBright;      // this row's entries in ledBright[]
+// bit masks: a variable shift (1 << n) is a loop on the PIC18
+static const uint8_t bitMask[8] = {0x01,0x02,0x04,0x08,0x10,0x20,0x40,0x80};
+
+/**
+ * Update the cached brightness of one LED.
+ * @param ledNo the LED 0-31
+ * @param value the brightness NV value
+ */
+void updateLedBrightness(uint8_t ledNo, uint8_t value) {
+    if (ledNo < NUM_LEDS) {
+        ledBright[ledNo] = value;
+    }
+}
 
 void initOutputs(void) {
     uint8_t i;
@@ -69,6 +86,10 @@ void initOutputs(void) {
     for (i=0; i< NUM_LED_ROWS; i++) {
         ledMatrix[i] = 0;
     }
+    for (i=0; i<NUM_LEDS; i++) {
+        ledBright[i] = (uint8_t)getNV(NV_BRIGHTNESS + i);
+    }
+    rowBright = ledBright;
     TRISCbits.TRISC6 = 0;   // anode driver output
     TRISCbits.TRISC7 = 0;   // anode driver output
     TRISBbits.TRISB4 = 0;   // anode driver output
@@ -111,7 +132,34 @@ void initOutputs(void) {
 
     // ready
     SPI1CON0bits.EN = 1;
+
+#ifdef LED_MATRIX_ISR
+    // TMR2 calls pollOutputs() at a fixed rate.
+    // Clock Fosc/4 = clkMHz/4 MHz, prescaler 1:16 -> clkMHz/64 MHz.
+    // Period = LED_MATRIX_ISR_PERIOD_US * clkMHz/64 - 1 (64MHz: 100us -> 99)
+    _Static_assert((LED_MATRIX_ISR_PERIOD_US * clkMHz / 64) - 1 <= 255, "LED_MATRIX_ISR_PERIOD_US too large for TMR2");
+    T2CONbits.ON = 0;
+    T2CLKCON = 0x01;        // clock source Fosc/4
+    T2HLT = 0x00;           // free running, software gate
+    T2PR = (uint8_t)((LED_MATRIX_ISR_PERIOD_US * clkMHz / 64) - 1);
+    T2TMR = 0;
+    T2CON = 0x40;           // prescaler 1:16, postscaler 1:1
+    TMR2IP = 0;             // low priority
+    TMR2IF = 0;
+    TMR2IE = 1;
+    T2CONbits.ON = 1;
+#endif
 }
+
+#ifdef LED_MATRIX_ISR
+/**
+ * TMR2 interrupt: one LED matrix brightness step per period.
+ */
+void __interrupt(irq(TMR2), base(IVT_BASE), low_priority) TMR2_ISR(void) {
+    TMR2IF = 0;
+    pollOutputs();
+}
+#endif
 
 /**
  * Each time this is called we increase the global brightness value. When brightness 
@@ -123,14 +171,15 @@ void initOutputs(void) {
  * calls of this function.
  * To get a 50Hz refresh rate this function must be called at least every 156us.
  *  
- * Originally this was set up to be called by Timer 2 every 78us to give a 50Hz
- * refresh but this complexity is unnecessary and it is now just called from the 
- * poll loop.
+ * It is called from the TMR2 interrupt every LED_MATRIX_ISR_PERIOD_US. When it
+ * was called from the poll loop the length of each step, and so the LED duty
+ * cycle, depended on how long the loop took: while MMC was backing the module
+ * up every message handled stretched a step and the LEDs dimmed and pulsed.
+ * Without LED_MATRIX_ISR it is called from the poll loop as before.
  */
 void pollOutputs(void)
 {
     uint8_t i;
-    uint8_t offset;
     
     if (brightness == 0) {
         // move to next row
@@ -146,6 +195,7 @@ void pollOutputs(void)
         LATCbits.LATC7 = 0;
 
         cathodes = ledMatrix[current_row];
+        rowBright = ledBright + current_row * NUM_LED_COLUMNS;
         SPI1TCNTH=0;     // 1 byte
         SPI1TCNTL=1;     // 1 byte
         SPI1TWIDTH=0;   // 8 bits
@@ -181,31 +231,34 @@ void pollOutputs(void)
         LATCbits.LATC2 = 0; //OE 
     } else {
         // Same row but turn off any LEDs that have their brightness setting
-        // less than the current brightness.
-        
-        // disable the cathode driver
-        LATCbits.LATC2 = 1; // OE
-        // here we are turning off the cathodes when brightness setting
-        // has been reached. We do NOT change the anodes here.
-        offset = current_row*8 +NV_BRIGHTNESS;
+        // less than the current brightness. We do NOT change the anodes here.
+        // Work out the new pattern first, using a rolling mask and a walking
+        // pointer, and only blank the outputs and send it if it has changed:
+        // most steps change nothing.
+        uint8_t newCathodes = cathodes;
+        uint8_t mask = 1;
+        uint8_t *rb = rowBright;
         for (i=0; i<8; i++) {
-            if (brightness > getNV(offset + i)) {
-                cathodes &= ~(1 << i);
+            if (brightness > *rb++) {
+                newCathodes &= (uint8_t)~mask;
             }
+            mask <<= 1;
         }
-        
-        SPI1TXB = cathodes; // do the write and send the data
-        // This takes quite a few cycles but we have to ensure the cathodes have the
-        // right data before latching cathodes.
-        while (! SPI1STATUSbits.TXBE)
-            ;
-        // enable the cathode driver
-        LATCbits.LATC2 = 0; //OE
+        if (newCathodes != cathodes) {
+            cathodes = newCathodes;
+            // disable the cathode driver
+            LATCbits.LATC2 = 1; // OE
+            SPI1TXB = cathodes; // do the write and send the data
+            // This takes quite a few cycles but we have to ensure the cathodes have the
+            // right data before latching cathodes.
+            while (! SPI1STATUSbits.TXBE)
+                ;
+            // enable the cathode driver
+            LATCbits.LATC2 = 0; //OE
+        }
     }
     brightness += 2;
-    if (brightness >= MAX_BRIGHTNESS) {
-        brightness = 0;
-    }
+    brightness &= MAX_BRIGHTNESS-1;     // wrap to 0 at MAX_BRIGHTNESS
 }
 
 
@@ -214,14 +267,14 @@ void pollOutputs(void)
  * @param no
  */
 void setLed(uint8_t no) {
-    ledMatrix[no/8] |= (1 << (no%8));
+    ledMatrix[no/8] |= bitMask[no & 7];
 }
 
 /**
  * Turn an LED off. No is 0-31
  */
 void clearLed(uint8_t no) {
-    ledMatrix[no/8] &= ~(1 << (no%8));
+    ledMatrix[no/8] &= (uint8_t)~bitMask[no & 7];
 }
 
 /**
@@ -230,6 +283,6 @@ void clearLed(uint8_t no) {
  * @return 0 if OFF or non zero if ON
  */
 uint8_t testLed(uint8_t no) {
-    return ledMatrix[no/8] & (1 << (no%8));
+    return ledMatrix[no/8] & bitMask[no & 7];
 }
 

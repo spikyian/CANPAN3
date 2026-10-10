@@ -47,6 +47,9 @@
 #if defined(_18FXXQ83_FAMILY_)
 #define CAN_NUM_RXBUFFERS   8
 #endif
+// After a factory reset (CANID 0) enumerate before the first transmission instead
+// of transmitting straight away as CANID 1, and never send a frame as CANID 0.
+#define CAN_ADDITIONAL_CANID_CHECKS
 //
 // BOOT service
 //
@@ -77,6 +80,9 @@
 #endif
 
 #define EVENT_TABLE_NVM_TYPE    FLASH_NVM_TYPE
+// At power-up clear any event row left erased (flags and EN all 0xFF) by a power
+// cut between a flash page erase and its write.
+#define EVENT_TABLE_HEAL_ERASED
 #define CONSUMED_EVENTS
 //
 // EVENT PRODUCER SERVICE
@@ -127,8 +133,11 @@
 #if defined(_18FXXQ83_FAMILY_)
     #define APP_setPortDirections(){ANSELA=ANSELB=0; WPUA=0b00001000;TRISBbits.TRISB6=TRISBbits.TRISB7=0,TRISAbits.TRISA3=1;}
 #endif
-#define APP_writeLED1(state)   (LATBbits.LATB7=state)   // GREEN true is on
-#define APP_writeLED2(state)   (LATBbits.LATB6=state)   // YELLOW true is on 
+// Written as if/else so that the compiler emits a single BSF/BCF. A multi-instruction
+// read-modify-write of LATB could be interrupted by the LED matrix interrupt, which
+// drives the row anodes on LATB4/5, and undo its change.
+#define APP_writeLED1(state)   do{ if (state) LATBbits.LATB7 = 1; else LATBbits.LATB7 = 0; }while(0)   // GREEN true is on
+#define APP_writeLED2(state)   do{ if (state) LATBbits.LATB6 = 1; else LATBbits.LATB6 = 0; }while(0)   // YELLOW true is on 
 #define APP_pbPressed()        (!(PORTAbits.RA3))       // where the push button is connected. True when pressed
 #define VLCB_VDD_GUARD  0x0B
 
@@ -146,6 +155,15 @@
 #define NUM_LED_ROWS        4
 #define NUM_LED_COLUMNS     8
 #define NUM_LEDS            (NUM_LED_ROWS*NUM_LED_COLUMNS)
+#define NUM_LED_BYTES       (NUM_LEDS/8)
+
+#if defined(_18FXXQ83_FAMILY_)
+// Drive pollOutputs() from a TMR2 interrupt every LED_MATRIX_ISR_PERIOD_US
+// microseconds, so the LED PWM step time does not depend on how long each pass
+// of the main loop takes. Comment out to call pollOutputs() from loop() instead.
+#define LED_MATRIX_ISR
+#define LED_MATRIX_ISR_PERIOD_US    100
+#endif
 
 // Store the Switches at 0x0000 followed by the LEDs at 0x00020
 #define EEPROM_BASE_ADDRESS 0x0000
